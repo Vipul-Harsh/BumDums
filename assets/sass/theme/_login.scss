@@ -1,0 +1,58 @@
+/* Login Page*/
+.login-area {
+    .login-form-area {
+        .google-button {
+            a.btn {
+                width: 100%;
+                margin-bottom: 30px;
+            }
+        }
+
+        .checkbox-area {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin-top: 12px;
+            margin-bottom: 14px;
+
+            .checkbox-part {
+                display: flex;
+                align-items: center;
+                color: $secondary-color;
+                text-transform: capitalize;
+                cursor: pointer;
+                width: initial;
+
+                input[type="checkbox"] {
+                    display: inline-block;
+                    width: initial;
+                    margin-right: 10px;
+                    margin-bottom: 0;
+                }
+
+                label {
+                    cursor: pointer;
+                }
+            }
+
+            .forgot-pas {
+                a {
+                    color: $secondary-color;
+                    text-transform: capitalize;
+                    cursor: pointer;
+
+                    &:hover {
+                        color: $primary-color;
+                    }
+
+                }
+            }
+        }
+    }
+
+    .delivery-login {
+        .delivery-img {
+            max-height: 520px;
+        }
+    }
+}
