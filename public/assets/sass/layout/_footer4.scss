@@ -1,0 +1,120 @@
+/* Footer Section 4 */
+.home4-footer {
+    background: $meddy-lite-bg2;
+    .foo4-shapes {
+        img {
+            width: initial;
+        }
+        .fooshape-1 {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            @include screen-1440 {
+                opacity: 0.2;
+            }
+            @include screen-1200 {
+                opacity: 0.2;
+            }
+            @include desktop {
+                opacity: 0.2;
+            }
+            @include mobile-device {
+                opacity: 0.2;
+            }
+        }
+        .fooshape-2 {
+            position: absolute;
+            bottom: 0;
+            right: 0;
+            @include screen-1440 {
+                opacity: 0.2;
+            }
+            @include screen-1200 {
+                opacity: 0.2;
+            }
+            @include desktop {
+                opacity: 0.2;
+            }
+            @include mobile-device {
+                opacity: 0.2;
+            }
+        }
+        .fooshape-3 {
+            position: absolute;
+            top: 60px;
+            left: 50px;
+        }
+        .fooshape-4 {
+            position: absolute;
+            top: 0;
+            right: 0;
+        }
+    }
+    .widget {
+        &.overlay-white {
+            position: relative;
+            z-index: 1;
+            padding: 0 20px;
+            .logo {
+                margin: 0 auto 20px auto;
+                position: relative;
+                z-index: 1;
+            }
+            .foo4-tel {
+                color: $home4-primary-color;
+            }
+            h6,
+            ul,
+            a,
+            p {
+                z-index: 1;
+                position: relative;
+            }
+            &::after {
+                content: "";
+                position: absolute;
+                top: -80px;
+                left: 0;
+                width: 100%;
+                height: 150%;
+                background: $white-color;
+                z-index: 0;
+                @include tablet {
+                    top: -20px;
+                    height: 120%;
+                }
+                @include sm-divice {
+                    top: -27px;
+                    height: 125%;
+                }
+            }
+        }
+    }
+
+    .ht-footer-bottom {
+        .social-box {
+            display: flex;
+            a {
+                width: 35px;
+                height: 35px;
+                line-height: 35px;
+                text-align: center;
+                border-radius: 50%;
+                background: $home4-primary-color;
+                color: $white-color;
+                display: block;
+                transition: $transition;
+                border: 1px solid transparent;
+                margin-right: 20px;
+                &:hover {
+                    background: $white-color;
+                    color: $home4-primary-color;
+                    border: 1px solid $home4-primary-color;
+                }
+                &:last-child {
+                    margin-right: 0;
+                }
+            }
+        }
+    }
+}

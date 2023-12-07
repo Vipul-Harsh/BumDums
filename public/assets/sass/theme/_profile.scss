@@ -1,0 +1,83 @@
+// profile-area
+.profile-area {
+    .tab-title {
+        margin-bottom: 20px;
+    }
+
+    .profile-tabs {
+        button {
+            margin-bottom: 10px;
+
+            i {
+                display: inline-block;
+                margin-right: 8px;
+            }
+
+            a {
+                color: $paragraph-color;
+                display: block;
+            }
+        }
+
+        .nav-link {
+            color: $paragraph-color;
+            text-transform: capitalize;
+            cursor: pointer;
+        }
+
+        .nav-link.active {
+            background: $primary-color;
+            color: #fff;
+            text-transform: capitalize;
+            border-radius: 5px;
+        }
+    }
+
+    .tab-content {
+        padding-left: 50px;
+
+        @include tablet() {
+            padding-left: 0;
+        }
+
+        @include sm-divice() {
+            padding-top: 37px;
+            padding-left: 0;
+        }
+
+        a {
+            color: $primary-color;
+        }
+
+        table {
+            tr {
+                border: 1px solid #e9ecef;
+            }
+
+            th {
+                padding: 10px 35px;
+            }
+
+            td {
+                font-size: 14px;
+                color: $paragraph-color;
+                padding: 10px 30px;
+            }
+        }
+
+        #address {
+            li {
+                font-size: 14px;
+                margin-bottom: 5px;
+            }
+
+            .edit-address-form {
+                display: none;
+            }
+        }
+
+        .order-pagination {
+            margin-top: 15px;
+        }
+    }
+}
