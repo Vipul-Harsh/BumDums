@@ -1,6 +1,33 @@
-
+import Slider from 'react-slick';
 
 const Home4 = () => {
+    const settings = {
+        dots: true,
+        infinite: true,
+        speed: 500,
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        autoplay: true,
+        autoplaySpeed: 2000,
+    };
+    const settings2 = {
+        dots: true,
+        infinite: true,
+        speed: 500,
+        slidesToShow: 2,
+        slidesToScroll: 3,
+        autoplay: true,
+        autoplaySpeed: 2000,
+    };
+    const settings3 = {
+        dots: true,
+        infinite: true,
+        speed: 500,
+        slidesToShow: 4,
+        slidesToScroll: 4,
+        autoplay: true,
+        autoplaySpeed: 2000,
+    };
     return (
         <>
             {/* header */}
@@ -165,53 +192,57 @@ const Home4 = () => {
                                 <div className="row">
                                     <div className="col-6">
                                         <div className="ice-slider-for">
-                                            <div>
-                                                <img
-                                                    src="assets/images/img/ice-slide1.png"
-                                                    alt=""
-                                                    className="slide-lg-item"
-                                                />
-                                            </div>
-                                            <div>
-                                                <img
-                                                    src="assets/images/img/ice-slide1.png"
-                                                    alt=""
-                                                    className="slide-lg-item"
-                                                />
-                                            </div>
-                                            <div>
-                                                <img
-                                                    src="assets/images/img/ice-slide1.png"
-                                                    alt=""
-                                                    className="slide-lg-item"
-                                                />
-                                            </div>
+                                            <Slider {...settings}>
+                                                <div>
+                                                    <img
+                                                        src="assets/images/img/ice-slide1.png"
+                                                        alt=""
+                                                        className="slide-lg-item"
+                                                    />
+                                                </div>
+                                                <div>
+                                                    <img
+                                                        src="assets/images/img/ice-slide1.png"
+                                                        alt=""
+                                                        className="slide-lg-item"
+                                                    />
+                                                </div>
+                                                <div>
+                                                    <img
+                                                        src="assets/images/img/ice-slide1.png"
+                                                        alt=""
+                                                        className="slide-lg-item"
+                                                    />
+                                                </div>
+                                            </Slider>
                                         </div>
                                     </div>
                                     <div className="col-6 no-gutters">
                                         <h4 className="position-title">Sweet Recipes</h4>
                                         <div className="ice-slider-nav d-flex align-items-center justify-content-start d-none d-sm-block">
-                                            <div>
-                                                <img
-                                                    src="assets/images/img/ice-slide2.png"
-                                                    alt=""
-                                                    className="slide-sm-item"
-                                                />
-                                            </div>
-                                            <div>
-                                                <img
-                                                    src="assets/images/img/ice-slide3.png"
-                                                    alt=""
-                                                    className="slide-sm-item"
-                                                />
-                                            </div>
-                                            <div>
-                                                <img
-                                                    src="assets/images/img/ice-slide4.png"
-                                                    alt=""
-                                                    className="slide-sm-item"
-                                                />
-                                            </div>
+                                            <Slider {...settings2}>
+                                                <div>
+                                                    <img
+                                                        src="assets/images/img/ice-slide2.png"
+                                                        alt=""
+                                                        className="slide-sm-item"
+                                                    />
+                                                </div>
+                                                <div>
+                                                    <img
+                                                        src="assets/images/img/ice-slide3.png"
+                                                        alt=""
+                                                        className="slide-sm-item"
+                                                    />
+                                                </div>
+                                                <div>
+                                                    <img
+                                                        src="assets/images/img/ice-slide4.png"
+                                                        alt=""
+                                                        className="slide-sm-item"
+                                                    />
+                                                </div>
+                                            </Slider>
                                         </div>
                                     </div>
                                 </div>
@@ -234,66 +265,68 @@ const Home4 = () => {
                         </div>
                     </div>
                     <div className="ice-slider-active">
-                        <div className="col-lg-4">
-                            <div className="single-ice-cream">
-                                <img src="assets/images/img/ice-1.png" alt="" />
-                                <h6 className="ice-title">Coffee and Donuts</h6>
-                                <span className="price-tag">Price - $10</span>
-                                <a href="#" className="basket">
-                                    <i className="fas fa-shopping-basket" />
-                                </a>
+                        <Slider {...settings3}>
+                            <div className="col-lg-4">
+                                <div className="single-ice-cream">
+                                    <img src="assets/images/img/ice-1.png" alt="" />
+                                    <h6 className="ice-title">Coffee and Donuts</h6>
+                                    <span className="price-tag">Price - $10</span>
+                                    <a href="#" className="basket">
+                                        <i className="fas fa-shopping-basket" />
+                                    </a>
+                                </div>
                             </div>
-                        </div>
-                        <div className="col-lg-4">
-                            <div className="single-ice-cream">
-                                <img src="assets/images/img/ice-2.png" alt="" />
-                                <h6 className="ice-title">Coffee and Donuts</h6>
-                                <span className="price-tag">Price - $10</span>
-                                <a href="#" className="basket">
-                                    <i className="fas fa-shopping-basket" />
-                                </a>
+                            <div className="col-lg-4">
+                                <div className="single-ice-cream">
+                                    <img src="assets/images/img/ice-2.png" alt="" />
+                                    <h6 className="ice-title">Coffee and Donuts</h6>
+                                    <span className="price-tag">Price - $10</span>
+                                    <a href="#" className="basket">
+                                        <i className="fas fa-shopping-basket" />
+                                    </a>
+                                </div>
                             </div>
-                        </div>
-                        <div className="col-lg-4">
-                            <div className="single-ice-cream">
-                                <img src="assets/images/img/ice-3.png" alt="" />
-                                <h6 className="ice-title">Coffee and Donuts</h6>
-                                <span className="price-tag">Price - $10</span>
-                                <a href="#" className="basket">
-                                    <i className="fas fa-shopping-basket" />
-                                </a>
+                            <div className="col-lg-4">
+                                <div className="single-ice-cream">
+                                    <img src="assets/images/img/ice-3.png" alt="" />
+                                    <h6 className="ice-title">Coffee and Donuts</h6>
+                                    <span className="price-tag">Price - $10</span>
+                                    <a href="#" className="basket">
+                                        <i className="fas fa-shopping-basket" />
+                                    </a>
+                                </div>
                             </div>
-                        </div>
-                        <div className="col-lg-4">
-                            <div className="single-ice-cream">
-                                <img src="assets/images/img/ice-4.png" alt="" />
-                                <h6 className="ice-title">Coffee and Donuts</h6>
-                                <span className="price-tag">Price - $10</span>
-                                <a href="#" className="basket">
-                                    <i className="fas fa-shopping-basket" />
-                                </a>
+                            <div className="col-lg-4">
+                                <div className="single-ice-cream">
+                                    <img src="assets/images/img/ice-4.png" alt="" />
+                                    <h6 className="ice-title">Coffee and Donuts</h6>
+                                    <span className="price-tag">Price - $10</span>
+                                    <a href="#" className="basket">
+                                        <i className="fas fa-shopping-basket" />
+                                    </a>
+                                </div>
                             </div>
-                        </div>
-                        <div className="col-lg-4">
-                            <div className="single-ice-cream">
-                                <img src="assets/images/img/ice-1.png" alt="" />
-                                <h6 className="ice-title">Coffee and Donuts</h6>
-                                <span className="price-tag">Price - $10</span>
-                                <a href="#" className="basket">
-                                    <i className="fas fa-shopping-basket" />
-                                </a>
+                            <div className="col-lg-4">
+                                <div className="single-ice-cream">
+                                    <img src="assets/images/img/ice-1.png" alt="" />
+                                    <h6 className="ice-title">Coffee and Donuts</h6>
+                                    <span className="price-tag">Price - $10</span>
+                                    <a href="#" className="basket">
+                                        <i className="fas fa-shopping-basket" />
+                                    </a>
+                                </div>
                             </div>
-                        </div>
-                        <div className="col-lg-4">
-                            <div className="single-ice-cream">
-                                <img src="assets/images/img/ice-2.png" alt="" />
-                                <h6 className="ice-title">Coffee and Donuts</h6>
-                                <span className="price-tag">Price - $10</span>
-                                <a href="#" className="basket">
-                                    <i className="fas fa-shopping-basket" />
-                                </a>
+                            <div className="col-lg-4">
+                                <div className="single-ice-cream">
+                                    <img src="assets/images/img/ice-2.png" alt="" />
+                                    <h6 className="ice-title">Coffee and Donuts</h6>
+                                    <span className="price-tag">Price - $10</span>
+                                    <a href="#" className="basket">
+                                        <i className="fas fa-shopping-basket" />
+                                    </a>
+                                </div>
                             </div>
-                        </div>
+                        </Slider>
                     </div>
                     <div className="d-flex justify-content-center">
                         <a href="#" className="btn btn3 text-center margin-top-50">
@@ -530,118 +563,120 @@ const Home4 = () => {
             {/* ice gallery*/}
             <div className="ice-gallery padding-top-75">
                 <div className="ice-gallery-slider-active">
-                    <div className="col-lg-3">
-                        <div className="single-ice-gal">
-                            <img src="assets/images/img/ice-gal1.jpg" alt="" />
-                            <div className="inner-cont-box">
-                                <div className="text-center">
-                                    <span className="title">Butter Brickle</span>
-                                    <p className="margin-top-10">Price : $ 10.00</p>
+                    <Slider {...settings3}>
+                        <div className="col-lg-3">
+                            <div className="single-ice-gal">
+                                <img src="assets/images/img/ice-gal1.jpg" alt="" />
+                                <div className="inner-cont-box">
+                                    <div className="text-center">
+                                        <span className="title">Butter Brickle</span>
+                                        <p className="margin-top-10">Price : $ 10.00</p>
+                                    </div>
+                                </div>
+                                <div className="ice-gal-popup">
+                                    <a href="assets/images/img/ice-gal1.jpg" className="gal-trigger">
+                                        <i className="fas fa-plus" />
+                                    </a>
                                 </div>
                             </div>
-                            <div className="ice-gal-popup">
-                                <a href="assets/images/img/ice-gal1.jpg" className="gal-trigger">
-                                    <i className="fas fa-plus" />
-                                </a>
-                            </div>
                         </div>
-                    </div>
-                    <div className="col-lg-3">
-                        <div className="single-ice-gal">
-                            <img src="assets/images/img/ice-gal2.jpg" alt="" />
-                            <div className="inner-cont-box">
-                                <div className="text-center">
-                                    <span className="title">Butter Brickle</span>
-                                    <p className="margin-top-10">Price : $ 10.00</p>
+                        <div className="col-lg-3">
+                            <div className="single-ice-gal">
+                                <img src="assets/images/img/ice-gal2.jpg" alt="" />
+                                <div className="inner-cont-box">
+                                    <div className="text-center">
+                                        <span className="title">Butter Brickle</span>
+                                        <p className="margin-top-10">Price : $ 10.00</p>
+                                    </div>
+                                </div>
+                                <div className="ice-gal-popup">
+                                    <a href="assets/images/img/ice-gal2.jpg" className="gal-trigger">
+                                        <i className="fas fa-plus" />
+                                    </a>
                                 </div>
                             </div>
-                            <div className="ice-gal-popup">
-                                <a href="assets/images/img/ice-gal2.jpg" className="gal-trigger">
-                                    <i className="fas fa-plus" />
-                                </a>
-                            </div>
                         </div>
-                    </div>
-                    <div className="col-lg-6">
-                        <div className="single-ice-gal">
-                            <img src="assets/images/img/ice-gal3.jpg" alt="" />
-                            <div className="inner-cont-box">
-                                <div className="text-center">
-                                    <span className="title">Butter Brickle</span>
-                                    <p className="margin-top-10">Price : $ 10.00</p>
+                        <div className="col-lg-6">
+                            <div className="single-ice-gal">
+                                <img src="assets/images/img/ice-gal3.jpg" alt="" />
+                                <div className="inner-cont-box">
+                                    <div className="text-center">
+                                        <span className="title">Butter Brickle</span>
+                                        <p className="margin-top-10">Price : $ 10.00</p>
+                                    </div>
+                                </div>
+                                <div className="ice-gal-popup">
+                                    <a href="assets/images/img/ice-gal3.jpg" className="gal-trigger">
+                                        <i className="fas fa-plus" />
+                                    </a>
                                 </div>
                             </div>
-                            <div className="ice-gal-popup">
-                                <a href="assets/images/img/ice-gal3.jpg" className="gal-trigger">
-                                    <i className="fas fa-plus" />
-                                </a>
-                            </div>
                         </div>
-                    </div>
-                    <div className="col-lg-3">
-                        <div className="single-ice-gal">
-                            <img src="assets/images/img/ice-gal4.jpg" alt="" />
-                            <div className="inner-cont-box">
-                                <div className="text-center">
-                                    <span className="title">Butter Brickle</span>
-                                    <p className="margin-top-10">Price : $ 10.00</p>
+                        <div className="col-lg-3">
+                            <div className="single-ice-gal">
+                                <img src="assets/images/img/ice-gal4.jpg" alt="" />
+                                <div className="inner-cont-box">
+                                    <div className="text-center">
+                                        <span className="title">Butter Brickle</span>
+                                        <p className="margin-top-10">Price : $ 10.00</p>
+                                    </div>
+                                </div>
+                                <div className="ice-gal-popup">
+                                    <a href="assets/images/img/ice-gal4.jpg" className="gal-trigger">
+                                        <i className="fas fa-plus" />
+                                    </a>
                                 </div>
                             </div>
-                            <div className="ice-gal-popup">
-                                <a href="assets/images/img/ice-gal4.jpg" className="gal-trigger">
-                                    <i className="fas fa-plus" />
-                                </a>
-                            </div>
                         </div>
-                    </div>
-                    <div className="col-lg-3">
-                        <div className="single-ice-gal">
-                            <img src="assets/images/img/ice-gal5.jpg" alt="" />
-                            <div className="inner-cont-box">
-                                <div className="text-center">
-                                    <span className="title">Butter Brickle</span>
-                                    <p className="margin-top-10">Price : $ 10.00</p>
+                        <div className="col-lg-3">
+                            <div className="single-ice-gal">
+                                <img src="assets/images/img/ice-gal5.jpg" alt="" />
+                                <div className="inner-cont-box">
+                                    <div className="text-center">
+                                        <span className="title">Butter Brickle</span>
+                                        <p className="margin-top-10">Price : $ 10.00</p>
+                                    </div>
+                                </div>
+                                <div className="ice-gal-popup">
+                                    <a href="assets/images/img/ice-gal5.jpg" className="gal-trigger">
+                                        <i className="fas fa-plus" />
+                                    </a>
                                 </div>
                             </div>
-                            <div className="ice-gal-popup">
-                                <a href="assets/images/img/ice-gal5.jpg" className="gal-trigger">
-                                    <i className="fas fa-plus" />
-                                </a>
-                            </div>
                         </div>
-                    </div>
-                    <div className="col-lg-6">
-                        <div className="single-ice-gal">
-                            <img src="assets/images/img/ice-gal6.jpg" alt="" />
-                            <div className="inner-cont-box">
-                                <div className="text-center">
-                                    <span className="title">Butter Brickle</span>
-                                    <p className="margin-top-10">Price : $ 10.00</p>
+                        <div className="col-lg-6">
+                            <div className="single-ice-gal">
+                                <img src="assets/images/img/ice-gal6.jpg" alt="" />
+                                <div className="inner-cont-box">
+                                    <div className="text-center">
+                                        <span className="title">Butter Brickle</span>
+                                        <p className="margin-top-10">Price : $ 10.00</p>
+                                    </div>
+                                </div>
+                                <div className="ice-gal-popup">
+                                    <a href="assets/images/img/ice-gal6.jpg" className="gal-trigger">
+                                        <i className="fas fa-plus" />
+                                    </a>
                                 </div>
                             </div>
-                            <div className="ice-gal-popup">
-                                <a href="assets/images/img/ice-gal6.jpg" className="gal-trigger">
-                                    <i className="fas fa-plus" />
-                                </a>
-                            </div>
                         </div>
-                    </div>
-                    <div className="col-lg-3">
-                        <div className="single-ice-gal">
-                            <img src="assets/images/img/ice-gal5.jpg" alt="" />
-                            <div className="inner-cont-box">
-                                <div className="text-center">
-                                    <span className="title">Butter Brickle</span>
-                                    <p className="margin-top-10">Price : $ 10.00</p>
+                        <div className="col-lg-3">
+                            <div className="single-ice-gal">
+                                <img src="assets/images/img/ice-gal5.jpg" alt="" />
+                                <div className="inner-cont-box">
+                                    <div className="text-center">
+                                        <span className="title">Butter Brickle</span>
+                                        <p className="margin-top-10">Price : $ 10.00</p>
+                                    </div>
+                                </div>
+                                <div className="ice-gal-popup">
+                                    <a href="assets/images/img/ice-gal5.jpg" className="gal-trigger">
+                                        <i className="fas fa-plus" />
+                                    </a>
                                 </div>
                             </div>
-                            <div className="ice-gal-popup">
-                                <a href="assets/images/img/ice-gal5.jpg" className="gal-trigger">
-                                    <i className="fas fa-plus" />
-                                </a>
-                            </div>
                         </div>
-                    </div>
+                    </Slider>
                 </div>
             </div>
             {/* ht testimonial */}
@@ -963,7 +998,7 @@ const Home4 = () => {
             {/* ice-brand-logo */}
             <div className="ice-logo-brands padding-top-120 padding-bottom-100">
                 <div className="container">
-                    <div className="ice-brand-logo-slider">
+                    <div className="ice-brand-logo-slider"><Slider {...settings3}>
                         <div className="col-3">
                             <div className="single-brand-logo">
                                 <img src="assets/images/img/ice-brand1.png" alt="" />
@@ -1009,6 +1044,7 @@ const Home4 = () => {
                                 <img src="assets/images/img/ice-brand2.png" alt="" />
                             </div>
                         </div>
+                        </Slider>
                     </div>
                 </div>
             </div>
