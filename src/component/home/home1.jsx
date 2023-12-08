@@ -1,8 +1,220 @@
-
+import Slider from 'react-slick';
 const Home1 = () => {
+    const settings = {
+        dots: true,
+        infinite: true,
+        speed: 500,
+        slidesToShow: 5,
+        slidesToScroll: 1,
+        autoplay: true,
+        autoplaySpeed: 2000,
+    };
+    const settingsBlog = {
+        dots: true,
+        infinite: true,
+        speed: 500,
+        slidesToShow: 3,
+        slidesToScroll: 3,
+        autoplay: true,
+        autoplaySpeed: 2000,
+    };
     return (
         <>
             <>
+                <>
+                    {/* header */}
+                    <header>
+                        {/* header-top */}
+                        <div className="header-top">
+                            <div className="container">
+                                <div className="row">
+                                    <div
+                                        className="
+          col-lg-12 col-md-12 col-12
+          d-flex
+          flex-wrap
+          justify-content-between
+        "
+                                    >
+                                        <div className="contact-box">
+                                            <span>
+                                                <a href="#">
+                                                    <i className="fas fa-phone-square-alt" /> 123-58794069
+                                                </a>
+                                            </span>
+                                            <span>
+                                                <a href="#">
+                                                    <i className="fas fa-envelope-open-text" />
+                                                    supportfoodkhan@.com
+                                                </a>
+                                            </span>
+                                        </div>
+                                        <div className="social-box">
+                                            <span>
+                                                <a href="#">
+                                                    <i className="fab fa-twitter" />
+                                                </a>
+                                            </span>
+                                            <span>
+                                                <a href="#">
+                                                    <i className="fab fa-facebook-f" />
+                                                </a>
+                                            </span>
+                                            <span>
+                                                <a href="#">
+                                                    <i className="fab fa-linkedin-in" />
+                                                </a>
+                                            </span>
+                                            <span>
+                                                <a href="#">
+                                                    <i className="fab fa-instagram" />
+                                                </a>
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        {/* header-bottom */}
+                        <div className="header-bottom margin-top-20">
+                            <div className="container position-relative">
+                                <div className="row d-flex align-items-center">
+                                    <div className="col-lg-2 col-md-2 col-sm-2 col-3">
+                                        <div className="logo">
+                                            <a href="index.html">
+                                                <img src="assets/images/logo/logo.png" alt="logo" />
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div className="col-lg-6 d-none d-lg-block">
+                                        <nav id="mobile-menu">
+                                            <ul className="main-menu">
+                                                <li>
+                                                    <a href="#">
+                                                        home{" "}
+                                                        <span>
+                                                            <i className="fas fa-angle-down" />
+                                                        </span>
+                                                    </a>
+                                                    <ul className="submenu">
+                                                        <li>
+                                                            <a href="index.html">home-1</a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="homepage2.html">home-2</a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="homepage3.html">home-3</a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="homepage4.html">home-4</a>
+                                                        </li>
+                                                    </ul>
+                                                </li>
+                                                <li>
+                                                    <a href="about.html">about us</a>
+                                                </li>
+                                                <li>
+                                                    <a href="menu.html">menu</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">
+                                                        blog{" "}
+                                                        <span>
+                                                            <i className="fas fa-angle-down" />
+                                                        </span>
+                                                    </a>
+                                                    <ul className="submenu">
+                                                        <li>
+                                                            <a href="blog.html">blog</a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="blog-single.html">single blog</a>
+                                                        </li>
+                                                    </ul>
+                                                </li>
+                                                <li>
+                                                    <a href="#">
+                                                        pages{" "}
+                                                        <span>
+                                                            <i className="fas fa-angle-down" />
+                                                        </span>
+                                                    </a>
+                                                    <ul className="submenu">
+                                                        <li>
+                                                            <a href="checkout.html">checkout page</a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="single-dish.html">single dish page</a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="food-page.html">food page</a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="food-page2.html">food page 2</a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="shopping-cart.html">shopping cart page</a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="wishlist.html">wishlist page</a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="profile.html">profile page</a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="single-food.html">single food page</a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="gallery.html">gallery page</a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="login.html">login page</a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="signup.html">signup page</a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="404.html">404 page</a>
+                                                        </li>
+                                                    </ul>
+                                                </li>
+                                                <li>
+                                                    <a href="contact.html">contact us</a>
+                                                </li>
+                                            </ul>
+                                        </nav>
+                                    </div>
+                                    <div className="col-lg-4 col-md-9 col-8">
+                                        <div className="customer-area">
+                                            <span>
+                                                <a href="wishlist.html">
+                                                    <i className="fas fa-heart" />
+                                                </a>
+                                            </span>
+                                            <span>
+                                                <a href="profile.html">
+                                                    <i className="fas fa-user" />
+                                                </a>
+                                            </span>
+                                            <span>
+                                                <a href="shopping-cart.html">
+                                                    <i className="fas fa-shopping-basket" />
+                                                </a>
+                                            </span>
+                                            <a href="#" className="btn">
+                                                login
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                {/* mobile-menu */}
+                                <div className="mobile-menu" />
+                            </div>
+                        </div>
+                    </header>
+                </>
+
                 {/* banner-area */}
                 <section className="banner-area padding-top-100 padding-bottom-150">
                     <div className="banner-shapes">
@@ -3323,54 +3535,56 @@ const Home1 = () => {
                 <div className="slider-gallery-img">
                     <div className="container-fluid">
                         <div className="slider-gallery-active">
-                            <div className="single-gallery-img">
-                                <img src="assets/images/gallery/gm1.jpg" alt="" />
-                                <a href="gallery.html">
-                                    <span>
-                                        <i className="fas fa-image" />
-                                    </span>
-                                </a>
-                            </div>
-                            <div className="single-gallery-img">
-                                <img src="assets/images/gallery/gm2.jpg" alt="" />
-                                <a href="gallery.html">
-                                    <span>
-                                        <i className="fas fa-image" />
-                                    </span>
-                                </a>
-                            </div>
-                            <div className="single-gallery-img">
-                                <img src="assets/images/gallery/gm3.jpg" alt="" />
-                                <a href="gallery.html">
-                                    <span>
-                                        <i className="fas fa-image" />
-                                    </span>
-                                </a>
-                            </div>
-                            <div className="single-gallery-img">
-                                <img src="assets/images/gallery/gm4.jpg" alt="" />
-                                <a href="gallery.html">
-                                    <span>
-                                        <i className="fas fa-image" />
-                                    </span>
-                                </a>
-                            </div>
-                            <div className="single-gallery-img">
-                                <img src="assets/images/gallery/gm5.jpg" alt="" />
-                                <a href="gallery.html">
-                                    <span>
-                                        <i className="fas fa-image" />
-                                    </span>
-                                </a>
-                            </div>
-                            <div className="single-gallery-img">
-                                <img src="assets/images/gallery/gm6.jpg" alt="" />
-                                <a href="gallery.html">
-                                    <span>
-                                        <i className="fas fa-image" />
-                                    </span>
-                                </a>
-                            </div>
+                            <Slider {...settings}>
+                                <div className="single-gallery-img">
+                                    <img src="assets/images/gallery/gm1.jpg" alt="" />
+                                    <a href="gallery.html">
+                                        <span>
+                                            <i className="fas fa-image" />
+                                        </span>
+                                    </a>
+                                </div>
+                                <div className="single-gallery-img">
+                                    <img src="assets/images/gallery/gm2.jpg" alt="" />
+                                    <a href="gallery.html">
+                                        <span>
+                                            <i className="fas fa-image" />
+                                        </span>
+                                    </a>
+                                </div>
+                                <div className="single-gallery-img">
+                                    <img src="assets/images/gallery/gm3.jpg" alt="" />
+                                    <a href="gallery.html">
+                                        <span>
+                                            <i className="fas fa-image" />
+                                        </span>
+                                    </a>
+                                </div>
+                                <div className="single-gallery-img">
+                                    <img src="assets/images/gallery/gm4.jpg" alt="" />
+                                    <a href="gallery.html">
+                                        <span>
+                                            <i className="fas fa-image" />
+                                        </span>
+                                    </a>
+                                </div>
+                                <div className="single-gallery-img">
+                                    <img src="assets/images/gallery/gm5.jpg" alt="" />
+                                    <a href="gallery.html">
+                                        <span>
+                                            <i className="fas fa-image" />
+                                        </span>
+                                    </a>
+                                </div>
+                                <div className="single-gallery-img">
+                                    <img src="assets/images/gallery/gm6.jpg" alt="" />
+                                    <a href="gallery.html">
+                                        <span>
+                                            <i className="fas fa-image" />
+                                        </span>
+                                    </a>
+                                </div>
+                            </Slider>
                         </div>
                     </div>
                 </div>
@@ -3452,192 +3666,194 @@ const Home1 = () => {
                             </h2>
                         </div>
                         <div className="blog-slider-active">
-                            <div className="single-blog">
-                                <div className="blog-img">
-                                    <a href="blog-single.html">
-                                        <img src="assets/images/blog/b-1.jpg" alt="" />
-                                    </a>
-                                    <div className="b-badge">
-                                        <span className="date">
-                                            <a href="#">02</a>
+                            <Slider {...settingsBlog}>
+                                <div className="single-blog">
+                                    <div className="blog-img">
+                                        <a href="blog-single.html">
+                                            <img src="assets/images/blog/b-1.jpg" alt="" />
+                                        </a>
+                                        <div className="b-badge">
+                                            <span className="date">
+                                                <a href="#">02</a>
+                                            </span>
+                                            <br />
+                                            <span className="month">
+                                                <a href="#">dec</a>
+                                            </span>
+                                        </div>
+                                    </div>
+                                    <div className="blog-meta d-flex justify-content-between">
+                                        <span>
+                                            <a href="#">
+                                                <i className="fas fa-tags" /> chicken burger
+                                            </a>
                                         </span>
-                                        <br />
-                                        <span className="month">
-                                            <a href="#">dec</a>
+                                        <span>
+                                            <a href="#">
+                                                <i className="fas fa-user-circle" /> milone hridoy
+                                            </a>
                                         </span>
                                     </div>
+                                    <h4>
+                                        <a href="blog-single.html">Game day Burger with Homemade</a>
+                                    </h4>
                                 </div>
-                                <div className="blog-meta d-flex justify-content-between">
-                                    <span>
-                                        <a href="#">
-                                            <i className="fas fa-tags" /> chicken burger
+                                <div className="single-blog">
+                                    <div className="blog-img">
+                                        <a href="blog-single.html">
+                                            <img src="assets/images/blog/b-2.jpg" alt="" />
                                         </a>
-                                    </span>
-                                    <span>
-                                        <a href="#">
-                                            <i className="fas fa-user-circle" /> milone hridoy
-                                        </a>
-                                    </span>
-                                </div>
-                                <h4>
-                                    <a href="blog-single.html">Game day Burger with Homemade</a>
-                                </h4>
-                            </div>
-                            <div className="single-blog">
-                                <div className="blog-img">
-                                    <a href="blog-single.html">
-                                        <img src="assets/images/blog/b-2.jpg" alt="" />
-                                    </a>
-                                    <div className="b-badge">
-                                        <span className="date">
-                                            <a href="#">02</a>
+                                        <div className="b-badge">
+                                            <span className="date">
+                                                <a href="#">02</a>
+                                            </span>
+                                            <br />
+                                            <span className="month">
+                                                <a href="#">dec</a>
+                                            </span>
+                                        </div>
+                                    </div>
+                                    <div className="blog-meta d-flex justify-content-between">
+                                        <span>
+                                            <a href="#">
+                                                <i className="fas fa-tags" /> pizza
+                                            </a>
                                         </span>
-                                        <br />
-                                        <span className="month">
-                                            <a href="#">dec</a>
+                                        <span>
+                                            <a href="#">
+                                                <i className="fas fa-user-circle" /> milone hridoy
+                                            </a>
                                         </span>
                                     </div>
+                                    <h4>
+                                        <a href="blog-single.html">Delicious pizza with on a wooden</a>
+                                    </h4>
                                 </div>
-                                <div className="blog-meta d-flex justify-content-between">
-                                    <span>
-                                        <a href="#">
-                                            <i className="fas fa-tags" /> pizza
+                                <div className="single-blog">
+                                    <div className="blog-img">
+                                        <a href="blog-single.html">
+                                            <img src="assets/images/blog/b-3.jpg" alt="" />
                                         </a>
-                                    </span>
-                                    <span>
-                                        <a href="#">
-                                            <i className="fas fa-user-circle" /> milone hridoy
-                                        </a>
-                                    </span>
-                                </div>
-                                <h4>
-                                    <a href="blog-single.html">Delicious pizza with on a wooden</a>
-                                </h4>
-                            </div>
-                            <div className="single-blog">
-                                <div className="blog-img">
-                                    <a href="blog-single.html">
-                                        <img src="assets/images/blog/b-3.jpg" alt="" />
-                                    </a>
-                                    <div className="b-badge">
-                                        <span className="date">
-                                            <a href="#">02</a>
+                                        <div className="b-badge">
+                                            <span className="date">
+                                                <a href="#">02</a>
+                                            </span>
+                                            <br />
+                                            <span className="month">
+                                                <a href="#">dec</a>
+                                            </span>
+                                        </div>
+                                    </div>
+                                    <div className="blog-meta d-flex justify-content-between">
+                                        <span>
+                                            <a href="#">
+                                                <i className="fas fa-tags" /> chicken burger
+                                            </a>
                                         </span>
-                                        <br />
-                                        <span className="month">
-                                            <a href="#">dec</a>
+                                        <span>
+                                            <a href="#">
+                                                <i className="fas fa-user-circle" /> milone hridoy
+                                            </a>
                                         </span>
                                     </div>
+                                    <h4>
+                                        <a href="blog-single.html">Game day Burger with Homemade</a>
+                                    </h4>
                                 </div>
-                                <div className="blog-meta d-flex justify-content-between">
-                                    <span>
-                                        <a href="#">
-                                            <i className="fas fa-tags" /> chicken burger
+                                <div className="single-blog">
+                                    <div className="blog-img">
+                                        <a href="blog-single.html">
+                                            <img src="assets/images/blog/b-1.jpg" alt="" />
                                         </a>
-                                    </span>
-                                    <span>
-                                        <a href="#">
-                                            <i className="fas fa-user-circle" /> milone hridoy
-                                        </a>
-                                    </span>
-                                </div>
-                                <h4>
-                                    <a href="blog-single.html">Game day Burger with Homemade</a>
-                                </h4>
-                            </div>
-                            <div className="single-blog">
-                                <div className="blog-img">
-                                    <a href="blog-single.html">
-                                        <img src="assets/images/blog/b-1.jpg" alt="" />
-                                    </a>
-                                    <div className="b-badge">
-                                        <span className="date">
-                                            <a href="#">02</a>
+                                        <div className="b-badge">
+                                            <span className="date">
+                                                <a href="#">02</a>
+                                            </span>
+                                            <br />
+                                            <span className="month">
+                                                <a href="#">dec</a>
+                                            </span>
+                                        </div>
+                                    </div>
+                                    <div className="blog-meta d-flex justify-content-between">
+                                        <span>
+                                            <a href="#">
+                                                <i className="fas fa-tags" /> chicken burger
+                                            </a>
                                         </span>
-                                        <br />
-                                        <span className="month">
-                                            <a href="#">dec</a>
+                                        <span>
+                                            <a href="#">
+                                                <i className="fas fa-user-circle" /> milone hridoy
+                                            </a>
                                         </span>
                                     </div>
+                                    <h4>
+                                        <a href="blog-single.html">Game day Burger with Homemade</a>
+                                    </h4>
                                 </div>
-                                <div className="blog-meta d-flex justify-content-between">
-                                    <span>
-                                        <a href="#">
-                                            <i className="fas fa-tags" /> chicken burger
+                                <div className="single-blog">
+                                    <div className="blog-img">
+                                        <a href="blog-single.html">
+                                            <img src="assets/images/blog/b-2.jpg" alt="" />
                                         </a>
-                                    </span>
-                                    <span>
-                                        <a href="#">
-                                            <i className="fas fa-user-circle" /> milone hridoy
-                                        </a>
-                                    </span>
-                                </div>
-                                <h4>
-                                    <a href="blog-single.html">Game day Burger with Homemade</a>
-                                </h4>
-                            </div>
-                            <div className="single-blog">
-                                <div className="blog-img">
-                                    <a href="blog-single.html">
-                                        <img src="assets/images/blog/b-2.jpg" alt="" />
-                                    </a>
-                                    <div className="b-badge">
-                                        <span className="date">
-                                            <a href="#">02</a>
+                                        <div className="b-badge">
+                                            <span className="date">
+                                                <a href="#">02</a>
+                                            </span>
+                                            <br />
+                                            <span className="month">
+                                                <a href="#">dec</a>
+                                            </span>
+                                        </div>
+                                    </div>
+                                    <div className="blog-meta d-flex justify-content-between">
+                                        <span>
+                                            <a href="#">
+                                                <i className="fas fa-tags" /> pizza
+                                            </a>
                                         </span>
-                                        <br />
-                                        <span className="month">
-                                            <a href="#">dec</a>
+                                        <span>
+                                            <a href="#">
+                                                <i className="fas fa-user-circle" /> milone hridoy
+                                            </a>
                                         </span>
                                     </div>
+                                    <h4>
+                                        <a href="blog-single.html">Delicious pizza with on a wooden</a>
+                                    </h4>
                                 </div>
-                                <div className="blog-meta d-flex justify-content-between">
-                                    <span>
-                                        <a href="#">
-                                            <i className="fas fa-tags" /> pizza
+                                <div className="single-blog">
+                                    <div className="blog-img">
+                                        <a href="blog-single.html">
+                                            <img src="assets/images/blog/b-3.jpg" alt="" />
                                         </a>
-                                    </span>
-                                    <span>
-                                        <a href="#">
-                                            <i className="fas fa-user-circle" /> milone hridoy
-                                        </a>
-                                    </span>
-                                </div>
-                                <h4>
-                                    <a href="blog-single.html">Delicious pizza with on a wooden</a>
-                                </h4>
-                            </div>
-                            <div className="single-blog">
-                                <div className="blog-img">
-                                    <a href="blog-single.html">
-                                        <img src="assets/images/blog/b-3.jpg" alt="" />
-                                    </a>
-                                    <div className="b-badge">
-                                        <span className="date">
-                                            <a href="#">02</a>
+                                        <div className="b-badge">
+                                            <span className="date">
+                                                <a href="#">02</a>
+                                            </span>
+                                            <br />
+                                            <span className="month">
+                                                <a href="#">dec</a>
+                                            </span>
+                                        </div>
+                                    </div>
+                                    <div className="blog-meta d-flex justify-content-between">
+                                        <span>
+                                            <a href="#">
+                                                <i className="fas fa-tags" /> chicken burger
+                                            </a>
                                         </span>
-                                        <br />
-                                        <span className="month">
-                                            <a href="#">dec</a>
+                                        <span>
+                                            <a href="#">
+                                                <i className="fas fa-user-circle" /> milone hridoy
+                                            </a>
                                         </span>
                                     </div>
+                                    <h4>
+                                        <a href="blog-single.html">Game day Burger with Homemade</a>
+                                    </h4>
                                 </div>
-                                <div className="blog-meta d-flex justify-content-between">
-                                    <span>
-                                        <a href="#">
-                                            <i className="fas fa-tags" /> chicken burger
-                                        </a>
-                                    </span>
-                                    <span>
-                                        <a href="#">
-                                            <i className="fas fa-user-circle" /> milone hridoy
-                                        </a>
-                                    </span>
-                                </div>
-                                <h4>
-                                    <a href="blog-single.html">Game day Burger with Homemade</a>
-                                </h4>
-                            </div>
+                            </Slider>
                         </div>
                     </div>
                 </section>
