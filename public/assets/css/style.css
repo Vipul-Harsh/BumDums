@@ -1,13 +1,17 @@
 @import url("https://fonts.googleapis.com/css2?family=Caveat&family=Poppins:wght@400;500;600;700;900&family=Roboto:wght@400;500&display=swap");
 
+:root {
+    --primaryColor: #ff62a9;
+    --secondaryColor: #0c4db0;
+  }
 body {
     margin: 0;
-    color: #2a435d;
+    color: var(--secondaryColor);
     font-family: "Roboto", sans-serif
 }
 
 h1 {
-    color: #2a435d;
+    color: var(--secondaryColor);
     font-size: 60px;
     font-weight: 900;
     text-transform: uppercase
@@ -20,7 +24,7 @@ h1 {
 }
 
 h2 {
-    color: #2a435d;
+    color: var(--secondaryColor);
     font-size: 48px;
     font-weight: 700
 }
@@ -32,7 +36,7 @@ h2 {
 }
 
 h3 {
-    color: #2a435d;
+    color: var(--secondaryColor);
     font-size: 36px;
     font-weight: 700
 }
@@ -44,7 +48,7 @@ h3 {
 }
 
 h4 {
-    color: #2a435d;
+    color: var(--secondaryColor);
     font-size: 30px;
     font-weight: 700
 }
@@ -56,7 +60,7 @@ h4 {
 }
 
 h5 {
-    color: #2a435d;
+    color: var(--secondaryColor);
     font-size: 24px;
     font-weight: 700
 }
@@ -68,7 +72,7 @@ h5 {
 }
 
 h6 {
-    color: #2a435d;
+    color: var(--secondaryColor);
     font-size: 18px;
     margin-bottom: 0;
     font-weight: 700
@@ -87,7 +91,7 @@ h6 {
 }
 
 p {
-    color: #2a435d;
+    color: var(--secondaryColor);
     margin-bottom: 16px
 }
 
@@ -145,7 +149,7 @@ button {
     position: absolute;
     top: 90%;
     left: 0;
-    background: #c33;
+    background: var(--primaryColor);
     visibility: hidden;
     opacity: 0;
     transition: 0.3s;
@@ -213,7 +217,7 @@ button {
 
 .main-menu2 li a {
     padding: 30px 12px;
-    color: #2a435d;
+    color: var(--secondaryColor);
     font-weight: 700
 }
 
@@ -224,7 +228,7 @@ button {
 }
 
 .main-menu2 li a:hover {
-    color: #c33
+    color: var(--primaryColor)
 }
 
 .main-menu2 li .submenu li a {
@@ -232,7 +236,7 @@ button {
 }
 
 .main-menu2 li:hover>a {
-    color: #c33
+    color: var(--primaryColor)
 }
 
 .footer-nav .main-menu {
@@ -244,11 +248,11 @@ button {
 }
 
 .mean-container a.meanmenu-reveal span {
-    background: #c33
+    background: var(--primaryColor)
 }
 
 .mean-container a.meanmenu-reveal {
-    color: #c33
+    color: var(--primaryColor)
 }
 
 @media (min-width: 992px) and (max-width: 1199.98px) {
@@ -277,7 +281,7 @@ button {
 
 .main-menu3 li a {
     padding: 30px 12px;
-    color: #2a435d;
+    color: var(--secondaryColor);
     font-weight: 700
 }
 
@@ -288,11 +292,11 @@ button {
 }
 
 .main-menu3 li a:hover {
-    color: #063
+    color: var(--primaryColor)
 }
 
 .main-menu3 li .submenu {
-    background-color: #063;
+    background-color: var(--primaryColor);
     z-index: 11111
 }
 
@@ -301,7 +305,7 @@ button {
 }
 
 .main-menu3 li:hover>a {
-    color: #063
+    color: var(--primaryColor)
 }
 
 .main-menu4 {
@@ -363,11 +367,11 @@ button {
 
 .mobile-menu .mean-bar .mean-nav {
     margin-top: 58px;
-    background: #c33
+    background: var(--primaryColor)
 }
 
 .mobile-menu .mean-nav ul li a.mean-expand:hover {
-    background: #c33
+    background: var(--primaryColor)
 }
 
 .mean-container .mean-nav ul li a.mean-expand {
@@ -395,23 +399,23 @@ button {
 }
 
 .mobile-menu.home3-mobile-menu.mean-container a.meanmenu-reveal span {
-    color: #063 !important
+    color: var(--primaryColor) !important
 }
 
 .mobile-menu.home3-mobile-menu.mean-container a.meanmenu-reveal span {
-    background: #063
+    background: var(--primaryColor)
 }
 
 .mobile-menu.home3-mobile-menu.mean-container a.meanmenu-reveal {
-    color: #063
+    color: var(--primaryColor)
 }
 
 .mobile-menu.home3-mobile-menu.mean-container .mean-nav ul {
-    background: #063
+    background: var(--primaryColor)
 }
 
 .mobile-menu.home3-mobile-menu.mean-container .mean-nav ul li a.mean-expand {
-    background: #063
+    background: var(--primaryColor)
 }
 
 .mobile-menu.home4-mobile-menu.mean-container a.meanmenu-reveal span {
@@ -475,7 +479,7 @@ header .header-top .contact-box span a {
 }
 
 header .header-top .contact-box span a:hover {
-    color: #c33
+    color: var(--primaryColor)
 }
 
 header .header-top .social-box {
@@ -507,7 +511,7 @@ header .header-top .social-box span a {
 }
 
 header .header-top .social-box span a:hover {
-    color: #c33;
+    color: var(--primaryColor);
     transform: scale(1.1)
 }
 
@@ -573,7 +577,7 @@ header .header-bottom .customer-area span a {
 }
 
 header .header-bottom .customer-area span:hover {
-    background: #c33;
+    background: var(--primaryColor);
     border: 1px solid transparent
 }
 
@@ -886,7 +890,7 @@ footer .copyright-area p a {
 }
 
 .breadcrumb-area .breadcrumb .breadcrumb-item a:hover {
-    color: #c33
+    color: var(--primaryColor)
 }
 
 .breadcrumb-area .breadcrumb .breadcrumb-item.active::before {
@@ -947,7 +951,7 @@ footer .copyright-area p a {
 }
 
 .footer2 hr {
-    border: 1px dotted #c33
+    border: 1px dotted var(--primaryColor)
 }
 
 .footer2 .footer-top .form2 {
@@ -957,7 +961,7 @@ footer .copyright-area p a {
 .footer2 .footer-top .form2 input {
     background: transparent;
     border: 1px solid #e6e6e6;
-    color: #2a435d;
+    color: var(--secondaryColor);
     padding: 10px 55px;
     border-radius: 5px
 }
@@ -1019,11 +1023,11 @@ footer .copyright-area p a {
 }
 
 .footer2 .footer-top .f-title h4 {
-    color: #2a435d
+    color: var(--secondaryColor)
 }
 
 .footer2 .footer-top .f-title h4 span {
-    color: #c33
+    color: var(--primaryColor)
 }
 
 @media (min-width: 992px) and (max-width: 1199.98px) {
@@ -1033,16 +1037,16 @@ footer .copyright-area p a {
 }
 
 .footer2 .footer-bottom .widget h6 {
-    color: #2a435d;
+    color: var(--secondaryColor);
     margin-bottom: 20px
 }
 
 .footer2 .footer-bottom .widget p {
-    color: #2a435d
+    color: var(--secondaryColor)
 }
 
 .footer2 .footer-bottom .widget a {
-    color: #c33;
+    color: var(--primaryColor);
     text-transform: capitalize;
     transition: 0.3s
 }
@@ -1061,11 +1065,11 @@ footer .copyright-area p a {
 }
 
 .footer2 .copyright-area .copyright-content p {
-    color: #2a435d
+    color: var(--secondaryColor)
 }
 
 .footer2 .copyright-area .copyright-content p a {
-    color: #c33;
+    color: var(--primaryColor);
     font-weight: 700;
     text-transform: capitalize
 }
@@ -1108,13 +1112,13 @@ header .header-bottom .customer-area2 .shopping {
     border-radius: 50%;
     text-align: center;
     transition: .3s;
-    background-color: #c33
+    background-color: var(--primaryColor)
 }
 
 header .header-bottom .customer-area2 .shopping:hover {
     background-color: transparent;
-    border: 1px solid #c33;
-    color: #c33
+    border: 1px solid var(--primaryColor);
+    color: var(--primaryColor)
 }
 
 header .header-bottom .customer-area2 .shopping i {
@@ -1137,7 +1141,7 @@ header .header-bottom .customer-area2 .shop-counter {
 }
 
 header .header-bottom .customer-area2 .order-content {
-    color: #c33;
+    color: var(--primaryColor);
     text-transform: capitalize;
     font-weight: 700;
     font-family: "Poppins", sans-serif;
@@ -1146,7 +1150,7 @@ header .header-bottom .customer-area2 .order-content {
 
 header .header-bottom .customer-area2 .order-content .span-1 {
     display: block;
-    color: #2a435d;
+    color: var(--secondaryColor);
     font-size: 14px;
     font-family: "Poppins", sans-serif;
     text-transform: capitalize;
@@ -1156,7 +1160,7 @@ header .header-bottom .customer-area2 .order-content .span-1 {
 
 header .header-bottom .customer-area2 .order-content .span-2 {
     display: block;
-    color: #c33;
+    color: var(--primaryColor);
     font-size: 20px;
     font-family: "Poppins", sans-serif;
     text-transform: capitalize;
@@ -1245,7 +1249,7 @@ header.header3 .shopping {
     border-radius: 50%;
     text-align: center;
     transition: 0.3s;
-    background-color: #063
+    background-color: var(--primaryColor)
 }
 
 header.header3 .shopping.shopping2 {
@@ -1266,8 +1270,8 @@ header.header3 .shopping.shopping2:hover {
 
 header.header3 .shopping:hover {
     background-color: transparent;
-    border: 1px solid #063;
-    color: #063
+    border: 1px solid var(--primaryColor);
+    color: var(--primaryColor)
 }
 
 header.header3 .shopping i {
@@ -1405,7 +1409,7 @@ header.header3 .shopping i {
 
 .ht-footer .ht-footer-top .widget h5 {
     margin-bottom: 10px;
-    color: #063
+    color: var(--primaryColor)
 }
 
 .ht-footer .ht-footer-top .widget h5 span {
@@ -1413,7 +1417,7 @@ header.header3 .shopping i {
 }
 
 .ht-footer .ht-footer-top .widget a {
-    color: #063;
+    color: var(--primaryColor);
     text-transform: capitalize;
     font-family: "Roboto", sans-serif;
     font-weight: 500
@@ -1426,12 +1430,12 @@ header.header3 .shopping i {
 
 .ht-footer .ht-footer-top .widget a.ht-email {
     text-transform: initial;
-    color: #2a435d;
+    color: var(--secondaryColor);
     transition: 0.3s
 }
 
 .ht-footer .ht-footer-top .widget a.ht-email:hover {
-    color: #063
+    color: var(--primaryColor)
 }
 
 .ht-footer .ht-footer-top .widget ul {
@@ -1444,7 +1448,7 @@ header.header3 .shopping i {
 }
 
 .ht-footer .ht-footer-top .widget ul li a {
-    color: #2a435d;
+    color: var(--secondaryColor);
     display: block;
     font-family: "Roboto", sans-serif;
     font-weight: 400;
@@ -1452,11 +1456,11 @@ header.header3 .shopping i {
 }
 
 .ht-footer .ht-footer-top .widget ul li a:hover {
-    color: #063
+    color: var(--primaryColor)
 }
 
 .ht-footer .ht-footer-top .widget .social-box span a {
-    color: #063;
+    color: var(--primaryColor);
     transition: 0.3s;
     margin-right: 5px
 }
@@ -1470,7 +1474,7 @@ header.header3 .shopping i {
 }
 
 .ht-footer .ht-footer-top .widget .btn2:hover {
-    color: #063
+    color: var(--primaryColor)
 }
 
 .ht-footer .divider {
@@ -1479,7 +1483,7 @@ header.header3 .shopping i {
 
 .ht-footer .divider hr {
     width: 100%;
-    background: #063;
+    background: var(--primaryColor);
     border: 1px solid dotted;
     display: block
 }
@@ -1490,7 +1494,7 @@ header.header3 .shopping i {
 }
 
 .ht-footer .ht-footer-bottom .ht-copyright-area p a {
-    color: #063;
+    color: var(--primaryColor);
     font-family: "Roboto", sans-serif;
     font-weight: 700
 }
@@ -1668,18 +1672,18 @@ header.header3 .shopping i {
     display: flex;
     align-items: center;
     justify-content: center;
-    border: 2px solid #c33
+    border: 2px solid var(--primaryColor)
 }
 
 .pagination ul li a {
-    color: #c33;
+    color: var(--primaryColor);
     display: block;
     font-size: 14px
 }
 
 .pagination ul .prev,
 .pagination ul .next {
-    background-color: #c33;
+    background-color: var(--primaryColor);
     height: 35px;
     width: 65px;
     padding: 5px 15px;
@@ -1693,7 +1697,7 @@ header.header3 .shopping i {
 
 .pagination ul .pagination-dot {
     border: none;
-    color: #c33
+    color: var(--primaryColor)
 }
 
 .preloader-inner {
@@ -1719,7 +1723,7 @@ header.header3 .shopping i {
     background-color: #fff;
     font-weight: 600;
     text-transform: capitalize;
-    color: #c33;
+    color: var(--primaryColor);
     width: 200px;
     height: 50px;
     text-align: center;
@@ -1730,7 +1734,7 @@ header.header3 .shopping i {
 }
 
 .preloader-inner .cancel-preloader a:hover {
-    background-color: #2a435d;
+    background-color: var(--secondaryColor);
     color: #fff
 }
 
@@ -1742,7 +1746,7 @@ header.header3 .shopping i {
 .spinner>div {
     width: 15px;
     height: 15px;
-    background-color: #c33;
+    background-color: var(--primaryColor);
     border-radius: 100%;
     display: inline-block;
     -webkit-animation: sk-bouncedelay 1.4s infinite ease-in-out both;
@@ -1788,7 +1792,7 @@ header.header3 .shopping i {
 }
 
 .btn {
-    background: #c33;
+    background: var(--primaryColor);
     padding: 12px 40px;
     color: #fff;
     font-size: 18px;
@@ -1811,12 +1815,12 @@ header.header3 .shopping i {
 
 .btn:hover {
     background: transparent;
-    border: 1px solid #c33;
-    color: #c33
+    border: 1px solid var(--primaryColor);
+    color: var(--primaryColor)
 }
 
 .btn2 {
-    background: #063;
+    background: var(--primaryColor);
     padding: 12px 40px;
     color: #fff;
     font-size: 18px;
@@ -1839,8 +1843,8 @@ header.header3 .shopping i {
 
 .btn2:hover {
     background: transparent;
-    border: 1px solid #063;
-    color: #063
+    border: 1px solid var(--primaryColor);
+    color: var(--primaryColor)
 }
 
 .btn3 {
@@ -1981,7 +1985,7 @@ header.header3 .shopping i {
 }
 
 .form-area .form-box .form-wraper button {
-    background: #c33;
+    background: var(--primaryColor);
     padding: 12px 40px;
     color: #fff;
     font-size: 16px;
@@ -1994,8 +1998,8 @@ header.header3 .shopping i {
 
 .form-area .form-box .form-wraper button:hover {
     background: transparent;
-    color: #c33;
-    border: 1px solid #c33
+    color: var(--primaryColor);
+    border: 1px solid var(--primaryColor)
 }
 
 @media (min-width: 768px) and (max-width: 991.98px) {
@@ -2040,7 +2044,7 @@ header.header3 .shopping i {
 }
 
 .newsletter button {
-    background: #c33;
+    background: var(--primaryColor);
     color: #fff;
     border: 1px solid transparent;
     padding: 10px 20px;
@@ -2061,7 +2065,7 @@ header.header3 .shopping i {
 .newsletter.newsletter-2 select {
     background: transparent;
     border: 1px solid #e6e6e6;
-    color: #2a435d;
+    color: var(--secondaryColor);
     padding: 10px;
     width: 100%;
     border-radius: 5px;
@@ -2069,7 +2073,7 @@ header.header3 .shopping i {
 }
 
 .newsletter.newsletter-2 input {
-    color: #2a435d;
+    color: var(--secondaryColor);
     width: 100%;
     border-radius: 5px;
     margin-bottom: 10px;
@@ -2085,8 +2089,8 @@ header.header3 .shopping i {
 
 .newsletter.newsletter-2 .btn:hover {
     background: transparent;
-    color: #c33;
-    border: 1px solid #c33
+    color: var(--primaryColor);
+    border: 1px solid var(--primaryColor)
 }
 
 @media (max-width: 575.98px) {
@@ -2104,14 +2108,14 @@ header.header3 .shopping i {
     border-radius: 10px;
     width: 100%;
     background: #fff8ee;
-    color: #2a435d
+    color: var(--secondaryColor)
 }
 
 .newsletter.newsletter-3 button {
     position: absolute;
     right: 2%;
     top: 13%;
-    background-color: #063;
+    background-color: var(--primaryColor);
     padding: 5px 16px;
     border-radius: 10px;
     border: 1px solid transparent
@@ -2141,7 +2145,7 @@ header.header3 .shopping i {
 }
 
 .writeto-us .contact-form-area h3 span {
-    color: #c33
+    color: var(--primaryColor)
 }
 
 .writeto-us .contact-form-area form input {
@@ -2818,7 +2822,7 @@ header.header3 .shopping i {
 }
 
 .scrollup {
-    background: #c33;
+    background: var(--primaryColor);
     color: #fff;
     display: block;
     width: 40px;
@@ -2838,11 +2842,11 @@ header.header3 .shopping i {
 }
 
 .scrollup:hover {
-    background: #2a435d
+    background: var(--secondaryColor)
 }
 
 .scrollup2 {
-    background: #063
+    background: var(--primaryColor)
 }
 
 .scrollup4 {
@@ -3073,7 +3077,7 @@ header.header3 .shopping i {
     font-size: 30px;
     font-family: "Poppins", sans-serif;
     font-weight: 700;
-    background: #c33;
+    background: var(--primaryColor);
     color: #fff;
     padding: 10px 20px;
     text-transform: uppercase;
@@ -3341,7 +3345,7 @@ header.header3 .shopping i {
 
 .common-title-area h3 {
     font-family: "Caveat", cursive;
-    color: #c33
+    color: var(--primaryColor)
 }
 
 .common-title-area h2 {
@@ -3349,7 +3353,7 @@ header.header3 .shopping i {
 }
 
 .common-title-area h2 span {
-    color: #c33
+    color: var(--primaryColor)
 }
 
 .about-area {
@@ -3439,7 +3443,7 @@ header.header3 .shopping i {
     left: 50%;
     transform: translate(-50%, -50%);
     color: #fff;
-    background: #c33;
+    background: var(--primaryColor);
     width: 40px;
     height: 40px;
     line-height: 40px;
@@ -3504,7 +3508,7 @@ header.header3 .shopping i {
     height: 150px;
     border-radius: 5px;
     position: relative;
-    background: #c33;
+    background: var(--primaryColor);
     color: #fff
 }
 
@@ -3594,7 +3598,7 @@ header.header3 .shopping i {
 }
 
 .about-area .about-right h2 span {
-    color: #c33
+    color: var(--primaryColor)
 }
 
 .about-area .about-right p {
@@ -3643,7 +3647,7 @@ header.header3 .shopping i {
     height: 100%;
     top: 0;
     left: 0;
-    background: #c33;
+    background: var(--primaryColor);
     visibility: visible;
     opacity: 0.9;
     z-index: -1;
@@ -3739,9 +3743,9 @@ header.header3 .shopping i {
 }
 
 .menu-area .menu-items-wrapper a.btn:hover {
-    border: 1px solid #c33;
+    border: 1px solid var(--primaryColor);
     background: transparent;
-    color: #c33
+    color: var(--primaryColor)
 }
 
 .single-menu-nav {
@@ -3830,7 +3834,7 @@ header.header3 .shopping i {
     left: 0;
     visibility: hidden;
     opacity: 0;
-    background: #c33;
+    background: var(--primaryColor);
     transition: 0.5s
 }
 
@@ -3928,12 +3932,12 @@ header.header3 .shopping i {
 }
 
 .single-menu-item .menu-content h5 a {
-    color: #2a435d;
+    color: var(--secondaryColor);
     transition: 0.3s
 }
 
 .single-menu-item .menu-content h5 a:hover {
-    color: #c33
+    color: var(--primaryColor)
 }
 
 .single-menu-item .menu-content p {
@@ -3946,7 +3950,7 @@ header.header3 .shopping i {
     font-family: "Poppins", sans-serif;
     font-weight: 500;
     font-size: 18px;
-    color: #2a435d;
+    color: var(--secondaryColor);
     text-transform: capitalize
 }
 
@@ -4050,7 +4054,7 @@ header.header3 .shopping i {
 }
 
 .popular-dishes-area .popular-tab-nav .nav-link.active {
-    background: #c33;
+    background: var(--primaryColor);
     color: #fff;
     text-transform: capitalize;
     padding: 10px 25px;
@@ -4059,7 +4063,7 @@ header.header3 .shopping i {
 
 .popular-dishes-area .popular-tab-nav .menu-text,
 .popular-dishes-area .popular-tab-nav .nav-link {
-    color: #2a435d;
+    color: var(--secondaryColor);
     text-transform: capitalize;
     cursor: pointer
 }
@@ -4115,18 +4119,18 @@ header.header3 .shopping i {
 }
 
 .single-dishes .dish-content h5 a {
-    color: #2a435d
+    color: var(--secondaryColor)
 }
 
 .single-dishes .dish-content h5 a:hover {
-    color: #c33
+    color: var(--primaryColor)
 }
 
 .single-dishes .dish-content .price {
     font-weight: 700;
     font-family: "Poppins", sans-serif;
     font-size: 18px;
-    color: #2a435d;
+    color: var(--secondaryColor);
     text-transform: capitalize
 }
 
@@ -4134,7 +4138,7 @@ header.header3 .shopping i {
     font-weight: 700;
     font-family: "Poppins", sans-serif;
     font-size: 18px;
-    color: #2a435d;
+    color: var(--secondaryColor);
     text-transform: capitalize
 }
 
@@ -4142,18 +4146,18 @@ header.header3 .shopping i {
     position: absolute;
     top: 20px;
     left: 20px;
-    background: #2a435d;
+    background: var(--secondaryColor);
     color: #fff;
     padding: 5px 10px;
     text-transform: uppercase
 }
 
 .single-dishes .badge-bg-color {
-    background: #c33
+    background: var(--primaryColor)
 }
 
 .single-dishes .badge-color {
-    color: #c33 !important
+    color: var(--primaryColor) !important
 }
 
 .single-dishes .cart-opt {
@@ -4167,7 +4171,7 @@ header.header3 .shopping i {
 }
 
 .single-dishes .cart-opt span {
-    border: 1px solid #c33;
+    border: 1px solid var(--primaryColor);
     background: transparent;
     margin-bottom: 10px;
     width: 35px;
@@ -4180,7 +4184,7 @@ header.header3 .shopping i {
 }
 
 .single-dishes .cart-opt span:hover {
-    background: #c33
+    background: var(--primaryColor)
 }
 
 .single-dishes .cart-opt span:hover a {
@@ -4188,7 +4192,7 @@ header.header3 .shopping i {
 }
 
 .single-dishes .cart-opt span a {
-    color: #c33;
+    color: var(--primaryColor);
     transition: 0.5s
 }
 
@@ -4354,7 +4358,7 @@ header.header3 .shopping i {
 }
 
 .banner-gallery .gallery-img-2 .gprice-1 {
-    background: #c33;
+    background: var(--primaryColor);
     color: #fff;
     border-radius: 50%;
     width: 50px;
@@ -4473,7 +4477,7 @@ header.header3 .shopping i {
 }
 
 .banner-gallery .gallery-img-3 .gprice-2 {
-    background: #c33;
+    background: var(--primaryColor);
     color: #fff;
     border-radius: 50%;
     width: 50px;
@@ -4489,7 +4493,7 @@ header.header3 .shopping i {
 }
 
 .banner-gallery .gallery-img-3 a {
-    color: #2a435d;
+    color: var(--secondaryColor);
     margin-top: 30px;
     display: block
 }
@@ -4512,7 +4516,7 @@ header.header3 .shopping i {
 }
 
 .banner-gallery .gallery-img-4 {
-    background: #c33;
+    background: var(--primaryColor);
     height: 100%;
     position: relative;
     padding: 30px 20px;
@@ -4596,7 +4600,7 @@ header.header3 .shopping i {
 
 .banner-gallery .gallery-img-4 .btn {
     background: #fff;
-    color: #c33;
+    color: var(--primaryColor);
     position: relative;
     z-index: 11
 }
@@ -4898,7 +4902,7 @@ header.header3 .shopping i {
     font-family: "Poppins", sans-serif;
     font-weight: 900;
     font-size: 48px;
-    color: #c33
+    color: var(--primaryColor)
 }
 
 .testimonial {
@@ -5033,7 +5037,7 @@ header.header3 .shopping i {
     position: absolute;
     top: 0;
     left: 0;
-    background: #c33;
+    background: var(--primaryColor);
     opacity: 0;
     visibility: hidden;
     transition: 0.5s
@@ -5120,13 +5124,13 @@ header.header3 .shopping i {
 }
 
 .delivery-area .delivery-right .order-box .order-content p {
-    color: #2a435d;
+    color: var(--secondaryColor);
     margin-bottom: 0;
     text-transform: capitalize
 }
 
 .delivery-area .delivery-right .order-box .order-content span {
-    color: #c33;
+    color: var(--primaryColor);
     font-family: "Poppins", sans-serif;
     font-weight: 700;
     font-size: 24px
@@ -5156,8 +5160,8 @@ header.header3 .shopping i {
 }
 
 .delivery-area .delivery-right .order-box .btn:hover {
-    border: 1px solid #c33;
-    color: #c33
+    border: 1px solid var(--primaryColor);
+    color: var(--primaryColor)
 }
 
 @media (max-width: 575.98px) {
@@ -5240,7 +5244,7 @@ header.header3 .shopping i {
     position: absolute;
     top: 20px;
     right: 20px;
-    background: #c33;
+    background: var(--primaryColor);
     color: #fff;
     padding: 3px 17px
 }
@@ -5266,22 +5270,22 @@ header.header3 .shopping i {
 }
 
 .single-blog .blog-meta a {
-    color: #2a435d;
+    color: var(--secondaryColor);
     transition: 0.3s;
     font-weight: 500
 }
 
 .single-blog .blog-meta a:hover {
-    color: #c33
+    color: var(--primaryColor)
 }
 
 .single-blog h4 a {
-    color: #2a435d;
+    color: var(--secondaryColor);
     transition: 0.3s
 }
 
 .single-blog h4 a:hover {
-    color: #c33
+    color: var(--primaryColor)
 }
 
 ul.slick-dots {
@@ -5301,12 +5305,12 @@ ul.slick-dots button {
     border-radius: 50%;
     border: none;
     display: block;
-    background-color: #2a435d
+    background-color: var(--secondaryColor)
 }
 
 ul.slick-dots li.slick-active button {
     transform: scale(2.2);
-    background: #c33
+    background: var(--primaryColor)
 }
 
 .foods-counter {
@@ -5333,7 +5337,7 @@ ul.slick-dots li.slick-active button {
     padding: 10px 40px;
     border-radius: 5px;
     position: relative;
-    background: #c33;
+    background: var(--primaryColor);
     margin-bottom: 20px
 }
 
@@ -5388,7 +5392,7 @@ ul.slick-dots li.slick-active button {
     position: absolute;
     top: 0;
     left: 0;
-    background: #c33;
+    background: var(--primaryColor);
     opacity: 0;
     visibility: hidden;
     z-index: -1
@@ -5527,7 +5531,7 @@ ul.slick-dots li.slick-active button {
 }
 
 .about-area2 .about-right .history-tab .nav .nav-link {
-    color: #2a435d;
+    color: var(--secondaryColor);
     font-family: "Poppins", sans-serif;
     text-transform: capitalize;
     font-weight: 600;
@@ -5552,7 +5556,7 @@ ul.slick-dots li.slick-active button {
 .about-area2 .about-right .history-tab .nav .nav-link.active {
     transition: 0.5s;
     color: #fff;
-    background: #c33
+    background: var(--primaryColor)
 }
 
 .about-area2 .about-right .history-tab .his-content {
@@ -5570,7 +5574,7 @@ ul.slick-dots li.slick-active button {
 .about-area2 .about-right .history-tab .his-content .sig-wrapper .sig-img::after {
     content: "";
     width: 50px;
-    background: #c33;
+    background: var(--primaryColor);
     height: 2px;
     position: absolute;
     left: -6%;
@@ -5613,8 +5617,8 @@ ul.slick-dots li.slick-active button {
 
 .about-area2 .about-right .history-tab .his-content .sig-wrapper .btn:hover {
     background: transparent;
-    color: #c33;
-    border: 1px solid #c33
+    color: var(--primaryColor);
+    border: 1px solid var(--primaryColor)
 }
 
 .delicious-area {
@@ -5659,7 +5663,7 @@ ul.slick-dots li.slick-active button {
     border-radius: 50%;
     color: #fff;
     margin-right: 10px;
-    background: #c33;
+    background: var(--primaryColor);
     text-align: center;
     line-height: 50px;
     display: inline-block;
@@ -5673,7 +5677,7 @@ ul.slick-dots li.slick-active button {
 }
 
 .delicious-area .delicious-left .intro:hover {
-    color: #c33
+    color: var(--primaryColor)
 }
 
 .team-area {
@@ -5725,13 +5729,13 @@ ul.slick-dots li.slick-active button {
 }
 
 .single-team .t-content h5:hover {
-    color: #c33
+    color: var(--primaryColor)
 }
 
 .single-team .t-social-b .follow {
     font-family: "Poppins", sans-serif;
     font-weight: 700;
-    color: #2a435d;
+    color: var(--secondaryColor);
     text-transform: capitalize
 }
 
@@ -5740,12 +5744,12 @@ ul.slick-dots li.slick-active button {
 }
 
 .single-team .t-social-b .t-social a {
-    color: #2a435d;
+    color: var(--secondaryColor);
     transition: 0.3s
 }
 
 .single-team .t-social-b .t-social a:hover {
-    color: #c33
+    color: var(--primaryColor)
 }
 
 .blog-area2 .blog-shapes .ba-1 {
@@ -5765,8 +5769,8 @@ ul.slick-dots li.slick-active button {
 }
 
 .error-area .btn:hover {
-    color: #c33;
-    border: 1px solid #c33;
+    color: var(--primaryColor);
+    border: 1px solid var(--primaryColor);
     background: transparent
 }
 
@@ -5869,7 +5873,7 @@ ul.slick-dots li.slick-active button {
 
 .checkout-area .checkout-left select option {
     font-family: "Roboto", sans-serif;
-    color: #2a435d
+    color: var(--secondaryColor)
 }
 
 .checkout-area .checkout-right {
@@ -5884,7 +5888,7 @@ ul.slick-dots li.slick-active button {
 }
 
 .checkout-area .checkout-right a {
-    color: #c33;
+    color: var(--primaryColor);
     transition: .3s
 }
 
@@ -5899,8 +5903,8 @@ ul.slick-dots li.slick-active button {
 }
 
 .checkout-area .checkout-right .btn:hover {
-    border: 1px solid #c33;
-    color: #c33;
+    border: 1px solid var(--primaryColor);
+    color: var(--primaryColor);
     background: transparent
 }
 
@@ -5934,7 +5938,7 @@ ul.slick-dots li.slick-active button {
 }
 
 .checkout-area .checkout-right .pricing-box .total {
-    color: #c33
+    color: var(--primaryColor)
 }
 
 .checkout-area .checkout-right .pricing-box .uppercase {
@@ -6139,7 +6143,7 @@ ul.slick-dots li.slick-active button {
 }
 
 .chicken-recipe-area .recipe-left .pnav img:hover {
-    background: #c33
+    background: var(--primaryColor)
 }
 
 .chicken-recipe-area .recipe-right h2 {
@@ -6158,7 +6162,7 @@ ul.slick-dots li.slick-active button {
 .chicken-recipe-area .recipe-right .chickens-inforbar .cp {
     font-family: "Poppins", sans-serif;
     font-size: 30px;
-    color: #2a435d;
+    color: var(--secondaryColor);
     font-weight: 700
 }
 
@@ -6169,13 +6173,13 @@ ul.slick-dots li.slick-active button {
 }
 
 .chicken-recipe-area .recipe-right .chickens-inforbar .rate {
-    background: #c33;
+    background: var(--primaryColor);
     color: #fff;
     padding: 0 5px
 }
 
 .chicken-recipe-area .recipe-right .chickens-inforbar .colored {
-    color: #c33
+    color: var(--primaryColor)
 }
 
 .chicken-recipe-area .recipe-right .chickens-details {
@@ -6249,7 +6253,7 @@ ul.slick-dots li.slick-active button {
 }
 
 .product-des-area .product-des-nav .nav-link {
-    color: #2a435d;
+    color: var(--secondaryColor);
     font-family: "Poppins", sans-serif;
     text-transform: capitalize;
     font-weight: 600;
@@ -6272,7 +6276,7 @@ ul.slick-dots li.slick-active button {
 
 .product-des-area .product-des-nav .nav-link.active {
     color: #fff;
-    background: #c33
+    background: var(--primaryColor)
 }
 
 .product-des-area .product-des-content {
@@ -6307,9 +6311,9 @@ ul.slick-dots li.slick-active button {
 .product-des-area .product-des-content .pd-inner-content table,
 .product-des-area .product-des-content .pd-inner-content th,
 .product-des-area .product-des-content .pd-inner-content td {
-    border: 2px solid #2a435d;
+    border: 2px solid var(--secondaryColor);
     border-collapse: collapse;
-    color: #2a435d
+    color: var(--secondaryColor)
 }
 
 .product-des-area .product-des-content .pd-inner-content th {
@@ -6351,7 +6355,7 @@ ul.slick-dots li.slick-active button {
 }
 
 .related-product h3 span {
-    color: #c33
+    color: var(--primaryColor)
 }
 
 .food-area {
@@ -6425,7 +6429,7 @@ ul.slick-dots li.slick-active button {
 
 .food-area nav .nav-link.active {
     background: transparent;
-    color: #c33
+    color: var(--primaryColor)
 }
 
 .food-area nav span {
@@ -6442,16 +6446,16 @@ ul.slick-dots li.slick-active button {
 }
 
 .food-area .pagination-area .pagination a.active {
-    background: #c33;
+    background: var(--primaryColor);
     color: #fff
 }
 
 .food-area .pagination-area .pagination a {
-    color: #c33;
+    color: var(--primaryColor);
     background: transparent;
     float: left;
     padding: 8px 10px;
-    border: 1px solid #c33;
+    border: 1px solid var(--primaryColor);
     text-decoration: none;
     margin-right: 10px;
     border-radius: 5px;
@@ -6553,19 +6557,19 @@ ul.slick-dots li.slick-active button {
 }
 
 .food-area-wrapper .sidebar-widget-1 .sidebar-widget .dish-content h6 a {
-    color: #2a435d;
+    color: var(--secondaryColor);
     transition: .5s
 }
 
 .food-area-wrapper .sidebar-widget-1 .sidebar-widget .dish-content h6 a:hover {
-    color: #c33
+    color: var(--primaryColor)
 }
 
 .food-area-wrapper .sidebar-widget-1 .sidebar-widget .dish-content a.cart-select {
-    color: #c33;
+    color: var(--primaryColor);
     background: transparent;
     transition: .5s;
-    border: 1px solid #c33;
+    border: 1px solid var(--primaryColor);
     width: 30px;
     height: 30px;
     line-height: 30px;
@@ -6577,7 +6581,7 @@ ul.slick-dots li.slick-active button {
 
 .food-area-wrapper .sidebar-widget-1 .sidebar-widget .dish-content a.cart-select:hover {
     color: #fff;
-    background: #c33
+    background: var(--primaryColor)
 }
 
 .food-area-wrapper .sidebar-widget-2 {
@@ -6593,13 +6597,13 @@ ul.slick-dots li.slick-active button {
 }
 
 .food-area-wrapper .sidebar-widget-2 .filter-sidebar .ui-widget.ui-widget-content {
-    border: 1px solid #c33;
+    border: 1px solid var(--primaryColor);
     height: 1px
 }
 
 .food-area-wrapper .sidebar-widget-2 .filter-sidebar .ui-slider-handle.ui-corner-all.ui-state-default {
     border-radius: 50%;
-    background-color: #c33;
+    background-color: var(--primaryColor);
     border: 1px solid transparent;
     outline: none;
     width: 10px;
@@ -6608,13 +6612,13 @@ ul.slick-dots li.slick-active button {
 
 .food-area-wrapper .sidebar-widget-2 .filter-sidebar .ui-slider-handle.ui-corner-all.ui-state-default.ui-state-active {
     border-radius: 50%;
-    background-color: #c33;
+    background-color: var(--primaryColor);
     border: 1px solid transparent
 }
 
 .food-area-wrapper .sidebar-widget-2 .filter-sidebar .textbold {
     font-weight: 500;
-    color: #2a435d;
+    color: var(--secondaryColor);
     border: none;
     font-family: "Roboto", sans-serif
 }
@@ -6638,7 +6642,7 @@ ul.slick-dots li.slick-active button {
 }
 
 .food-area-wrapper .sidebar-widget-3 h5 a {
-    color: #2a435d
+    color: var(--secondaryColor)
 }
 
 .food-area-wrapper .sidebar-widget-3 .sidebar-widget {
@@ -6659,7 +6663,7 @@ ul.slick-dots li.slick-active button {
 }
 
 .food-area-wrapper .sidebar-widget-3 .sidebar-widget .dish-content h6 a {
-    color: #2a435d
+    color: var(--secondaryColor)
 }
 
 .food-area-wrapper .sidebar-widget-3 .sidebar-widget .dish-content span {
@@ -6698,7 +6702,7 @@ ul.slick-dots li.slick-active button {
 }
 
 .food-area-wrapper .sidebar-widget-4 .gallery-img-4 .btn {
-    color: #c33;
+    color: var(--primaryColor);
     background: #fff;
     padding: 12px 15px;
     text-transform: uppercase;
@@ -6762,7 +6766,7 @@ ul.slick-dots li.slick-active button {
 
 .food-area-wrapper .food-area nav .nav-link.active {
     background: transparent;
-    color: #c33
+    color: var(--primaryColor)
 }
 
 .food-area-wrapper .food-area nav span {
@@ -6779,16 +6783,16 @@ ul.slick-dots li.slick-active button {
 }
 
 .food-area-wrapper .pagination-area .pagination a.active {
-    background: #c33;
+    background: var(--primaryColor);
     color: #fff
 }
 
 .food-area-wrapper .pagination-area .pagination a {
-    color: #c33;
+    color: var(--primaryColor);
     background: transparent;
     float: left;
     padding: 8px 10px;
-    border: 1px solid #c33;
+    border: 1px solid var(--primaryColor);
     text-decoration: none;
     margin-right: 10px;
     border-radius: 5px;
@@ -6834,12 +6838,12 @@ ul.slick-dots li.slick-active button {
 }
 
 .main-gallery .gallery-btn button:hover {
-    background: #c33;
+    background: var(--primaryColor);
     color: #fff
 }
 
 .main-gallery .gallery-btn button.active {
-    background: #c33;
+    background: var(--primaryColor);
     color: #fff
 }
 
@@ -6869,7 +6873,7 @@ ul.slick-dots li.slick-active button {
     position: absolute;
     bottom: 0;
     left: 0px;
-    background: #c33;
+    background: var(--primaryColor);
     opacity: 0;
     display: flex;
     justify-content: center;
@@ -6910,18 +6914,18 @@ ul.slick-dots li.slick-active button {
 }
 
 .single-menus p {
-    color: #2a435d;
+    color: var(--secondaryColor);
     margin-bottom: 20px
 }
 
 .single-menus a {
-    color: #c33;
+    color: var(--primaryColor);
     display: block;
     transition: 0.3s
 }
 
 .single-menus a:hover {
-    color: #2a435d
+    color: var(--secondaryColor)
 }
 
 .chicken-area {
@@ -6997,7 +7001,7 @@ ul.slick-dots li.slick-active button {
     border-radius: 50%;
     line-height: 50px;
     text-align: center;
-    background: #c33;
+    background: var(--primaryColor);
     color: #fff;
     display: block;
     position: absolute;
@@ -7088,7 +7092,7 @@ ul.slick-dots li.slick-active button {
 }
 
 .pizza-banner .gallery-img-01 {
-    background: #c33;
+    background: var(--primaryColor);
     position: relative;
     overflow: hidden
 }
@@ -7142,7 +7146,7 @@ ul.slick-dots li.slick-active button {
 
 .pizza-banner .gallery-img-01 a.btn {
     background: #fff;
-    color: #c33;
+    color: var(--primaryColor);
     z-index: 11;
     position: relative
 }
@@ -7200,11 +7204,11 @@ ul.slick-dots li.slick-active button {
 }
 
 .single-menu-item .menu-content h6 a {
-    color: #2a435d
+    color: var(--secondaryColor)
 }
 
 .single-menu-item .menu-content h6 a:hover {
-    color: #c33
+    color: var(--primaryColor)
 }
 
 .single-menu-item .menu-content span {
@@ -7249,7 +7253,7 @@ ul.slick-dots li.slick-active button {
     height: 80px;
     line-height: 80px;
     display: block;
-    background: #c33;
+    background: var(--primaryColor);
     text-align: center;
     border-radius: 50%;
     color: #fff
@@ -7304,7 +7308,7 @@ ul.slick-dots li.slick-active button {
 
 .portfolio-info .portfolio-info-left {
     position: relative;
-    background: #c33;
+    background: var(--primaryColor);
     border-radius: 5px;
     padding: 35px 25px 21px 30px;
     color: #fff;
@@ -7538,7 +7542,7 @@ ul.slick-dots li.slick-active button {
     padding: 12px 55px;
     background: #fffcf1;
     border: 1px solid #e6e6e6;
-    color: #2a435d
+    color: var(--secondaryColor)
 }
 
 @media (min-width: 992px) and (max-width: 1199.98px) {
@@ -7561,7 +7565,7 @@ ul.slick-dots li.slick-active button {
 
 .shopping-cart .upper-table .upper-t-right .btn:hover {
     color: #fff;
-    background: #c33
+    background: var(--primaryColor)
 }
 
 .shopping-cart table thead.table-one-head {
@@ -7604,7 +7608,7 @@ ul.slick-dots li.slick-active button {
 }
 
 .shopping-cart table tbody tr td .remove {
-    background: #c33;
+    background: var(--primaryColor);
     width: 25px;
     height: 25px;
     display: block;
@@ -7646,7 +7650,7 @@ ul.slick-dots li.slick-active button {
 
 .shopping-cart .lower-table h6 {
     background-color: #ffedee;
-    color: #2a435d;
+    color: var(--secondaryColor);
     padding: 15px 30px;
     font-family: "Roboto", sans-serif
 }
@@ -7770,7 +7774,7 @@ ul.slick-dots li.slick-active button {
 }
 
 .blog-single-post.different-bg-color {
-    background-color: #c33
+    background-color: var(--primaryColor)
 }
 
 .blog-single-post .blog-thumbnail {
@@ -7824,13 +7828,13 @@ ul.slick-dots li.slick-active button {
 }
 
 .blog-single-post .blog-content-part .blog-content-top a {
-    color: #2a435d;
+    color: var(--secondaryColor);
     transition: all 0.3s ease-in;
     text-transform: capitalize
 }
 
 .blog-single-post .blog-content-part .blog-content-top a:hover {
-    color: #c33
+    color: var(--primaryColor)
 }
 
 .blog-single-post .blog-content-part .blog-content-top a i {
@@ -7842,12 +7846,12 @@ ul.slick-dots li.slick-active button {
 }
 
 .blog-single-post .blog-content-part .blog-title h4 a {
-    color: #2a435d;
+    color: var(--secondaryColor);
     transition: all 0.3s ease-in
 }
 
 .blog-single-post .blog-content-part .blog-title h4 a:hover {
-    color: #c33
+    color: var(--primaryColor)
 }
 
 .blog-single-post .blog-content-part .blog-content {
@@ -7855,7 +7859,7 @@ ul.slick-dots li.slick-active button {
 }
 
 .blog-single-post .blog-content-part .blog-excerpt-link a {
-    background-color: #2a435d;
+    background-color: var(--secondaryColor);
     color: #fff;
     font-weight: 500;
     text-transform: capitalize;
@@ -7866,8 +7870,8 @@ ul.slick-dots li.slick-active button {
 
 .blog-single-post .blog-content-part .blog-excerpt-link a:hover {
     background: transparent;
-    border: 1px solid #2a435d;
-    color: #2a435d
+    border: 1px solid var(--secondaryColor);
+    color: var(--secondaryColor)
 }
 
 .blog-single-post .blog-thumbnail-slider .thumbnail-single-slide {
@@ -7905,7 +7909,7 @@ ul.slick-dots li.slick-active button {
     top: 50%;
     transform: translateY(-50%);
     font-size: 16px;
-    background-color: #c33;
+    background-color: var(--primaryColor);
     border: 1px solid transparent;
     border-radius: 5px;
     color: #fff;
@@ -7921,8 +7925,8 @@ ul.slick-dots li.slick-active button {
 .blog-single-post .blog-thumbnail-slider .prev-arrow:hover,
 .blog-single-post .blog-thumbnail-slider .next-arrow:hover {
     background-color: transparent;
-    border: 1px solid #c33;
-    color: #c33
+    border: 1px solid var(--primaryColor);
+    color: var(--primaryColor)
 }
 
 .blog-single-post .blog-thumbnail-slider .prev-arrow {
@@ -7971,7 +7975,7 @@ ul.slick-dots li.slick-active button {
 
 .blog-single-post .blog-thumbnail-video .video-play-button i {
     color: #fff;
-    background-color: #c33;
+    background-color: var(--primaryColor);
     font-size: 30px;
     width: 60px;
     height: 60px;
@@ -8013,10 +8017,10 @@ ul.slick-dots li.slick-active button {
 
 .template-pagination ul li a {
     display: inline-block;
-    color: #c33;
+    color: var(--primaryColor);
     background-color: transparent;
     padding: 10px;
-    border: 1px solid #c33;
+    border: 1px solid var(--primaryColor);
     border-radius: 5px;
     transition: all 0.3s ease-in;
     line-height: 16px;
@@ -8025,18 +8029,18 @@ ul.slick-dots li.slick-active button {
 
 .template-pagination ul li a:hover {
     color: #fff;
-    background-color: #c33;
-    border: 1px solid #c33
+    background-color: var(--primaryColor);
+    border: 1px solid var(--primaryColor)
 }
 
 .template-pagination ul li a.active {
     color: #fff;
-    background-color: #c33;
-    border: 1px solid #c33
+    background-color: var(--primaryColor);
+    border: 1px solid var(--primaryColor)
 }
 
 .template-pagination ul li.pagination-arrow a {
-    color: #2a435d;
+    color: var(--secondaryColor);
     background-color: transparent;
     border: 1px solid transparent;
     padding: 0;
@@ -8086,7 +8090,7 @@ ul.slick-dots li.slick-active button {
     position: absolute;
     right: 1%;
     top: 12%;
-    background-color: #c33;
+    background-color: var(--primaryColor);
     color: #fff;
     padding: 3px 30px;
     border-radius: 10px;
@@ -8132,12 +8136,12 @@ ul.slick-dots li.slick-active button {
 }
 
 .single-widget.author-widget .author-social-link li a {
-    color: #2a435d;
+    color: var(--secondaryColor);
     transition: all 0.3s ease-in
 }
 
 .single-widget.author-widget .author-social-link li a:hover {
-    color: #c33
+    color: var(--primaryColor)
 }
 
 .single-widget.search-widget {
@@ -8178,14 +8182,14 @@ ul.slick-dots li.slick-active button {
 
 .single-widget.product-widget .single-product .dish-content h6 a {
     font-size: 16px;
-    color: #2a435d
+    color: var(--secondaryColor)
 }
 
 .single-widget.product-widget .single-product .dish-content .cart-select {
-    color: #c33;
+    color: var(--primaryColor);
     background: transparent;
     transition: .3s;
-    border: 1px solid #c33;
+    border: 1px solid var(--primaryColor);
     width: 30px;
     height: 30px;
     line-height: 30px;
@@ -8196,7 +8200,7 @@ ul.slick-dots li.slick-active button {
 }
 
 .single-widget.product-widget .single-product .dish-content .cart-select:hover {
-    background: #c33;
+    background: var(--primaryColor);
     color: #fff
 }
 
@@ -8213,7 +8217,7 @@ ul.slick-dots li.slick-active button {
 }
 
 .single-widget.category-widget li a {
-    color: #2a435d;
+    color: var(--secondaryColor);
     text-transform: capitalize;
     padding: 10px 0;
     display: block;
@@ -8226,7 +8230,7 @@ ul.slick-dots li.slick-active button {
 }
 
 .single-widget.category-widget li a:hover {
-    color: #c33
+    color: var(--primaryColor)
 }
 
 .single-widget.category-widget li a i {
@@ -8249,14 +8253,14 @@ ul.slick-dots li.slick-active button {
     display: inline-block;
     text-transform: capitalize;
     padding: 12px 20px;
-    color: #2a435d;
+    color: var(--secondaryColor);
     border: 1px solid #e6e6e6;
     transition: all 0.3s ease-in
 }
 
 .single-widget.tag-widget li a:hover {
     color: #fff;
-    background-color: #c33;
+    background-color: var(--primaryColor);
     border: 1px solid transparent;
     border-radius: 5px
 }
@@ -8266,7 +8270,7 @@ ul.slick-dots li.slick-active button {
 }
 
 .single-widget.filter-menu-widget h6 a {
-    color: #2a435d;
+    color: var(--secondaryColor);
     margin-bottom: 20px
 }
 
@@ -8284,7 +8288,7 @@ ul.slick-dots li.slick-active button {
 }
 
 .single-widget.filter-menu-widget .dish-content h6 a {
-    color: #2a435d;
+    color: var(--secondaryColor);
     font-size: 16px
 }
 
@@ -8336,7 +8340,7 @@ ul.slick-dots li.slick-active button {
 }
 
 .single-widget.banner-widget .gallery-img-4 .btn {
-    color: #c33;
+    color: var(--primaryColor);
     background: #fff;
     padding: 12px 15px;
     text-transform: uppercase;
@@ -8402,12 +8406,12 @@ ul.slick-dots li.slick-active button {
 }
 
 .blog-single-item .blog-meta ul li a {
-    color: #2a435d;
+    color: var(--secondaryColor);
     text-transform: capitalize
 }
 
 .blog-single-item .single-blog-content h4 a {
-    color: #2a435d
+    color: var(--secondaryColor)
 }
 
 .blog-comment-area .single-comment img {
@@ -8434,12 +8438,12 @@ ul.slick-dots li.slick-active button {
 }
 
 .blog-sidebar .single-widget .author-social-link ul li {
-    color: #2a435d
+    color: var(--secondaryColor)
 }
 
 .blog-sidebar .single-widget .banner-widget-button .btn {
     background: #fff;
-    color: #c33
+    color: var(--primaryColor)
 }
 
 @media (min-width: 768px) and (max-width: 991.98px) {
@@ -8496,7 +8500,7 @@ ul.slick-dots li.slick-active button {
 }
 
 .blog-content-section.blog-details-page .blog-single-post .blog-content-part .blog-quote .quote-text p {
-    color: #2a435d;
+    color: var(--secondaryColor);
     font-size: 16px;
     font-family: "Poppins", sans-serif;
     font-weight: 700
@@ -8515,11 +8519,11 @@ ul.slick-dots li.slick-active button {
     left: -66px;
     width: 48px;
     height: 3px;
-    background: #c33
+    background: var(--primaryColor)
 }
 
 .blog-content-section.blog-details-page .blog-single-post .blog-content-part .blog-quote span.quote-icon {
-    color: #2a435d;
+    color: var(--secondaryColor);
     font-size: 40px;
     margin-left: 7px;
     position: absolute;
@@ -8539,7 +8543,7 @@ ul.slick-dots li.slick-active button {
 .blog-content-section.blog-details-page .blog-single-post .blog-content-part .content-bottom-tag li a {
     display: inline-block;
     font-family: "Roboto", sans-serif;
-    color: #2a435d;
+    color: var(--secondaryColor);
     background-color: rgba(42, 67, 93, 0.05);
     padding: 5px 10px;
     text-transform: capitalize;
@@ -8624,7 +8628,7 @@ ul.slick-dots li.slick-active button {
 
 .blog-content-section.blog-details-page .blog-comment-area .single-comment .comment-content .comment-content-top .content-top-left span {
     margin-left: 20px;
-    color: #2a435d;
+    color: var(--secondaryColor);
     text-transform: capitalize
 }
 
@@ -8637,7 +8641,7 @@ ul.slick-dots li.slick-active button {
 
 .blog-content-section.blog-details-page .blog-comment-area .single-comment .comment-content .comment-content-top a.reply {
     padding: 2px 20px;
-    background: #c33;
+    background: var(--primaryColor);
     color: #fff;
     font-family: "Roboto", sans-serif;
     border-radius: 5px;
@@ -8645,7 +8649,7 @@ ul.slick-dots li.slick-active button {
 }
 
 .blog-content-section.blog-details-page .blog-comment-area .single-comment .comment-content .comment-content-top .bg-secondary {
-    background: #2a435d !important
+    background: var(--secondaryColor) !important
 }
 
 @media (max-width: 575.98px) {
@@ -8914,7 +8918,7 @@ ul.slick-dots li.slick-active button {
 }
 
 .burger-promo-area .delivery-right .common-title-area h1 span {
-    color: #c33
+    color: var(--primaryColor)
 }
 
 @media (max-width: 767.98px) {
@@ -8928,7 +8932,7 @@ ul.slick-dots li.slick-active button {
 }
 
 .burger-promo-area .delivery-right h5 span {
-    color: #c33
+    color: var(--primaryColor)
 }
 
 .burger-promo-area .delivery-right .order-box .btn {
@@ -9090,7 +9094,7 @@ ul.slick-dots li.slick-active button {
 }
 
 .banner-gallery2 .gallery-img-2 a:hover {
-    color: #c33
+    color: var(--primaryColor)
 }
 
 .banner-gallery2 .gallery-img-2 .gprice-1 {
@@ -9384,7 +9388,7 @@ ul.slick-dots li.slick-active button {
 }
 
 .banner-gallery2 .gallery-img-22 a:hover {
-    color: #c33
+    color: var(--primaryColor)
 }
 
 .banner-gallery2 .gallery-img-22 .img-pos {
@@ -9401,7 +9405,7 @@ ul.slick-dots li.slick-active button {
 }
 
 .banner-gallery2 .gallery-img-22 .gprice-1 {
-    background: #c33;
+    background: var(--primaryColor);
     color: #fff;
     border-radius: 50%;
     width: 50px;
@@ -9506,7 +9510,7 @@ ul.slick-dots li.slick-active button {
     position: relative;
     z-index: 1;
     background-color: #fff;
-    color: #c33;
+    color: var(--primaryColor);
     transition: 0.3s
 }
 
@@ -9582,7 +9586,7 @@ ul.slick-dots li.slick-active button {
     height: 100%;
     top: 0;
     left: 0;
-    background: #c33;
+    background: var(--primaryColor);
     visibility: visible;
     opacity: 0.9;
     z-index: -1;
@@ -9641,11 +9645,11 @@ ul.slick-dots li.slick-active button {
 }
 
 .home2-menu-area .menu-items-wrapper .single-menu-item .menu-content h6 a {
-    color: #2a435d
+    color: var(--secondaryColor)
 }
 
 .home2-menu-area .menu-items-wrapper .single-menu-item .menu-content h6 a:hover {
-    color: #c33
+    color: var(--primaryColor)
 }
 
 .home2-menu-area .menu-items-wrapper .single-menu-item .menu-content span {
@@ -9757,7 +9761,7 @@ ul.slick-dots li.slick-active button {
 }
 
 .delivery-area2 .common-title h4 span {
-    color: #c33
+    color: var(--primaryColor)
 }
 
 .home2-popular-dish {
@@ -9782,7 +9786,7 @@ ul.slick-dots li.slick-active button {
 }
 
 .home2-single-dishes h6 a {
-    color: #2a435d
+    color: var(--secondaryColor)
 }
 
 .home2-single-dishes p {
@@ -9899,7 +9903,7 @@ ul.slick-dots li.slick-active button {
     padding: 20px;
     position: relative;
     width: 200px;
-    background: #c33;
+    background: var(--primaryColor);
     color: #fff;
     border-radius: 5px
 }
@@ -9971,7 +9975,7 @@ ul.slick-dots li.slick-active button {
 
 .common-title-area3 h3 {
     font-family: "Caveat", cursive;
-    color: #063
+    color: var(--primaryColor)
 }
 
 .common-title-area3 h2 {
@@ -9979,7 +9983,7 @@ ul.slick-dots li.slick-active button {
 }
 
 .common-title-area3 h2 span {
-    color: #063
+    color: var(--primaryColor)
 }
 
 .snack-section {
@@ -10055,7 +10059,7 @@ ul.slick-dots li.slick-active button {
 .snack-section .snack-left .snack-upper-content .snack-content h5.caveat {
     font-weight: 400;
     font-family: "Caveat", cursive;
-    color: #063
+    color: var(--primaryColor)
 }
 
 .snack-section .snack-left .snack-lower-content h1 {
@@ -10063,7 +10067,7 @@ ul.slick-dots li.slick-active button {
 }
 
 .snack-section .snack-left .snack-lower-content h1 span {
-    color: #063
+    color: var(--primaryColor)
 }
 
 .snack-section .snack-left .snack-lower-content .order-box2 .btn2 {
@@ -10136,7 +10140,7 @@ ul.slick-dots li.slick-active button {
 }
 
 .single-fea:hover .fea-content h5 {
-    color: #063
+    color: var(--primaryColor)
 }
 
 .single-fea .fea-img {
@@ -10165,12 +10169,12 @@ ul.slick-dots li.slick-active button {
 }
 
 .single-fea .fea-content a {
-    color: #2a435d;
+    color: var(--secondaryColor);
     transition: 0.3s
 }
 
 .single-fea .fea-content a:hover {
-    color: #063
+    color: var(--primaryColor)
 }
 
 .softdrink-section {
@@ -10254,7 +10258,7 @@ ul.slick-dots li.slick-active button {
 }
 
 .softdrink-section .softdrink-left .s-gallery-3 h4 {
-    color: #063
+    color: var(--primaryColor)
 }
 
 .softdrink-section .softdrink-left .s-gallery-3 p {
@@ -10267,7 +10271,7 @@ ul.slick-dots li.slick-active button {
 }
 
 .softdrink-section .softdrink-right h2 span {
-    color: #063
+    color: var(--primaryColor)
 }
 
 .softdrink-section .softdrink-right p {
@@ -10287,7 +10291,7 @@ ul.slick-dots li.slick-active button {
     right: 14%;
     top: 11%;
     font-size: 30px;
-    color: #063
+    color: var(--primaryColor)
 }
 
 .softdrink-section .softdrink-right .quote-box .qoute-img {
@@ -10311,7 +10315,7 @@ ul.slick-dots li.slick-active button {
     bottom: 26%;
     width: 35px;
     height: 2px;
-    background: #063
+    background: var(--primaryColor)
 } */
 
 @media (max-width: 575.98px) {
@@ -10377,7 +10381,7 @@ ul.slick-dots li.slick-active button {
 }
 
 .timeline-section .single-timeline h2 {
-    color: #063;
+    color: var(--primaryColor);
     margin-bottom: 12px;
     font-weight: 900
 }
@@ -10438,11 +10442,11 @@ ul.slick-dots li.slick-active button {
 }
 
 .home3-single-dishes:hover .dish-content .price {
-    color: #063
+    color: var(--primaryColor)
 }
 
 .home3-single-dishes:hover .badge {
-    background: #063;
+    background: var(--primaryColor);
     border-radius: 2px
 }
 
@@ -10468,34 +10472,34 @@ ul.slick-dots li.slick-active button {
 }
 
 .home3-single-dishes .dish-content h5 a {
-    color: #2a435d;
+    color: var(--secondaryColor);
     transition: 0.5s
 }
 
 .home3-single-dishes .dish-content h5 a:hover {
-    color: #063
+    color: var(--primaryColor)
 }
 
 .home3-single-dishes .badge-bg-color {
-    background: #063
+    background: var(--primaryColor)
 }
 
 .home3-single-dishes .badge-color {
-    color: #063 !important
+    color: var(--primaryColor) !important
 }
 
 .home3-single-dishes .cart-opt span {
-    border: 1px solid #063;
+    border: 1px solid var(--primaryColor);
     background: transparent
 }
 
 .home3-single-dishes .cart-opt span a {
-    color: #063;
+    color: var(--primaryColor);
     transition: 0.5s
 }
 
 .home3-single-dishes .cart-opt span:hover {
-    background: #063
+    background: var(--primaryColor)
 }
 
 .home3-single-dishes .cart-opt span:hover a {
@@ -10503,7 +10507,7 @@ ul.slick-dots li.slick-active button {
 }
 
 .home3-single-dishes .cart-opt span a {
-    color: #063
+    color: var(--primaryColor)
 }
 
 .home3-form-area {
@@ -10546,12 +10550,12 @@ ul.slick-dots li.slick-active button {
 }
 
 .home3-form-area .form-box .form-wraper form button {
-    background: #063
+    background: var(--primaryColor)
 }
 
 .home3-form-area .form-box .form-wraper form button:hover {
-    border: 1px solid #063;
-    color: #063
+    border: 1px solid var(--primaryColor);
+    color: var(--primaryColor)
 }
 
 @media (min-width: 768px) and (max-width: 991.98px) {
@@ -10664,7 +10668,7 @@ ul.slick-dots li.slick-active button {
 }
 
 .drink-ind .drink-ind-right .inner-fea .single-fea:hover .fea-content h5 {
-    color: #063
+    color: var(--primaryColor)
 }
 
 .drink-ind .drink-ind-right .inner-fea .single-fea .fea-img {
@@ -10693,12 +10697,12 @@ ul.slick-dots li.slick-active button {
 }
 
 .drink-ind .drink-ind-right .inner-fea .single-fea .fea-content a {
-    color: #2a435d;
+    color: var(--secondaryColor);
     transition: 0.3s
 }
 
 .drink-ind .drink-ind-right .inner-fea .single-fea .fea-content a:hover {
-    color: #063
+    color: var(--primaryColor)
 }
 
 @media (min-width: 768px) and (max-width: 991.98px) {
@@ -10725,7 +10729,7 @@ ul.slick-dots li.slick-active button {
 
 .food-brand-section .food-brand-left .inner-brand .single-percentage h3 {
     font-weight: 900;
-    color: #063
+    color: var(--primaryColor)
 }
 
 .food-brand-section .food-brand-left .inner-brand .single-percentage::after {
@@ -10733,7 +10737,7 @@ ul.slick-dots li.slick-active button {
     position: absolute;
     width: 2px;
     height: 100%;
-    background: #063;
+    background: var(--primaryColor);
     left: 0%;
     top: 0%
 }
@@ -10856,7 +10860,7 @@ ul.slick-dots li.slick-active button {
     right: 5%;
     top: 11%;
     font-size: 30px;
-    color: #063;
+    color: var(--primaryColor);
     opacity: 0.4
 }
 
@@ -10914,11 +10918,11 @@ ul.slick-dots li.slick-active button {
 }
 
 .ht-testi ul.slick-dots button {
-    background: #2a435d
+    background: var(--secondaryColor)
 }
 
 .ht-testi ul.slick-dots li.slick-active button {
-    background: #063
+    background: var(--primaryColor)
 }
 
 .ins-gallery-area {
@@ -10951,7 +10955,7 @@ ul.slick-dots li.slick-active button {
     height: 100%;
     left: 0;
     top: 0;
-    background: #063;
+    background: var(--primaryColor);
     opacity: 0;
     visibility: hidden;
     transition: 0.3s
@@ -11000,7 +11004,7 @@ ul.slick-dots li.slick-active button {
 .login-area .login-form-area .checkbox-area .checkbox-part {
     display: flex;
     align-items: center;
-    color: #2a435d;
+    color: var(--secondaryColor);
     text-transform: capitalize;
     cursor: pointer;
     width: initial
@@ -11018,13 +11022,13 @@ ul.slick-dots li.slick-active button {
 }
 
 .login-area .login-form-area .checkbox-area .forgot-pas a {
-    color: #2a435d;
+    color: var(--secondaryColor);
     text-transform: capitalize;
     cursor: pointer
 }
 
 .login-area .login-form-area .checkbox-area .forgot-pas a:hover {
-    color: #c33
+    color: var(--primaryColor)
 }
 
 .login-area .delivery-login .delivery-img {
@@ -11053,7 +11057,7 @@ ul.slick-dots li.slick-active button {
 }
 
 .signup-area .signup-form-area .login-btn span {
-    color: #2a435d;
+    color: var(--secondaryColor);
     text-transform: capitalize;
     display: inline-block;
     margin-top: 25px;
@@ -11068,7 +11072,7 @@ ul.slick-dots li.slick-active button {
 }
 
 .signup-area .signup-form-area .login-btn span a {
-    color: #c33
+    color: var(--primaryColor)
 }
 
 .common-title4 h1 span {
@@ -11734,18 +11738,18 @@ ul.slick-dots li.slick-active button {
 }
 
 .profile-area .profile-tabs button a {
-    color: #2a435d;
+    color: var(--secondaryColor);
     display: block
 }
 
 .profile-area .profile-tabs .nav-link {
-    color: #2a435d;
+    color: var(--secondaryColor);
     text-transform: capitalize;
     cursor: pointer
 }
 
 .profile-area .profile-tabs .nav-link.active {
-    background: #c33;
+    background: var(--primaryColor);
     color: #fff;
     text-transform: capitalize;
     border-radius: 5px
@@ -11769,7 +11773,7 @@ ul.slick-dots li.slick-active button {
 }
 
 .profile-area .tab-content a {
-    color: #c33
+    color: var(--primaryColor)
 }
 
 .profile-area .tab-content table tr {
@@ -11782,7 +11786,7 @@ ul.slick-dots li.slick-active button {
 
 .profile-area .tab-content table td {
     font-size: 14px;
-    color: #2a435d;
+    color: var(--secondaryColor);
     padding: 10px 30px
 }
 
@@ -11814,11 +11818,11 @@ ul.slick-dots li.slick-active button {
 }
 
 .wishlist-area a {
-    color: #2a435d
+    color: var(--secondaryColor)
 }
 
 .wishlist-area a:hover {
-    color: #c33
+    color: var(--primaryColor)
 }
 
 @media (max-width: 767.98px) {
