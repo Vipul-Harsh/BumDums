@@ -10,6 +10,10 @@ import Home3 from "./pages/home/home3";
 import Home4 from "./pages/home/home4";
 import Aboutus from "./pages/aboutus/aboutus";
 import Home from "./pages/home/home";
+import Blogs from "./pages/blogs";
+import Contact from "./pages/contact";
+import Navbar from "./component/navbar";
+import Footer from "./component/Footer";
 
 // 3️⃣ Router singleton created
 const router = createBrowserRouter([
@@ -26,13 +30,19 @@ function Root() {
   // 2️⃣ `BrowserRouter` component removed, but the <Routes>/<Route>
   // component below are unchanged
   return (
-    <Routes>
-      <Route path="/" element={<Home />} />
-      <Route path="/home1/*" element={<Home1 />} />
-      <Route path="/home2/*" element={<Home2 />} />
-      <Route path="/home3/*" element={<Home3 />} />
-      <Route path="/home4/*" element={<Home4 />} />
-      <Route path="/aboutus/*" element={<Aboutus />} />
-    </Routes>
+    <>
+      <Navbar />
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/home1/*" element={<Home1 />} />
+        <Route path="/home2/*" element={<Home2 />} />
+        <Route path="/home3/*" element={<Home3 />} />
+        <Route path="/home4/*" element={<Home4 />} />
+        <Route path="/about/*" element={<Aboutus />} />
+        <Route path="/blogs/*" element={<Blogs />} />
+        <Route path="/contact/*" element={<Contact />} />
+      </Routes>
+      <Footer />
+    </>
   );
 }

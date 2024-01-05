@@ -3,6 +3,8 @@
 :root {
     --primaryColor: #ff62a9;
     --secondaryColor: #0c4db0;
+    /* --tertiaryColor: #fccc0a; */
+    --tertiaryColor: #0c4db0;
   }
 body {
     margin: 0;
@@ -219,6 +221,9 @@ button {
     padding: 30px 12px;
     color: var(--secondaryColor);
     font-weight: 700
+}
+.notOnHome .main-menu2 li a {
+    color: white;
 }
 
 @media (min-width: 992px) and (max-width: 1199.98px) {
@@ -730,7 +735,7 @@ footer .footer-top .f-title h4 {
 }
 
 footer .footer-top .f-title h4 span {
-    color: #f93
+    color: var(--tertiaryColor)
 }
 
 @media (min-width: 992px) and (max-width: 1199.98px) {
@@ -758,7 +763,7 @@ footer .footer-bottom .widget p span {
 }
 
 footer .footer-bottom .widget a {
-    color: #f93;
+    color: var(--tertiaryColor);
     text-transform: capitalize;
     transition: 0.3s
 }
@@ -772,7 +777,7 @@ footer .copyright-area p {
 }
 
 footer .copyright-area p a {
-    color: #f93
+    color: var(--tertiaryColor)
 }
 
 .breadcrumb-area {
@@ -1052,7 +1057,7 @@ footer .copyright-area p a {
 }
 
 .footer2 .footer-bottom .widget a:hover {
-    color: #f93
+    color: var(--tertiaryColor)
 }
 
 .footer2 .copyright-area .copyright-content .f-logo {
@@ -1129,7 +1134,7 @@ header .header-bottom .customer-area2 .shop-counter {
     position: absolute;
     top: -15%;
     right: 28%;
-    background-color: #f93;
+    background-color: var(--tertiaryColor);
     width: 18px;
     height: 18px;
     line-height: 18px;
@@ -1156,6 +1161,9 @@ header .header-bottom .customer-area2 .order-content .span-1 {
     text-transform: capitalize;
     font-weight: 600;
     margin-bottom: 8px
+}
+header .header-bottom.notOnHome .customer-area2 .order-content .span-1 {
+    color: white;
 }
 
 header .header-bottom .customer-area2 .order-content .span-2 {
@@ -1222,7 +1230,7 @@ header.header3 .header-bottom .customer-area3 .shop-counter {
     position: absolute;
     top: -7%;
     right: 57%;
-    background-color: #f93;
+    background-color: var(--tertiaryColor);
     width: 15px;
     height: 15px;
     line-height: 15px;
@@ -2973,7 +2981,7 @@ header.header3 .shopping i {
 }
 
 .banner-area .banner-content h1 span {
-    color: #f93
+    color: var(--tertiaryColor)
 }
 
 @media (min-width: 992px) and (max-width: 1199.98px) {
@@ -3159,7 +3167,7 @@ header.header3 .shopping i {
 }
 
 .banner-area .banner-content .order-box .order-content span {
-    color: #f93;
+    color: var(--tertiaryColor);
     font-family: "Poppins", sans-serif;
     font-weight: 700;
     font-size: 24px
@@ -3247,7 +3255,7 @@ header.header3 .shopping i {
 }
 
 .banner-area .banner-content .price span {
-    color: #f93;
+    color: var(--tertiaryColor);
     font-size: 36px;
     font-weight: 700
 }
@@ -4379,7 +4387,7 @@ header.header3 .shopping i {
 }
 
 .banner-gallery .gallery-img-2 a:hover {
-    color: #f93
+    color: var(--tertiaryColor)
 }
 
 .banner-gallery .gallery-img-2 img {
@@ -4396,7 +4404,7 @@ header.header3 .shopping i {
 }
 
 .banner-gallery .gallery-img-3 {
-    background: #f93;
+    background: var(--tertiaryColor);
     position: relative;
     padding: 30px 20px;
     height: 270px;
@@ -4859,7 +4867,7 @@ header.header3 .shopping i {
 }
 
 .countdown-area .countdown-right .common-title-area h2 span {
-    color: #f93
+    color: var(--tertiaryColor)
 }
 
 .countdown-area .countdown-right .common-title-area p {
@@ -4999,7 +5007,7 @@ header.header3 .shopping i {
 }
 
 .single-testimonial .testi-top .testi-meta .testi-rating span {
-    color: #f93
+    color: var(--tertiaryColor)
 }
 
 .single-gallery-img {
@@ -5409,7 +5417,7 @@ ul.slick-dots li.slick-active button {
 }
 
 .single-food.orange {
-    background-color: #f93
+    background-color: var(--tertiaryColor)
 }
 
 .about-area2 .about-left .about-l-shapes .als-1 {
@@ -5654,7 +5662,7 @@ ul.slick-dots li.slick-active button {
 }
 
 .delicious-area .delicious-left h2 span {
-    color: #f93
+    color: var(--tertiaryColor)
 }
 
 .delicious-area .delicious-left .play-btn1 {
@@ -5671,7 +5679,7 @@ ul.slick-dots li.slick-active button {
 }
 
 .delicious-area .delicious-left .intro {
-    color: #f93;
+    color: var(--tertiaryColor);
     text-transform: capitalize;
     transition: 0.3s
 }
@@ -5893,7 +5901,7 @@ ul.slick-dots li.slick-active button {
 }
 
 .checkout-area .checkout-right a:hover {
-    color: #f93
+    color: var(--tertiaryColor)
 }
 
 .checkout-area .checkout-right .btn {
@@ -7325,7 +7333,7 @@ ul.slick-dots li.slick-active button {
 }
 
 .portfolio-info .portfolio-info-left .cat-pos .social-icon:hover {
-    color: #f93
+    color: var(--tertiaryColor)
 }
 
 .portfolio-info .portfolio-info-left img {
@@ -9191,7 +9199,7 @@ ul.slick-dots li.slick-active button {
 }
 
 .banner-gallery2 .gallery-img-3 a:hover {
-    color: #f93
+    color: var(--tertiaryColor)
 }
 
 .banner-gallery2 .gallery-img-3 .img-pos {
@@ -10200,7 +10208,7 @@ ul.slick-dots li.slick-active button {
 }
 
 .softdrink-section .softdrink-left .drink-review .drink-content .reviews span {
-    color: #f93
+    color: var(--tertiaryColor)
 }
 
 .softdrink-section .softdrink-left .drink-review .drink-content h5 {
@@ -10895,7 +10903,7 @@ ul.slick-dots li.slick-active button {
 }
 
 .ht-testi .single-ht-item .testi-left .testi-top .testi-rating span {
-    color: #f93;
+    color: var(--tertiaryColor);
     font-size: 14px;
     margin: 0 -2px
 }
