@@ -117,3 +117,13 @@
 .slick-arrow.slick-hidden {
     display: none;
 }
+
+.slick-slider .slick-track,
+.slick-slider .slick-list
+{
+    display: flex;
+    gap: 25px;
+}
+.slick-arrow {
+    display: none !important;
+}

@@ -1,6 +1,34 @@
 import { menu, menu_categories } from "../../data/menu"
-
+import Slider from 'react-slick';
 const Home = () => {
+    const settings = {
+        dots: true,
+        infinite: true,
+        speed: 500,
+        slidesToShow: 3,
+        slidesToScroll: 1,
+        autoplay: true,
+        autoplaySpeed: 2000,
+        style: { gap: '10px' }
+    };
+    const settings2 = {
+        dots: true,
+        infinite: true,
+        speed: 500,
+        slidesToShow: 4.5,
+        slidesToScroll: 1,
+        autoplay: true,
+        autoplaySpeed: 2000,
+    };
+    const settingsTestimonial = {
+        dots: true,
+        infinite: true,
+        speed: 500,
+        slidesToShow: 2,
+        slidesToScroll: 1,
+        autoplay: true,
+        autoplaySpeed: 2000,
+    };
     return (
         <>
             {/* header */}
@@ -366,20 +394,20 @@ const Home = () => {
                                     all items
                                 </div>
                             </li>
-                            {menu_categories.map(category=><>
-                            <li className="nav-item menu-text" role="presentation">
-                                <div
-                                    className="nav-link"
-                                    id={`${category}-tab`}
-                                    data-bs-toggle="tab"
-                                    data-bs-target={`#${category}-tab-pane`}
-                                    role="tab"
-                                    aria-controls={`${category}-tab-pane`}
-                                    aria-selected="false"
-                                >
-                                    {category}
-                                </div>
-                            </li>
+                            {menu_categories.map(category => <>
+                                <li className="nav-item menu-text" role="presentation">
+                                    <div
+                                        className="nav-link"
+                                        id={`${category}-tab`}
+                                        data-bs-toggle="tab"
+                                        data-bs-target={`#${category}-tab-pane`}
+                                        role="tab"
+                                        aria-controls={`${category}-tab-pane`}
+                                        aria-selected="false"
+                                    >
+                                        {category}
+                                    </div>
+                                </li>
                             </>
                             )}
                         </ul>
@@ -400,7 +428,7 @@ const Home = () => {
                                         <div className="single-dishes">
                                             <div className="dish-img">
                                                 <img
-                                                    src={item?.image.length>0?item?.image:"assets/images/menu-item/pd1.png"}
+                                                    src={item?.image.length > 0 ? item?.image : "assets/images/menu-item/pd1.png"}
                                                     style={{ width: "inherit" }}
                                                     alt=""
                                                 />
@@ -433,36 +461,36 @@ const Home = () => {
                             </div>
                         </div>
                         {/* pizza */}
-                        {menu_categories.map(category=><>
-                        <div
-                            className="tab-pane fade"
-                            id={`${category}-tab-pane`}
-                            role="tabpanel"
-                            aria-labelledby={`${category}-tab`}
-                            tabIndex={0}
-                        >
-                            <div className="row">
-                            {menu?.filter(item=>item?.category===category)?.slice(0, 8)?.map(item => <>
-                                    <div className="col-xl-3 col-lg-3 col-md-6">
-                                        <div className="single-dishes">
-                                            <div className="dish-img">
-                                                <img
-                                                    src={item?.image.length>0?item?.image:"assets/images/menu-item/pd1.png"}
-                                                    style={{ width: "inherit" }}
-                                                    alt=""
-                                                />
-                                            </div>
-                                            <div className="dish-content">
-                                                <h5>
-                                                    <a href="single-dish.html">{item.name} </a>
-                                                </h5>
-                                                <p>
-                                                    {item.description}
-                                                </p>
-                                                <span className="price">price : ₹{item.price}</span>
-                                            </div>
-                                            {item.tag && <span className="badge">{item.tag}</span>}
-                                            {/* <div className="cart-opt">
+                        {menu_categories.map(category => <>
+                            <div
+                                className="tab-pane fade"
+                                id={`${category}-tab-pane`}
+                                role="tabpanel"
+                                aria-labelledby={`${category}-tab`}
+                                tabIndex={0}
+                            >
+                                <div className="row">
+                                    {menu?.filter(item => item?.category === category)?.slice(0, 8)?.map(item => <>
+                                        <div className="col-xl-3 col-lg-3 col-md-6">
+                                            <div className="single-dishes">
+                                                <div className="dish-img">
+                                                    <img
+                                                        src={item?.image.length > 0 ? item?.image : "assets/images/menu-item/pd1.png"}
+                                                        style={{ width: "inherit" }}
+                                                        alt=""
+                                                    />
+                                                </div>
+                                                <div className="dish-content">
+                                                    <h5>
+                                                        <a href="single-dish.html">{item.name} </a>
+                                                    </h5>
+                                                    <p>
+                                                        {item.description}
+                                                    </p>
+                                                    <span className="price">price : ₹{item.price}</span>
+                                                </div>
+                                                {item.tag && <span className="badge">{item.tag}</span>}
+                                                {/* <div className="cart-opt">
                                                 <span>
                                                     <a href="#">
                                                         <i className="fas fa-heart" />
@@ -474,11 +502,11 @@ const Home = () => {
                                                     </a>
                                                 </span>
                                             </div> */}
+                                            </div>
                                         </div>
-                                    </div>
-                                </>)}
+                                    </>)}
+                                </div>
                             </div>
-                        </div>
                         </>)}
                     </div>
                 </div>
@@ -845,237 +873,537 @@ const Home = () => {
                         </h2>
                     </div>
                     <div className="testimonial-active">
-                        <div className="single-testimonial">
-                            <div className="testi-top">
-                                <div className="tin-shapes">
-                                    <span className="tsin-1">
-                                        <img src="assets/images/shapes/33.png" alt="" />
-                                    </span>
-                                </div>
-                                <div className="testi-img">
-                                    <img src="assets/images/testimonial/testi-1.png" alt="" />
-                                </div>
-                                <div className="testi-meta">
-                                    <h6>Christ Deo</h6>
-                                    <p>CEO A4Tech Ltd.</p>
-                                    <div className="testi-rating">
-                                        <span>
-                                            <i className="fas fa-star" />
-                                        </span>
-                                        <span>
-                                            <i className="fas fa-star" />
-                                        </span>
-                                        <span>
-                                            <i className="fas fa-star" />
-                                        </span>
-                                        <span>
-                                            <i className="fas fa-star" />
-                                        </span>
-                                        <span>
-                                            <i className="fas fa-star" />
+                        <Slider {...settingsTestimonial}>
+                            <div className="single-testimonial">
+                                <div className="testi-top">
+                                    <div className="tin-shapes">
+                                        <span className="tsin-1">
+                                            <img src="assets/images/shapes/33.png" alt="" />
                                         </span>
                                     </div>
-                                </div>
-                            </div>
-                            <p>
-                                Food Khan is a gret Restaurant from the University of Texas at
-                                Austin has been researching the benefits of frequent testing and the
-                                feedback leads to. He explains that in the history of the study.
-                            </p>
-                        </div>
-                        <div className="single-testimonial">
-                            <div className="testi-top">
-                                <div className="tin-shapes">
-                                    <span className="tsin-1">
-                                        <img src="assets/images/shapes/33.png" alt="" />
-                                    </span>
-                                </div>
-                                <div className="testi-img">
-                                    <img src="assets/images/testimonial/testi-2.png" alt="" />
-                                </div>
-                                <div className="testi-meta">
-                                    <h6>Christ Deo</h6>
-                                    <p>CEO A4Tech Ltd.</p>
-                                    <div className="testi-rating">
-                                        <span>
-                                            <i className="fas fa-star" />
-                                        </span>
-                                        <span>
-                                            <i className="fas fa-star" />
-                                        </span>
-                                        <span>
-                                            <i className="fas fa-star" />
-                                        </span>
-                                        <span>
-                                            <i className="fas fa-star" />
-                                        </span>
-                                        <span>
-                                            <i className="fas fa-star" />
-                                        </span>
+                                    <div className="testi-img">
+                                        <img src="assets/images/testimonial/testi-1.png" alt="" />
+                                    </div>
+                                    <div className="testi-meta">
+                                        <h6>Christ Deo</h6>
+                                        <p>CEO A4Tech Ltd.</p>
+                                        <div className="testi-rating">
+                                            <span>
+                                                <i className="fas fa-star" />
+                                            </span>
+                                            <span>
+                                                <i className="fas fa-star" />
+                                            </span>
+                                            <span>
+                                                <i className="fas fa-star" />
+                                            </span>
+                                            <span>
+                                                <i className="fas fa-star" />
+                                            </span>
+                                            <span>
+                                                <i className="fas fa-star" />
+                                            </span>
+                                        </div>
                                     </div>
                                 </div>
+                                <p>
+                                    Food Khan is a gret Restaurant from the University of Texas at
+                                    Austin has been researching the benefits of frequent testing and the
+                                    feedback leads to. He explains that in the history of the study.
+                                </p>
                             </div>
-                            <p>
-                                Food Khan is a gret Restaurant from the University of Texas at
-                                Austin has been researching the benefits of frequent testing and the
-                                feedback leads to. He explains that in the history of the study.
-                            </p>
-                        </div>
-                        <div className="single-testimonial">
-                            <div className="testi-top">
-                                <div className="tin-shapes">
-                                    <span className="tsin-1">
-                                        <img src="assets/images/shapes/33.png" alt="" />
-                                    </span>
-                                </div>
-                                <div className="testi-img">
-                                    <img src="assets/images/testimonial/testi-1.png" alt="" />
-                                </div>
-                                <div className="testi-meta">
-                                    <h6>Christ Deo</h6>
-                                    <p>CEO A4Tech Ltd.</p>
-                                    <div className="testi-rating">
-                                        <span>
-                                            <i className="fas fa-star" />
-                                        </span>
-                                        <span>
-                                            <i className="fas fa-star" />
-                                        </span>
-                                        <span>
-                                            <i className="fas fa-star" />
-                                        </span>
-                                        <span>
-                                            <i className="fas fa-star" />
-                                        </span>
-                                        <span>
-                                            <i className="fas fa-star" />
+                            <div className="single-testimonial">
+                                <div className="testi-top">
+                                    <div className="tin-shapes">
+                                        <span className="tsin-1">
+                                            <img src="assets/images/shapes/33.png" alt="" />
                                         </span>
                                     </div>
-                                </div>
-                            </div>
-                            <p>
-                                Food Khan is a gret Restaurant from the University of Texas at
-                                Austin has been researching the benefits of frequent testing and the
-                                feedback leads to. He explains that in the history of the study.
-                            </p>
-                        </div>
-                        <div className="single-testimonial">
-                            <div className="testi-top">
-                                <div className="tin-shapes">
-                                    <span className="tsin-1">
-                                        <img src="assets/images/shapes/33.png" alt="" />
-                                    </span>
-                                </div>
-                                <div className="testi-img">
-                                    <img src="assets/images/testimonial/testi-2.png" alt="" />
-                                </div>
-                                <div className="testi-meta">
-                                    <h6>Christ Deo</h6>
-                                    <p>CEO A4Tech Ltd.</p>
-                                    <div className="testi-rating">
-                                        <span>
-                                            <i className="fas fa-star" />
-                                        </span>
-                                        <span>
-                                            <i className="fas fa-star" />
-                                        </span>
-                                        <span>
-                                            <i className="fas fa-star" />
-                                        </span>
-                                        <span>
-                                            <i className="fas fa-star" />
-                                        </span>
-                                        <span>
-                                            <i className="fas fa-star" />
-                                        </span>
+                                    <div className="testi-img">
+                                        <img src="assets/images/testimonial/testi-2.png" alt="" />
+                                    </div>
+                                    <div className="testi-meta">
+                                        <h6>Christ Deo</h6>
+                                        <p>CEO A4Tech Ltd.</p>
+                                        <div className="testi-rating">
+                                            <span>
+                                                <i className="fas fa-star" />
+                                            </span>
+                                            <span>
+                                                <i className="fas fa-star" />
+                                            </span>
+                                            <span>
+                                                <i className="fas fa-star" />
+                                            </span>
+                                            <span>
+                                                <i className="fas fa-star" />
+                                            </span>
+                                            <span>
+                                                <i className="fas fa-star" />
+                                            </span>
+                                        </div>
                                     </div>
                                 </div>
+                                <p>
+                                    Food Khan is a gret Restaurant from the University of Texas at
+                                    Austin has been researching the benefits of frequent testing and the
+                                    feedback leads to. He explains that in the history of the study.
+                                </p>
                             </div>
-                            <p>
-                                Food Khan is a gret Restaurant from the University of Texas at
-                                Austin has been researching the benefits of frequent testing and the
-                                feedback leads to. He explains that in the history of the study.
-                            </p>
-                        </div>
-                        <div className="single-testimonial">
-                            <div className="testi-top">
-                                <div className="tin-shapes">
-                                    <span className="tsin-1">
-                                        <img src="assets/images/shapes/33.png" alt="" />
-                                    </span>
-                                </div>
-                                <div className="testi-img">
-                                    <img src="assets/images/testimonial/testi-1.png" alt="" />
-                                </div>
-                                <div className="testi-meta">
-                                    <h6>Christ Deo</h6>
-                                    <p>CEO A4Tech Ltd.</p>
-                                    <div className="testi-rating">
-                                        <span>
-                                            <i className="fas fa-star" />
-                                        </span>
-                                        <span>
-                                            <i className="fas fa-star" />
-                                        </span>
-                                        <span>
-                                            <i className="fas fa-star" />
-                                        </span>
-                                        <span>
-                                            <i className="fas fa-star" />
-                                        </span>
-                                        <span>
-                                            <i className="fas fa-star" />
+                            <div className="single-testimonial">
+                                <div className="testi-top">
+                                    <div className="tin-shapes">
+                                        <span className="tsin-1">
+                                            <img src="assets/images/shapes/33.png" alt="" />
                                         </span>
                                     </div>
-                                </div>
-                            </div>
-                            <p>
-                                Food Khan is a gret Restaurant from the University of Texas at
-                                Austin has been researching the benefits of frequent testing and the
-                                feedback leads to. He explains that in the history of the study.
-                            </p>
-                        </div>
-                        <div className="single-testimonial">
-                            <div className="testi-top">
-                                <div className="tin-shapes">
-                                    <span className="tsin-1">
-                                        <img src="assets/images/shapes/33.png" alt="" />
-                                    </span>
-                                </div>
-                                <div className="testi-img">
-                                    <img src="assets/images/testimonial/testi-2.png" alt="" />
-                                </div>
-                                <div className="testi-meta">
-                                    <h6>Christ Deo</h6>
-                                    <p>CEO A4Tech Ltd.</p>
-                                    <div className="testi-rating">
-                                        <span>
-                                            <i className="fas fa-star" />
-                                        </span>
-                                        <span>
-                                            <i className="fas fa-star" />
-                                        </span>
-                                        <span>
-                                            <i className="fas fa-star" />
-                                        </span>
-                                        <span>
-                                            <i className="fas fa-star" />
-                                        </span>
-                                        <span>
-                                            <i className="fas fa-star" />
-                                        </span>
+                                    <div className="testi-img">
+                                        <img src="assets/images/testimonial/testi-1.png" alt="" />
+                                    </div>
+                                    <div className="testi-meta">
+                                        <h6>Christ Deo</h6>
+                                        <p>CEO A4Tech Ltd.</p>
+                                        <div className="testi-rating">
+                                            <span>
+                                                <i className="fas fa-star" />
+                                            </span>
+                                            <span>
+                                                <i className="fas fa-star" />
+                                            </span>
+                                            <span>
+                                                <i className="fas fa-star" />
+                                            </span>
+                                            <span>
+                                                <i className="fas fa-star" />
+                                            </span>
+                                            <span>
+                                                <i className="fas fa-star" />
+                                            </span>
+                                        </div>
                                     </div>
                                 </div>
+                                <p>
+                                    Food Khan is a gret Restaurant from the University of Texas at
+                                    Austin has been researching the benefits of frequent testing and the
+                                    feedback leads to. He explains that in the history of the study.
+                                </p>
                             </div>
-                            <p>
-                                Food Khan is a gret Restaurant from the University of Texas at
-                                Austin has been researching the benefits of frequent testing and the
-                                feedback leads to. He explains that in the history of the study.
-                            </p>
-                        </div>
+                            <div className="single-testimonial">
+                                <div className="testi-top">
+                                    <div className="tin-shapes">
+                                        <span className="tsin-1">
+                                            <img src="assets/images/shapes/33.png" alt="" />
+                                        </span>
+                                    </div>
+                                    <div className="testi-img">
+                                        <img src="assets/images/testimonial/testi-2.png" alt="" />
+                                    </div>
+                                    <div className="testi-meta">
+                                        <h6>Christ Deo</h6>
+                                        <p>CEO A4Tech Ltd.</p>
+                                        <div className="testi-rating">
+                                            <span>
+                                                <i className="fas fa-star" />
+                                            </span>
+                                            <span>
+                                                <i className="fas fa-star" />
+                                            </span>
+                                            <span>
+                                                <i className="fas fa-star" />
+                                            </span>
+                                            <span>
+                                                <i className="fas fa-star" />
+                                            </span>
+                                            <span>
+                                                <i className="fas fa-star" />
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <p>
+                                    Food Khan is a gret Restaurant from the University of Texas at
+                                    Austin has been researching the benefits of frequent testing and the
+                                    feedback leads to. He explains that in the history of the study.
+                                </p>
+                            </div>
+                            <div className="single-testimonial">
+                                <div className="testi-top">
+                                    <div className="tin-shapes">
+                                        <span className="tsin-1">
+                                            <img src="assets/images/shapes/33.png" alt="" />
+                                        </span>
+                                    </div>
+                                    <div className="testi-img">
+                                        <img src="assets/images/testimonial/testi-1.png" alt="" />
+                                    </div>
+                                    <div className="testi-meta">
+                                        <h6>Christ Deo</h6>
+                                        <p>CEO A4Tech Ltd.</p>
+                                        <div className="testi-rating">
+                                            <span>
+                                                <i className="fas fa-star" />
+                                            </span>
+                                            <span>
+                                                <i className="fas fa-star" />
+                                            </span>
+                                            <span>
+                                                <i className="fas fa-star" />
+                                            </span>
+                                            <span>
+                                                <i className="fas fa-star" />
+                                            </span>
+                                            <span>
+                                                <i className="fas fa-star" />
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <p>
+                                    Food Khan is a gret Restaurant from the University of Texas at
+                                    Austin has been researching the benefits of frequent testing and the
+                                    feedback leads to. He explains that in the history of the study.
+                                </p>
+                            </div>
+                            <div className="single-testimonial">
+                                <div className="testi-top">
+                                    <div className="tin-shapes">
+                                        <span className="tsin-1">
+                                            <img src="assets/images/shapes/33.png" alt="" />
+                                        </span>
+                                    </div>
+                                    <div className="testi-img">
+                                        <img src="assets/images/testimonial/testi-2.png" alt="" />
+                                    </div>
+                                    <div className="testi-meta">
+                                        <h6>Christ Deo</h6>
+                                        <p>CEO A4Tech Ltd.</p>
+                                        <div className="testi-rating">
+                                            <span>
+                                                <i className="fas fa-star" />
+                                            </span>
+                                            <span>
+                                                <i className="fas fa-star" />
+                                            </span>
+                                            <span>
+                                                <i className="fas fa-star" />
+                                            </span>
+                                            <span>
+                                                <i className="fas fa-star" />
+                                            </span>
+                                            <span>
+                                                <i className="fas fa-star" />
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <p>
+                                    Food Khan is a gret Restaurant from the University of Texas at
+                                    Austin has been researching the benefits of frequent testing and the
+                                    feedback leads to. He explains that in the history of the study.
+                                </p>
+                            </div>
+                        </Slider>
                     </div>
                 </div>
             </section>
+            {/* blog-area */}
+            <section className="blog-area padding-top-110 padding-bottom-120">
+                <div className="blog-shapes">
+                    <span className="bs-1">
+                        <img src="assets/images/img/37.png" alt="" />
+                    </span>
+                </div>
+                <div className="container">
+                    <div className="common-title-area text-center padding-bottom-60 wow fadeInUp">
+                        <h3>food khan</h3>
+                        <h2>
+                            blog &amp; <span> news </span>
+                        </h2>
+                    </div>
+                    <div className="blog-slider-active">
+                        <Slider {...settings}>
+                            <div className="single-blog">
+                                <div className="blog-img">
+                                    <a href="blog-single.html">
+                                        <img src="assets/images/blog/b-1.jpg" alt="" />
+                                    </a>
+                                    <div className="b-badge">
+                                        <span className="date">
+                                            <a href="#">02</a>
+                                        </span>
+                                        <br />
+                                        <span className="month">
+                                            <a href="#">dec</a>
+                                        </span>
+                                    </div>
+                                </div>
+                                <div className="blog-meta d-flex justify-content-between">
+                                    <span>
+                                        <a href="#">
+                                            <i className="fas fa-tags" /> chicken burger
+                                        </a>
+                                    </span>
+                                    <span>
+                                        <a href="#">
+                                            <i className="fas fa-user-circle" /> milone hridoy
+                                        </a>
+                                    </span>
+                                </div>
+                                <h4>
+                                    <a href="blog-single.html">Game day Burger with Homemade</a>
+                                </h4>
+                            </div>
+                            <div className="single-blog">
+                                <div className="blog-img">
+                                    <a href="blog-single.html">
+                                        <img src="assets/images/blog/b-2.jpg" alt="" />
+                                    </a>
+                                    <div className="b-badge">
+                                        <span className="date">
+                                            <a href="#">02</a>
+                                        </span>
+                                        <br />
+                                        <span className="month">
+                                            <a href="#">dec</a>
+                                        </span>
+                                    </div>
+                                </div>
+                                <div className="blog-meta d-flex justify-content-between">
+                                    <span>
+                                        <a href="#">
+                                            <i className="fas fa-tags" /> pizza
+                                        </a>
+                                    </span>
+                                    <span>
+                                        <a href="#">
+                                            <i className="fas fa-user-circle" /> milone hridoy
+                                        </a>
+                                    </span>
+                                </div>
+                                <h4>
+                                    <a href="blog-single.html">Delicious pizza with on a wooden</a>
+                                </h4>
+                            </div>
+                            <div className="single-blog">
+                                <div className="blog-img">
+                                    <a href="blog-single.html">
+                                        <img src="assets/images/blog/b-3.jpg" alt="" />
+                                    </a>
+                                    <div className="b-badge">
+                                        <span className="date">
+                                            <a href="#">02</a>
+                                        </span>
+                                        <br />
+                                        <span className="month">
+                                            <a href="#">dec</a>
+                                        </span>
+                                    </div>
+                                </div>
+                                <div className="blog-meta d-flex justify-content-between">
+                                    <span>
+                                        <a href="#">
+                                            <i className="fas fa-tags" /> chicken burger
+                                        </a>
+                                    </span>
+                                    <span>
+                                        <a href="#">
+                                            <i className="fas fa-user-circle" /> milone hridoy
+                                        </a>
+                                    </span>
+                                </div>
+                                <h4>
+                                    <a href="blog-single.html">Game day Burger with Homemade</a>
+                                </h4>
+                            </div>
+                            <div className="single-blog">
+                                <div className="blog-img">
+                                    <a href="blog-single.html">
+                                        <img src="assets/images/blog/b-1.jpg" alt="" />
+                                    </a>
+                                    <div className="b-badge">
+                                        <span className="date">
+                                            <a href="#">02</a>
+                                        </span>
+                                        <br />
+                                        <span className="month">
+                                            <a href="#">dec</a>
+                                        </span>
+                                    </div>
+                                </div>
+                                <div className="blog-meta d-flex justify-content-between">
+                                    <span>
+                                        <a href="#">
+                                            <i className="fas fa-tags" /> chicken burger
+                                        </a>
+                                    </span>
+                                    <span>
+                                        <a href="#">
+                                            <i className="fas fa-user-circle" /> milone hridoy
+                                        </a>
+                                    </span>
+                                </div>
+                                <h4>
+                                    <a href="blog-single.html">Game day Burger with Homemade</a>
+                                </h4>
+                            </div>
+                            <div className="single-blog">
+                                <div className="blog-img">
+                                    <a href="blog-single.html">
+                                        <img src="assets/images/blog/b-2.jpg" alt="" />
+                                    </a>
+                                    <div className="b-badge">
+                                        <span className="date">
+                                            <a href="#">02</a>
+                                        </span>
+                                        <br />
+                                        <span className="month">
+                                            <a href="#">dec</a>
+                                        </span>
+                                    </div>
+                                </div>
+                                <div className="blog-meta d-flex justify-content-between">
+                                    <span>
+                                        <a href="#">
+                                            <i className="fas fa-tags" /> pizza
+                                        </a>
+                                    </span>
+                                    <span>
+                                        <a href="#">
+                                            <i className="fas fa-user-circle" /> milone hridoy
+                                        </a>
+                                    </span>
+                                </div>
+                                <h4>
+                                    <a href="blog-single.html">Delicious pizza with on a wooden</a>
+                                </h4>
+                            </div>
+                            <div className="single-blog">
+                                <div className="blog-img">
+                                    <a href="blog-single.html">
+                                        <img src="assets/images/blog/b-3.jpg" alt="" />
+                                    </a>
+                                    <div className="b-badge">
+                                        <span className="date">
+                                            <a href="#">02</a>
+                                        </span>
+                                        <br />
+                                        <span className="month">
+                                            <a href="#">dec</a>
+                                        </span>
+                                    </div>
+                                </div>
+                                <div className="blog-meta d-flex justify-content-between">
+                                    <span>
+                                        <a href="#">
+                                            <i className="fas fa-tags" /> chicken burger
+                                        </a>
+                                    </span>
+                                    <span>
+                                        <a href="#">
+                                            <i className="fas fa-user-circle" /> milone hridoy
+                                        </a>
+                                    </span>
+                                </div>
+                                <h4>
+                                    <a href="blog-single.html">Game day Burger with Homemade</a>
+                                </h4>
+                            </div>
+                        </Slider>
+                    </div>
+                </div>
+            </section>
+
+            {/* inst-slider */}
+            <div className="ins-gallery-area padding-top-120">
+                <div className="container">
+                    <div className="ins-gallery-active">
+                        <Slider {...settings2}>
+                            <div className="single-inst-item">
+                                <a href="#">
+                                    {" "}
+                                    <img src="assets/images/img/ins1.jpg" alt="" />{" "}
+                                </a>
+                                <span className="ins-icon">
+                                    <a href="#">
+                                        <i className="fab fa-instagram" />
+                                    </a>
+                                </span>
+                            </div>
+                            <div className="single-inst-item">
+                                <a href="#">
+                                    <img src="assets/images/img/inst2.jpg" alt="" />{" "}
+                                </a>
+                                <span className="ins-icon">
+                                    <a href="#">
+                                        <i className="fab fa-instagram" />
+                                    </a>
+                                </span>
+                            </div>
+                            <div className="single-inst-item">
+                                <a href="#">
+                                    <img src="assets/images/img/inst3.jpg" alt="" />{" "}
+                                </a>
+                                <span className="ins-icon">
+                                    <a href="#">
+                                        <i className="fab fa-instagram" />
+                                    </a>
+                                </span>
+                            </div>
+                            <div className="single-inst-item">
+                                <a href="#">
+                                    <img src="assets/images/img/ins4.jpg" alt="" />{" "}
+                                </a>
+                                <span className="ins-icon">
+                                    <a href="#">
+                                        <i className="fab fa-instagram" />
+                                    </a>
+                                </span>
+                            </div>
+                            <div className="single-inst-item">
+                                <a href="#">
+                                    <img src="assets/images/img/ins1.jpg" alt="" />{" "}
+                                </a>
+                                <span className="ins-icon">
+                                    <a href="#">
+                                        <i className="fab fa-instagram" />
+                                    </a>
+                                </span>
+                            </div>
+                            <div className="single-inst-item">
+                                <a href="#">
+                                    <img src="assets/images/img/inst2.jpg" alt="" />{" "}
+                                </a>
+                                <span className="ins-icon">
+                                    <a href="#">
+                                        <i className="fab fa-instagram" />
+                                    </a>
+                                </span>
+                            </div>
+                            <div className="single-inst-item">
+                                <a href="#">
+                                    <img src="assets/images/img/inst3.jpg" alt="" />{" "}
+                                </a>
+                                <span className="ins-icon">
+                                    <a href="#">
+                                        <i className="fab fa-instagram" />
+                                    </a>
+                                </span>
+                            </div>
+                            <div className="single-inst-item">
+                                <a href="#">
+                                    <img src="assets/images/img/ins4.jpg" alt="" />{" "}
+                                </a>
+                                <span className="ins-icon">
+                                    <a href="#">
+                                        <i className="fab fa-instagram" />
+                                    </a>
+                                </span>
+                            </div>
+                        </Slider>
+                    </div>
+                </div>
+            </div>
+
             {/* footer area */}
             <footer className="padding-top-120 padding-bottom-40 footer2">
                 <div className="fo-shapes">
