@@ -9,6 +9,7 @@ import Home2 from "./pages/home/home2";
 import Home3 from "./pages/home/home3";
 import Home4 from "./pages/home/home4";
 import Aboutus from "./pages/aboutus/aboutus";
+import Home from "./pages/home/home";
 
 // 3️⃣ Router singleton created
 const router = createBrowserRouter([
@@ -26,7 +27,7 @@ function Root() {
   // component below are unchanged
   return (
     <Routes>
-      <Route path="/" element={<Home1 />} />
+      <Route path="/" element={<Home />} />
       <Route path="/home1/*" element={<Home1 />} />
       <Route path="/home2/*" element={<Home2 />} />
       <Route path="/home3/*" element={<Home3 />} />
