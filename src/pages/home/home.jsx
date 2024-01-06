@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import InstaImages from "../../component/InstaImages";
 import Testimonial from "../../component/Testimonial";
 import BlogsHome from "../../component/blogsHome";
@@ -71,9 +72,9 @@ const Home = () => {
                                         Indulge in Veg Delights at the Best Restaurant in Tapukara
                                     </h5>
                                     <div className="order-box d-flex align-items-center">
-                                        <a href="shopping-cart.html" className="btn">
+                                        <Link to="/menu" className="btn">
                                             Explore Our Menu
-                                        </a>
+                                        </Link>
                                         {/* <h5>
                                             price : <span>$10.50</span>
                                         </h5> */}

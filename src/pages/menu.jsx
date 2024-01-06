@@ -62,7 +62,7 @@ const Menu = () => {
                                 <img src="/assets/images/menu-item/menu2.png" alt="" />
                                 <h6>Super Fast Delivery</h6>
                                 <p>Free Delivery in you Location</p>
-                                <a href="shopping-cart.html">Order Now</a>
+                                <a href="https://api.whatsapp.com/send?phone=919057234502&text=Hello%2C%20I%20want%20to%20order%20" target='__blank'>Order Now</a>
                             </div>
                         </div>
                         <div className="col-lg-3 col-md-6">
@@ -70,7 +70,7 @@ const Menu = () => {
                                 <img src="/assets/images/menu-item/menu1.png" alt="" />
                                 <h6>100% Best Quality</h6>
                                 <p>We Provide Best Quality Food</p>
-                                <a href="shopping-cart.html">Order Now</a>
+                                <a href="https://api.whatsapp.com/send?phone=919057234502&text=Hello%2C%20I%20want%20to%20order%20" target='__blank'>Order Now</a>
                             </div>
                         </div>
                         <div className="col-lg-3 col-md-6">
@@ -78,7 +78,7 @@ const Menu = () => {
                                 <img src="/assets/images/menu-item/menu3.png" alt="" />
                                 <h6>Money Back Guarantee</h6>
                                 <p>100% Money Back Guarantee</p>
-                                <a href="shopping-cart.html">Order Now</a>
+                                <a href="https://api.whatsapp.com/send?phone=919057234502&text=Hello%2C%20I%20want%20to%20order%20" target='__blank'>Order Now</a>
                             </div>
                         </div>
                         <div className="col-lg-3 col-md-6">
@@ -86,7 +86,7 @@ const Menu = () => {
                                 <img src="/assets/images/menu-item/menu4.png" alt="" />
                                 <h6>Delicious Food Menu</h6>
                                 <p>Food Khan Provide Best Food</p>
-                                <a href="shopping-cart.html">Order Now</a>
+                                <a href="https://api.whatsapp.com/send?phone=919057234502&text=Hello%2C%20I%20want%20to%20order%20" target='__blank'>Order Now</a>
                             </div>
                         </div>
                     </div>
@@ -181,7 +181,7 @@ const Menu = () => {
                                                     Combo Burger
                                                 </h5>
                                                 <p>Shrimp, Squid</p>
-                                                <a href="shopping-cart.html">Order Now</a>
+                                                <a href="https://api.whatsapp.com/send?phone=919057234502&text=Hello%2C%20I%20want%20to%20order%20" target='__blank'>Order Now</a>
                                                 <span className="main-img">
                                                     <img
                                                         src="/assets/images/menu-item/chicken-banner.png"
@@ -310,7 +310,7 @@ const Menu = () => {
                                     <div className="gallery-img-1">
                                         <h3 className="margin-bottom-10">Buzzed Burger</h3>
                                         <p>Sale off 50% only this week</p>
-                                        <a href="shopping-cart.html" className="btn">
+                                        <a href="https://api.whatsapp.com/send?phone=919057234502&text=Hello%2C%20I%20want%20to%20order%20" target='__blank' className="btn">
                                             order now
                                         </a>
                                         <img src="/assets/images/gallery/24.png" alt="" />
@@ -327,7 +327,7 @@ const Menu = () => {
                                             Burger
                                         </h5>
                                         <p>Sale off 50% only this week</p>
-                                        <a href="shopping-cart.html" className="btn">
+                                        <a href="https://api.whatsapp.com/send?phone=919057234502&text=Hello%2C%20I%20want%20to%20order%20" target='__blank' className="btn">
                                             order now
                                         </a>
                                         <img src="/assets/images/menu-item/mg2.png" alt="" />

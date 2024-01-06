@@ -339,13 +339,19 @@ button {
     justify-content: space-between !important;
     gap: unset !important;
 } }
+
 .mobile-menu {
     position: absolute;
     right: 0;
     top: 0;
-    width: 100%
+    width: 100%;
+    display: none;
 }
-
+@media (max-width: 990px) { 
+    .mobile-menu {
+        display: flex;
+    }
+}
 .mobile-menu .main-menu li a span {
     display: none
 }

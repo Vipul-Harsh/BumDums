@@ -77,7 +77,7 @@ const Navbar = () => {
                             <a
                                 href="#nav"
                                 className={`meanmenu-reveal ${mobileNavbar && 'meanClose'}`}
-                                onClick={(e)=>{
+                                onClick={(e) => {
                                     e.preventDefault()
                                     setMobileNavbar(!mobileNavbar)
                                 }}
@@ -89,22 +89,30 @@ const Navbar = () => {
                                     fontSize: 18
                                 }}
                             >
-                            {!mobileNavbar ? <>
-                                <span />
-                                <span />
-                                <span />
-                            </>:'X'}
+                                {!mobileNavbar ? <>
+                                    <span />
+                                    <span />
+                                    <span />
+                                </> : 'X'}
                             </a>
                             <nav className="mean-nav">
-                                <ul className="main-menu main-menu2" style={{ display: mobileNavbar?"flex":'none' }}>
-                                {pages.map(page=>
-                                <>
-                                    <li>
-                                        <Link to={page.link}>{page?.label}</Link>
-                                    </li>
-                                </>
-                                )}
-                                    <li className="mean-last">
+                                <ul className="main-menu main-menu2" style={{ display: mobileNavbar ? "flex" : 'none' }}>
+                                    {pages.map(page =>
+                                        <>
+                                            <li>
+                                                <Link to={page.link}
+                                                    onClick={() => {
+                                                        setMobileNavbar(false)
+                                                    }}
+                                                >{page?.label}</Link>
+                                            </li>
+                                        </>
+                                    )}
+                                    <li className="mean-last"
+                                        onClick={() => {
+                                            setMobileNavbar(false)
+                                        }}
+                                    >
                                         <Link to="/contact">contact us</Link>
                                     </li>
                                 </ul>
