@@ -1,10 +1,29 @@
 @import url("https://fonts.googleapis.com/css2?family=Caveat&family=Poppins:wght@400;500;600;700;900&family=Roboto:wght@400;500&display=swap");
+@import url("assets/webfonts/Rockinsoda.ttf");
 
+@font-face {
+    font-family: "Rockinsoda";
+    font-style: normal;
+    /* font-weight: 400; */
+    font-display: block;
+    src: url(../webfonts/Rockinsoda.ttf) format("truetype")
+}
+@font-face {
+    font-family: "Aeonik";
+    font-style: normal;
+    src: url(../webfonts/Aeonik-Regular.otf) format("opentype");
+}
 :root {
     --primaryColor: #ff62a9;
     --secondaryColor: #0c4db0;
     /* --tertiaryColor: #fccc0a; */
     --tertiaryColor: #0c4db0;
+    --cursiveFont: "Rockinsoda", normal;
+    /* --cursiveFont: "Caveat", cursive; */
+    --primaryFont: "Aeonik", normal;
+    /* --primaryFont: "Poppins", sans-serif; */
+
+    --cursiveLetterSpacing:2px;
   }
 body {
     margin: 0;
@@ -86,7 +105,7 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: "Poppins", sans-serif;
+    font-family: var(--primaryFont);
     text-transform: capitalize;
     line-height: 1.2;
     margin-bottom: 0
@@ -188,7 +207,7 @@ button {
 .main-menu li a {
     padding: 30px 15px;
     display: block;
-    font-family: "Poppins", sans-serif;
+    font-family: var(--primaryFont);
     font-size: 14px;
     text-transform: uppercase;
     color: #fff
@@ -1167,7 +1186,7 @@ header .header-bottom .customer-area2 .order-content {
     color: var(--primaryColor);
     text-transform: capitalize;
     font-weight: 700;
-    font-family: "Poppins", sans-serif;
+    font-family: var(--primaryFont);
     line-height: 1
 }
 
@@ -1175,7 +1194,7 @@ header .header-bottom .customer-area2 .order-content .span-1 {
     display: block;
     color: var(--secondaryColor);
     font-size: 14px;
-    font-family: "Poppins", sans-serif;
+    font-family: var(--primaryFont);
     text-transform: capitalize;
     font-weight: 600;
     margin-bottom: 8px
@@ -1188,7 +1207,7 @@ header .header-bottom .customer-area2 .order-content .span-2 {
     display: block;
     color: var(--primaryColor);
     font-size: 20px;
-    font-family: "Poppins", sans-serif;
+    font-family: var(--primaryFont);
     text-transform: capitalize;
     font-weight: 700
 }
@@ -1822,7 +1841,7 @@ header.header3 .shopping i {
     padding: 12px 40px;
     color: #fff;
     font-size: 18px;
-    font-family: "Poppins", sans-serif;
+    font-family: var(--primaryFont);
     font-weight: 500;
     text-transform: capitalize;
     display: inline-block;
@@ -1850,7 +1869,7 @@ header.header3 .shopping i {
     padding: 12px 40px;
     color: #fff;
     font-size: 18px;
-    font-family: "Poppins", sans-serif;
+    font-family: var(--primaryFont);
     font-weight: 500;
     text-transform: capitalize;
     display: inline-block;
@@ -2015,7 +2034,7 @@ header.header3 .shopping i {
     padding: 12px 40px;
     color: #fff;
     font-size: 16px;
-    font-family: "Poppins", sans-serif;
+    font-family: var(--primaryFont);
     font-weight: 600;
     text-transform: capitalize;
     border: 1px solid transparent;
@@ -3101,7 +3120,7 @@ header.header3 .shopping i {
 
 .banner-area .banner-content .buyone-shape .banner-badge {
     font-size: 30px;
-    font-family: "Poppins", sans-serif;
+    font-family: var(--primaryFont);
     font-weight: 700;
     background: var(--primaryColor);
     color: #fff;
@@ -3186,7 +3205,7 @@ header.header3 .shopping i {
 
 .banner-area .banner-content .order-box .order-content span {
     color: var(--tertiaryColor);
-    font-family: "Poppins", sans-serif;
+    font-family: var(--primaryFont);
     font-weight: 700;
     font-size: 24px
 }
@@ -3370,7 +3389,8 @@ header.header3 .shopping i {
 }
 
 .common-title-area h3 {
-    font-family: "Caveat", cursive;
+    font-family: var(--cursiveFont);
+    letter-spacing:var(--cursiveLetterSpacing);
     color: var(--primaryColor)
 }
 
@@ -3590,7 +3610,7 @@ header.header3 .shopping i {
 }
 
 .about-area .about-left .about-gallery-4 .items {
-    font-family: "Poppins", sans-serif;
+    font-family: var(--primaryFont);
     font-weight: 700;
     font-size: 30px;
     position: relative;
@@ -3973,7 +3993,7 @@ header.header3 .shopping i {
 }
 
 .single-menu-item .menu-content span {
-    font-family: "Poppins", sans-serif;
+    font-family: var(--primaryFont);
     font-weight: 500;
     font-size: 18px;
     color: var(--secondaryColor);
@@ -4154,7 +4174,7 @@ header.header3 .shopping i {
 
 .single-dishes .dish-content .price {
     font-weight: 700;
-    font-family: "Poppins", sans-serif;
+    font-family: var(--primaryFont);
     font-size: 18px;
     color: var(--secondaryColor);
     text-transform: capitalize
@@ -4162,7 +4182,7 @@ header.header3 .shopping i {
 
 .single-dishes .dish-content .rating {
     font-weight: 700;
-    font-family: "Poppins", sans-serif;
+    font-family: var(--primaryFont);
     font-size: 18px;
     color: var(--secondaryColor);
     text-transform: capitalize
@@ -4243,7 +4263,7 @@ header.header3 .shopping i {
 .banner-gallery a {
     text-transform: uppercase;
     font-weight: 600;
-    font-family: "Poppins", sans-serif
+    font-family: var(--primaryFont)
 }
 
 .banner-gallery .btn {
@@ -4393,7 +4413,7 @@ header.header3 .shopping i {
     display: block;
     text-align: center;
     font-weight: 700;
-    font-family: "Poppins", sans-serif;
+    font-family: var(--primaryFont);
     position: absolute;
     top: 10%;
     left: 55%
@@ -4512,7 +4532,7 @@ header.header3 .shopping i {
     display: block;
     text-align: center;
     font-weight: 700;
-    font-family: "Poppins", sans-serif;
+    font-family: var(--primaryFont);
     position: absolute;
     right: 11%;
     bottom: 40%
@@ -4914,7 +4934,7 @@ header.header3 .shopping i {
 }
 
 .countdown-area .count-box span {
-    font-family: "Poppins", sans-serif;
+    font-family: var(--primaryFont);
     font-weight: 900;
     font-size: 48px
 }
@@ -4925,7 +4945,7 @@ header.header3 .shopping i {
 }
 
 .countdown-area .count-box .seperator {
-    font-family: "Poppins", sans-serif;
+    font-family: var(--primaryFont);
     font-weight: 900;
     font-size: 48px;
     color: var(--primaryColor)
@@ -5157,7 +5177,7 @@ header.header3 .shopping i {
 
 .delivery-area .delivery-right .order-box .order-content span {
     color: var(--primaryColor);
-    font-family: "Poppins", sans-serif;
+    font-family: var(--primaryFont);
     font-weight: 700;
     font-size: 24px
 }
@@ -5276,7 +5296,7 @@ header.header3 .shopping i {
 }
 
 .single-blog .blog-img .b-badge .date a {
-    font-family: "Poppins", sans-serif;
+    font-family: var(--primaryFont);
     font-size: 24px;
     font-weight: 700;
     color: #fff
@@ -5425,7 +5445,7 @@ ul.slick-dots li.slick-active button {
 }
 
 .single-food .items {
-    font-family: "Poppins", sans-serif;
+    font-family: var(--primaryFont);
     font-weight: 700;
     font-size: 30px
 }
@@ -5558,7 +5578,7 @@ ul.slick-dots li.slick-active button {
 
 .about-area2 .about-right .history-tab .nav .nav-link {
     color: var(--secondaryColor);
-    font-family: "Poppins", sans-serif;
+    font-family: var(--primaryFont);
     text-transform: capitalize;
     font-weight: 600;
     padding: 13px 45px;
@@ -5759,7 +5779,7 @@ ul.slick-dots li.slick-active button {
 }
 
 .single-team .t-social-b .follow {
-    font-family: "Poppins", sans-serif;
+    font-family: var(--primaryFont);
     font-weight: 700;
     color: var(--secondaryColor);
     text-transform: capitalize
@@ -6186,7 +6206,7 @@ ul.slick-dots li.slick-active button {
 }
 
 .chicken-recipe-area .recipe-right .chickens-inforbar .cp {
-    font-family: "Poppins", sans-serif;
+    font-family: var(--primaryFont);
     font-size: 30px;
     color: var(--secondaryColor);
     font-weight: 700
@@ -6280,7 +6300,7 @@ ul.slick-dots li.slick-active button {
 
 .product-des-area .product-des-nav .nav-link {
     color: var(--secondaryColor);
-    font-family: "Poppins", sans-serif;
+    font-family: var(--primaryFont);
     text-transform: capitalize;
     font-weight: 600;
     padding: 13px 45px;
@@ -6486,7 +6506,7 @@ ul.slick-dots li.slick-active button {
     margin-right: 10px;
     border-radius: 5px;
     font-weight: 700;
-    font-family: "Poppins", sans-serif
+    font-family: var(--primaryFont)
 }
 
 .food-area-wrapper {
@@ -6823,7 +6843,7 @@ ul.slick-dots li.slick-active button {
     margin-right: 10px;
     border-radius: 5px;
     font-weight: 700;
-    font-family: "Poppins", sans-serif;
+    font-family: var(--primaryFont);
     transition: .5s
 }
 
@@ -6845,7 +6865,7 @@ ul.slick-dots li.slick-active button {
 }
 
 .main-gallery .gallery-btn button {
-    font-family: "Poppins", sans-serif;
+    font-family: var(--primaryFont);
     font-size: 18px;
     border: none;
     background: transparent;
@@ -7385,7 +7405,7 @@ ul.slick-dots li.slick-active button {
     font-weight: 600 !important;
     position: relative;
     z-index: 111;
-    font-family: "Poppins", sans-serif
+    font-family: var(--primaryFont)
 }
 
 .portfolio-info .portfolio-info-left li span {
@@ -8050,7 +8070,7 @@ ul.slick-dots li.slick-active button {
     border-radius: 5px;
     transition: all 0.3s ease-in;
     line-height: 16px;
-    font-family: "Poppins", sans-serif
+    font-family: var(--primaryFont)
 }
 
 .template-pagination ul li a:hover {
@@ -8528,7 +8548,7 @@ ul.slick-dots li.slick-active button {
 .blog-content-section.blog-details-page .blog-single-post .blog-content-part .blog-quote .quote-text p {
     color: var(--secondaryColor);
     font-size: 16px;
-    font-family: "Poppins", sans-serif;
+    font-family: var(--primaryFont);
     font-weight: 700
 }
 
@@ -9440,7 +9460,7 @@ ul.slick-dots li.slick-active button {
     display: block;
     text-align: center;
     font-weight: 700;
-    font-family: "Poppins", sans-serif;
+    font-family: var(--primaryFont);
     position: absolute;
     bottom: 18%;
     right: 37%
@@ -9942,7 +9962,7 @@ ul.slick-dots li.slick-active button {
 }
 
 .serve-passion .serve-left .inner-counter .about-gallery-4 .items {
-    font-family: "Poppins", sans-serif;
+    font-family: var(--primaryFont);
     font-weight: 700;
     font-size: 30px;
     position: relative
@@ -10000,7 +10020,8 @@ ul.slick-dots li.slick-active button {
 }
 
 .common-title-area3 h3 {
-    font-family: "Caveat", cursive;
+    font-family: var(--cursiveFont);
+    letter-spacing:var(--cursiveLetterSpacing);
     color: var(--primaryColor)
 }
 
@@ -10084,7 +10105,8 @@ ul.slick-dots li.slick-active button {
 
 .snack-section .snack-left .snack-upper-content .snack-content h5.caveat {
     font-weight: 400;
-    font-family: "Caveat", cursive;
+    font-family: var(--cursiveFont);
+    letter-spacing:var(--cursiveLetterSpacing);
     color: var(--primaryColor)
 }
 
@@ -11580,7 +11602,7 @@ ul.slick-dots li.slick-active button {
 }
 
 .ice-features .ice-fea-left .product-info span {
-    font-family: "Poppins", sans-serif;
+    font-family: var(--primaryFont);
     font-weight: 600;
     text-transform: capitalize
 }
@@ -11637,7 +11659,7 @@ ul.slick-dots li.slick-active button {
 .ice-gallery .single-ice-gal .inner-cont-box .title {
     font-size: 20px;
     font-weight: 600;
-    font-family: "Poppins", sans-serif
+    font-family: var(--primaryFont)
 }
 
 .ice-gallery .single-ice-gal .gal-trigger {
