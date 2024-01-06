@@ -382,7 +382,15 @@ button {
 
 .mobile-menu .mean-bar .mean-nav {
     margin-top: 58px;
-    background: var(--primaryColor)
+    background: var(--primaryColor);
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease-in-out;
+}
+
+.mobile-menu .mean-bar .mean-nav.show {
+    max-height: 500px; /* Adjust this value to a height that accommodates your content */
+    transition: max-height 0.3s ease-in-out;
 }
 
 .mobile-menu .mean-nav ul li a.mean-expand:hover {

@@ -95,7 +95,7 @@ const Navbar = () => {
                                     <span />
                                 </> : 'X'}
                             </a>
-                            <nav className="mean-nav">
+                            <nav className={`mean-nav ${mobileNavbar && 'show'}`}>
                                 <ul className="main-menu main-menu2" style={{ display: mobileNavbar ? "flex" : 'none' }}>
                                     {pages.map(page =>
                                         <>
