@@ -37,7 +37,7 @@ export const TestimonialsData = [
     {
         name: "Vivek Desai",
         role: "Local Business Owner",
-        image: "/assets/images/testimonial/testi12.png",
+        image: "/assets/images/testimonial/testi-2.png",
         stars: 4,
         description: "Impressive variety and quality! Bumdums has undoubtedly become a favorite spot for business lunches with clients. It never disappoints!"
     },

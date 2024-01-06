@@ -3,6 +3,7 @@ import {
   Route,
   RouterProvider,
   Routes,
+  useLocation,
 } from "react-router-dom";
 import Home1 from "./component/home/home1";
 import Home2 from "./pages/home/home2";
@@ -16,6 +17,7 @@ import Navbar from "./component/navbar";
 import Footer from "./component/Footer";
 import BlogSingle from "./pages/blogSingle";
 import Menu from "./pages/menu";
+import { useEffect } from "react";
 
 // 3️⃣ Router singleton created
 const router = createBrowserRouter([
@@ -31,6 +33,18 @@ export default function App() {
 function Root() {
   // 2️⃣ `BrowserRouter` component removed, but the <Routes>/<Route>
   // component below are unchanged
+  const location = useLocation()
+  const scrollToTop = () => {
+    window.scrollTo({
+      top: 0,
+      left: 0,
+      behavior: 'instant',
+    });
+  }
+  useEffect(() => {
+    scrollToTop()
+  }, [location?.pathname])
+
   return (
     <>
       <Navbar />

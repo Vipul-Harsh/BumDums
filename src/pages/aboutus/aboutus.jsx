@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom"
 import InstaImages from "../../component/InstaImages"
 import Testimonial from "../../component/Testimonial"
 import BlogsHome from "../../component/blogsHome"
@@ -33,7 +34,7 @@ const Aboutus = () => {
                             <h2 className="page-title">about us</h2>
                             <ol className="breadcrumb text-center">
                                 <li className="breadcrumb-item">
-                                    <a href="index.html">Home</a>
+                                    <Link to="/">Home</Link>
                                 </li>
                                 <li className="breadcrumb-item active" aria-current="page">
                                     about us

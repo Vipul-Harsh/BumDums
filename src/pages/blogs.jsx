@@ -36,7 +36,7 @@ const Blogs = () => {
                   <Link to="/">Home </Link>
                 </li>
                 <li className="breadcrumb-item active" aria-current="page">
-                  blog page
+                  blogs
                 </li>
               </ol>
             </nav>
@@ -81,8 +81,8 @@ const Blogs = () => {
                       <img src={blog?.image} alt="thumbnail" />
                     </Link>
                     <div className="meta-date">
-                      <span className="bold">02</span>
-                      <span>dec</span>
+                      <span className="bold">{""+new Date(blog?.date)?.getDate()}</span>
+                      <span>{""+new Date(blog?.date)?.toLocaleDateString("en-US", {month:'short'})}</span>
                     </div>
                   </div>
                   <div className="blog-content-part">

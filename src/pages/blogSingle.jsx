@@ -42,7 +42,7 @@ const BlogSingle = () => {
                             <h2 className="page-title">{blog?.title}</h2>
                             <ol className="breadcrumb text-center">
                                 <li className="breadcrumb-item">
-                                    <Link to="index.html">Home </Link>
+                                    <Link to="/">Home </Link> &nbsp; / &nbsp; <Link to="/blogs">Blogs </Link>
                                 </li>
                                 <li className="breadcrumb-item active" aria-current="page">
                                     {blog?.slug}
