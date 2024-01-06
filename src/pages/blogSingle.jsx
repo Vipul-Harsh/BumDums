@@ -6,11 +6,18 @@ const BlogSingle = () => {
 
     const params = useParams()
     const [blog, setBlog] = useState({})
-
+    const [siteUrl, setSiteUrl] = useState(''); // Replace with your site URL
     useEffect(() => {
         setBlog(BlogsData.find(item => item.slug === params?.slug))
     }, [params?.slug])
+    useEffect(() => {
+        const getSiteUrl = () => {
+            const baseUrl = window.location.origin; // or window.location.protocol + '//' + window.location.host
+            setSiteUrl(""+baseUrl+window.location.pathname);
+        };
 
+        getSiteUrl();
+    }, []);
     return (
         <>
             {console.log(blog)}
@@ -53,7 +60,7 @@ const BlogSingle = () => {
                 </div>
             </div>
             {/* Blog Content Section */}
-            <section className="blog-content-section blog-details-page padding-120" style={{paddingBottom:'0px',paddingTop:'50px'}}>
+            <section className="blog-content-section blog-details-page padding-120" style={{ paddingBottom: '0px', paddingTop: '50px' }}>
                 <div className="container">
                     <div className="row d-flex justify-content-center">
                         <div className="col-lg-9">
@@ -63,7 +70,7 @@ const BlogSingle = () => {
                                         <img src="/assets/images/blog/blog2.jpg" alt="thumbnail" />
                                     </div>
                                     <div className="blog-content-part">
-                                        
+
                                         <div className="blog-title">
                                             <h4>{blog?.content?.section1?.title}</h4>
                                         </div>
@@ -83,11 +90,11 @@ const BlogSingle = () => {
                                         </div>
                                         <div className="blog-content  wow fadeInUp">
                                             <p>
-                                            {blog?.content?.section2?.para1}
+                                                {blog?.content?.section2?.para1}
                                             </p>
                                             <div className="content-list margin-top-20">
                                                 <div className="row">
-                                                {blog?.content?.section2?.keypoints?.map(point=> <><div className="col-sm-6">
+                                                    {blog?.content?.section2?.keypoints?.map(point => <><div className="col-sm-6">
                                                         <span className="single-list">
                                                             <i className="fa fa-arrow-circle-right" />
                                                             {point}
@@ -95,7 +102,7 @@ const BlogSingle = () => {
                                                     </div>
                                                     </>
                                                     )}
-                                                    
+
                                                 </div>
                                             </div>
                                         </div>
@@ -110,7 +117,7 @@ const BlogSingle = () => {
                                         </div>
                                         <div className="blog-content  wow fadeInUp">
                                             <p>
-                                            {blog?.content?.section2?.para2}
+                                                {blog?.content?.section2?.para2}
                                             </p>
                                         </div>
                                         {/* <div className="blog-quote margin-top-30 margin-bottom-30  wow fadeInUp">
@@ -131,10 +138,10 @@ const BlogSingle = () => {
                                         </div>
                                         <div className="blog-content  wow fadeInUp">
                                             <p>
-                                            {blog?.content?.section3?.para1}
+                                                {blog?.content?.section3?.para1}
                                             </p>
                                             <p className="margin-top-20">
-                                            {blog?.content?.section3?.para2}
+                                                {blog?.content?.section3?.para2}
                                             </p>
                                         </div>
                                         <div className="blog-thumbnail wow fadeInUp margin-top-30">
@@ -142,7 +149,7 @@ const BlogSingle = () => {
                                         </div>
                                         <div className="blog-contnet margin-top-30  wow fadeInUp">
                                             <p>
-                                            {blog?.content?.section3?.para3}
+                                                {blog?.content?.section3?.para3}
                                             </p>
                                         </div>
                                         <div className="content-bottom margin-top-30">
@@ -161,50 +168,36 @@ const BlogSingle = () => {
                                                     </div>
                                                 </div> */}
                                                 <div className="blog-content-top">
-                                            <div className="blog-date margin-right-20">
-                                                <a href="#">
-                                                    <i className="fas fa-tag" /> {blog?.category}
-                                                </a>
-                                            </div>
-                                            <div className="col-sm-6">
-                                                    <div className="blog-social-icons">
-                                                        <ul>
-                                                            <li>
-                                                                <span>share:</span>
-                                                            </li>
-                                                            <li>
-                                                                <a href="#">
-                                                                    <img
-                                                                        src="/assets/images/icons/facebook.png"
-                                                                        alt=""
-                                                                    />
-                                                                </a>
-                                                            </li>
-                                                            <li>
-                                                                <a href="#">
-                                                                    <img
-                                                                        src="/assets/images/icons/twitter.png"
-                                                                        alt=""
-                                                                    />
-                                                                </a>
-                                                            </li>
-                                                            <li>
-                                                                <a href="#">
-                                                                    <img src="/assets/images/icons/inst.png" alt="" />
-                                                                </a>
-                                                            </li>
-                                                            <li>
-                                                                <a href="#">
-                                                                    <img
-                                                                        src="/assets/images/icons/linkdin.png"
-                                                                        alt=""
-                                                                    />
-                                                                </a>
-                                                            </li>
-                                                        </ul>
+                                                    <div className="blog-date margin-right-20">
+                                                        <a href="#">
+                                                            <i className="fas fa-tag" /> {blog?.category}
+                                                        </a>
                                                     </div>
-                                                </div>
-                                            {/* <div className="blog-tag margin-right-20">
+                                                    <div className="col-sm-6">
+                                                        <div className="blog-social-icons">
+                                                            <ul>
+                                                                <li>
+                                                                    <span>share:</span>
+                                                                </li>
+                                                                <li>
+                                                                    <a href={`https://www.facebook.com/sharer/sharer.php?u=${siteUrl}`}>
+                                                                        <img src="/assets/images/icons/facebook.png" alt="Share on Facebook" />
+                                                                    </a>
+                                                                </li>
+                                                                <li>
+                                                                    <a href={`https://twitter.com/intent/tweet?url=${siteUrl}`}>
+                                                                        <img src="/assets/images/icons/twitter.png" alt="Share on Twitter" />
+                                                                    </a>
+                                                                </li>
+                                                                <li>
+                                                                    <a href={`https://www.linkedin.com/sharing/share-offsite/?url=${siteUrl}`}>
+                                                                        <img src="/assets/images/icons/linkdin.png" alt="Share on LinkedIn" />
+                                                                    </a>
+                                                                </li>
+                                                            </ul>
+                                                        </div>
+                                                    </div>
+                                                    {/* <div className="blog-tag margin-right-20">
                                                 <a href="#">
                                                     <i className="fas fa-user-circle" />
                                                     Miyako Prince
@@ -215,7 +208,7 @@ const BlogSingle = () => {
                                                     <i className="fas fa-comments" /> 120+ Comment
                                                 </a>
                                             </div> */}
-                                        </div>
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
@@ -296,7 +289,7 @@ const BlogSingle = () => {
                                         </form>
                                     </div>
                                 </div> */}
-                                
+
                             </div>
                         </div>
                         {/* <div className="col-lg-3">
