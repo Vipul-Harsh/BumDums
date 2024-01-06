@@ -1,3 +1,4 @@
+import { useEffect, useState } from "react";
 import { Link, useLocation } from "react-router-dom";
 
 const Navbar = () => {
@@ -20,6 +21,7 @@ const Navbar = () => {
         }
     ]
     const location = useLocation()
+    const [mobileNavbar, setMobileNavbar] = useState(false)
     return (
         <header>
             {/* header-bottom */}
@@ -49,7 +51,7 @@ const Navbar = () => {
                             </nav>
                         </div>
                         <div className="col-lg-5 col-md-9 col-12">
-                            <div className="customer-area2 d-flex align-items-center justify-content-end gap-5">
+                            <div className="customer-area2 navbar-area-right-side d-flex align-items-center justify-content-end gap-5">
                                 {/* <span className="position-relative">
                                         <a className="shopping" href="shopping-cart.html">
                                             <i className="fas fa-shopping-basket" />
@@ -70,7 +72,46 @@ const Navbar = () => {
                         </div>
                     </div>
                     {/* mobile-menu */}
-                    <div className="mobile-menu home2" />
+                    <div className="mobile-menu home2 mean-container">
+                        <div className="mean-bar">
+                            <a
+                                href="#nav"
+                                className={`meanmenu-reveal ${mobileNavbar && 'meanClose'}`}
+                                onClick={(e)=>{
+                                    e.preventDefault()
+                                    setMobileNavbar(!mobileNavbar)
+                                }}
+                                style={{
+                                    right: 0,
+                                    left: "auto",
+                                    textAlign: "center",
+                                    textIndent: 0,
+                                    fontSize: 18
+                                }}
+                            >
+                            {!mobileNavbar ? <>
+                                <span />
+                                <span />
+                                <span />
+                            </>:'X'}
+                            </a>
+                            <nav className="mean-nav">
+                                <ul className="main-menu main-menu2" style={{ display: mobileNavbar?"flex":'none' }}>
+                                {pages.map(page=>
+                                <>
+                                    <li>
+                                        <Link to={page.link}>{page?.label}</Link>
+                                    </li>
+                                </>
+                                )}
+                                    <li className="mean-last">
+                                        <Link to="/contact">contact us</Link>
+                                    </li>
+                                </ul>
+                            </nav>
+                        </div>
+                    </div>
+
                 </div>
             </div>
         </header>
