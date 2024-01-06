@@ -60,9 +60,9 @@ const BlogsHome = () => {
                             <>
                                 <div className="single-blog">
                                     <div className="blog-img">
-                                        <a href="blog-single.html">
+                                        <Link to={"/blog/"+blog?.slug}>
                                             <img src={blog?.image} alt="" />
-                                        </a>
+                                        </Link>
                                         <div className="b-badge">
                                             <span className="date">
                                                 <a href="#">{""+new Date(blog?.date)?.getDate()}</a>
