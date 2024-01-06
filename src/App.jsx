@@ -15,6 +15,7 @@ import Contact from "./pages/contact";
 import Navbar from "./component/navbar";
 import Footer from "./component/Footer";
 import BlogSingle from "./pages/blogSingle";
+import Menu from "./pages/menu";
 
 // 3️⃣ Router singleton created
 const router = createBrowserRouter([
@@ -43,6 +44,7 @@ function Root() {
         <Route path="/blogs/*" element={<Blogs />} />
         <Route path="/blog/:slug" element={<BlogSingle />} />
         <Route path="/contact/*" element={<Contact />} />
+        <Route path="/menu/*" element={<Menu />} />
       </Routes>
       <Footer />
     </>

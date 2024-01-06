@@ -11,16 +11,12 @@ const Navbar = () => {
             link: "/about"
         },
         {
+            label: "our menu",
+            link: "/menu"
+        },
+        {
             label: "blog",
             link: "/blogs"
-        },
-        {
-            label: "contact",
-            link: "/contact"
-        },
-        {
-            label: "HOME",
-            link: ""
         }
     ]
     const location = useLocation()
@@ -32,10 +28,10 @@ const Navbar = () => {
                     <div className="row d-flex align-items-center">
                         <div className="col-lg-2 col-md-2 col-sm-2 col-6 margin-bottom-20">
                             <div className="logo">
-                                <a href="index.html">
+                                <Link to="/">
                                     {" "}
                                     <img src="/assets/images/logo/logo2.png" alt="logo" />
-                                </a>
+                                </Link>
                             </div>
                         </div>
                         <div className="col-lg-5 d-none d-lg-block">
@@ -67,9 +63,9 @@ const Navbar = () => {
                                     <span className="span-1">delivery order</span>{" "}
                                     <span className="span-2">123-59794069</span>
                                 </div>
-                                <a href="#" className="btn">
-                                    login
-                                </a>
+                                <Link to="/contact" className="btn">
+                                    Contact Us
+                                </Link>
                             </div>
                         </div>
                     </div>
