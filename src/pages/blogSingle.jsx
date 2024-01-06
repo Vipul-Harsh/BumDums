@@ -180,17 +180,17 @@ const BlogSingle = () => {
                                                                     <span>share:</span>
                                                                 </li>
                                                                 <li>
-                                                                    <a href={`https://www.facebook.com/sharer/sharer.php?u=${siteUrl}`}>
+                                                                    <a href={`https://www.facebook.com/sharer/sharer.php?u=${siteUrl}`} target='__blank'>
                                                                         <img src="/assets/images/icons/facebook.png" alt="Share on Facebook" />
                                                                     </a>
                                                                 </li>
                                                                 <li>
-                                                                    <a href={`https://twitter.com/intent/tweet?url=${siteUrl}`}>
+                                                                    <a href={`https://twitter.com/intent/tweet?url=${siteUrl}`} target='__blank'>
                                                                         <img src="/assets/images/icons/twitter.png" alt="Share on Twitter" />
                                                                     </a>
                                                                 </li>
                                                                 <li>
-                                                                    <a href={`https://www.linkedin.com/sharing/share-offsite/?url=${siteUrl}`}>
+                                                                    <a href={`https://www.linkedin.com/sharing/share-offsite/?url=${siteUrl}`} target='__blank'>
                                                                         <img src="/assets/images/icons/linkdin.png" alt="Share on LinkedIn" />
                                                                     </a>
                                                                 </li>
