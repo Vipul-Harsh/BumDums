@@ -5,16 +5,6 @@ import BlogsHome from "../../component/blogsHome"
 const Aboutus = () => {
     return (
         <>
-            {/* Preloader Starts */}
-            <div className="preloader" id="preloader">
-                <div className="preloader-inner">
-                    <div className="spinner">
-                        <div className="bounce1" />
-                        <div className="bounce2" />
-                        <div className="bounce3" />
-                    </div>
-                </div>
-            </div>
             {/* breadcrumb-area */}
             <div className="banner-area breadcrumb-area padding-top-120 padding-bottom-90">
                 <div className="bread-shapes">

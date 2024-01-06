@@ -69,17 +69,17 @@ const Blogs = () => {
           </span>
         </div>
         <div className="container">
-          <div className="row">
-            <div className="col-lg-12">
+          <div className="row d-lex justify-content-center">
+            <div className="col-lg-9">
               <div className="blog-posts">
               {
                 BlogsData.map(blog=>
                 <>
                 <div className="blog-single-post wow fadeInUp">
                   <div className="blog-thumbnail">
-                    <a href="blog-single.html">
+                    <Link to={"/blog/"+blog?.slug}>
                       <img src={blog?.image} alt="thumbnail" />
-                    </a>
+                    </Link>
                     <div className="meta-date">
                       <span className="bold">02</span>
                       <span>dec</span>
