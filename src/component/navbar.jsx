@@ -34,7 +34,7 @@ const Navbar = () => {
                                 <div className="logo">
                                     <a href="index.html">
                                         {" "}
-                                        <img src="assets/images/logo/logo2.png" alt="logo" />
+                                        <img src="/assets/images/logo/logo2.png" alt="logo" />
                                     </a>
                                 </div>
                             </div>
@@ -57,7 +57,7 @@ const Navbar = () => {
                                         <span className="shop-counter">1</span>
                                     </span> */}
                                     <span className="order-img d-none d-md-block">
-                                        <img src="assets/images/icons/1.png" alt="" />
+                                        <img src="/assets/images/icons/1.png" alt="" />
                                     </span>
                                     <div className="order-content">
                                         <span className="span-1">delivery order</span>{" "}

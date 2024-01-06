@@ -9,22 +9,22 @@ const Blogs = () => {
       <div className="banner-area breadcrumb-area padding-top-120 padding-bottom-90">
         <div className="bread-shapes">
           <span className="b-shape-1 item-bounce">
-            <img src="assets/images/img/5.png" alt="" />
+            <img src="/assets/images/img/5.png" alt="" />
           </span>
           <span className="b-shape-2">
-            <img src="assets/images/img/6.png" alt="" />
+            <img src="/assets/images/img/6.png" alt="" />
           </span>
           <span className="b-shape-3">
-            <img src="assets/images/img/7.png" alt="" />
+            <img src="/assets/images/img/7.png" alt="" />
           </span>
           <span className="b-shape-4">
-            <img src="assets/images/img/9.png" alt="" />
+            <img src="/assets/images/img/9.png" alt="" />
           </span>
           <span className="b-shape-5">
-            <img src="assets/images/shapes/18.png" alt="" />
+            <img src="/assets/images/shapes/18.png" alt="" />
           </span>
           <span className="b-shape-6 item-animateOne">
-            <img src="assets/images/img/7.png" alt="" />
+            <img src="/assets/images/img/7.png" alt="" />
           </span>
         </div>
         <div className="container padding-top-120">
@@ -47,25 +47,25 @@ const Blogs = () => {
       <section className="blog-content-section padding-top-110 padding-bottom-120">
         <div className="blog-shapes">
           <span className="bbs-1">
-            <img src="assets/images/shapes/13.png" alt="" />
+            <img src="/assets/images/shapes/13.png" alt="" />
           </span>
           <span className="bbs-2 item-bounce">
-            <img src="assets/images/shapes/12.png" alt="" />
+            <img src="/assets/images/shapes/12.png" alt="" />
           </span>
           <span className="bbs-3">
-            <img src="assets/images/shapes/7.png" alt="" />
+            <img src="/assets/images/shapes/7.png" alt="" />
           </span>
           <span className="bbs-4 item-bounce">
-            <img src="assets/images/shapes/26.png" alt="" />
+            <img src="/assets/images/shapes/26.png" alt="" />
           </span>
           <span className="bbs-5 item-animateTwo">
-            <img src="assets/images/shapes/26.png" alt="" />
+            <img src="/assets/images/shapes/26.png" alt="" />
           </span>
           <span className="bbs-6">
-            <img src="assets/images/shapes/16.png" alt="" />
+            <img src="/assets/images/shapes/16.png" alt="" />
           </span>
           <span className="bbs-7">
-            <img src="assets/images/img/32.png" alt="" />
+            <img src="/assets/images/img/32.png" alt="" />
           </span>
         </div>
         <div className="container">
@@ -106,7 +106,7 @@ const Blogs = () => {
                     </div>
                     <div className="blog-title">
                       <h4>
-                        <Link to="/blogs">{blog?.title}</Link>
+                        <Link to={"/blog/"+blog?.slug}>{blog?.title}</Link>
                       </h4>
                     </div>
                     <div className="blog-content">
@@ -115,7 +115,7 @@ const Blogs = () => {
                       </p>
                     </div>
                     <div className="blog-excerpt-link">
-                      <Link to="/blogs" className="btn">
+                      <Link to={"/blog/"+blog?.slug} className="btn">
                         read more
                       </Link>
                     </div>
@@ -144,7 +144,7 @@ const Blogs = () => {
             {/* <div className="col-lg-3">
               <div className="blog-sidebar margin-top-10">
                 <div className="single-widget wow fadeInUp author-widget">
-                  <img src="assets/images/blog/user.jpg" alt="image" />
+                  <img src="/assets/images/blog/user.jpg" alt="image" />
                   <div className="author-name margin-top-20">
                     <h5>Miyako Prince</h5>
                   </div>
@@ -191,7 +191,7 @@ const Blogs = () => {
                   <div className="single-product d-flex align-items-center">
                     <div className="dish-img">
                       <a href="single-dish.html">
-                        <img src="assets/images/menu-item/pd6.png" alt="" />
+                        <img src="/assets/images/menu-item/pd6.png" alt="" />
                       </a>
                     </div>
                     <div className="dish-content">
@@ -211,7 +211,7 @@ const Blogs = () => {
                     <div className="dish-img">
                       <a href="single-dish.html">
                         {" "}
-                        <img src="assets/images/menu-item/pd4.png" alt="" />
+                        <img src="/assets/images/menu-item/pd4.png" alt="" />
                       </a>
                     </div>
                     <div className="dish-content">
@@ -230,7 +230,7 @@ const Blogs = () => {
                   <div className="single-product d-flex align-items-center  wow fadeInUp ">
                     <div className="dish-img">
                       <a href="single-dish.html">
-                        <img src="assets/images/menu-item/pd7.png" alt="" />
+                        <img src="/assets/images/menu-item/pd7.png" alt="" />
                       </a>
                     </div>
                     <div className="dish-content">
@@ -250,7 +250,7 @@ const Blogs = () => {
                     <div className="dish-img">
                       <a href="single-dish.html">
                         {" "}
-                        <img src="assets/images/menu-item/pd8.png" alt="" />
+                        <img src="/assets/images/menu-item/pd8.png" alt="" />
                       </a>
                     </div>
                     <div className="dish-content">
@@ -305,7 +305,7 @@ const Blogs = () => {
                     <div className="dish-img">
                       <a href="single-dish.html">
                         {" "}
-                        <img src="assets/images/menu-item/fm1.png" alt="" />
+                        <img src="/assets/images/menu-item/fm1.png" alt="" />
                       </a>
                     </div>
                     <div className="dish-content d-flex justify-content-between">
@@ -320,7 +320,7 @@ const Blogs = () => {
                     <div className="dish-img">
                       <a href="single-dish.html">
                         {" "}
-                        <img src="assets/images/menu-item/fm2.png" alt="" />
+                        <img src="/assets/images/menu-item/fm2.png" alt="" />
                       </a>
                     </div>
                     <div className="dish-content d-flex justify-content-between">
@@ -334,7 +334,7 @@ const Blogs = () => {
                   <div className="filter-menu d-flex align-items-center">
                     <div className="dish-img">
                       <a href="single-dish.html">
-                        <img src="assets/images/menu-item/fm3.png" alt="" />
+                        <img src="/assets/images/menu-item/fm3.png" alt="" />
                       </a>
                     </div>
                     <div className="dish-content d-flex justify-content-between">
@@ -349,7 +349,7 @@ const Blogs = () => {
                     <div className="dish-img">
                       <a href="single-dish.html">
                         {" "}
-                        <img src="assets/images/menu-item/fm4.png" alt="" />
+                        <img src="/assets/images/menu-item/fm4.png" alt="" />
                       </a>
                     </div>
                     <div className="dish-content d-flex">
@@ -367,12 +367,12 @@ const Blogs = () => {
                     <a href="shopping-cart.html" className="btn">
                       order now
                     </a>
-                    <img src="assets/images/gallery/22.png" alt="" />
+                    <img src="/assets/images/gallery/22.png" alt="" />
                     <span className="gprice-4">
-                      <img src="assets/images/gallery/25.png" alt="" />
+                      <img src="/assets/images/gallery/25.png" alt="" />
                     </span>
                     <span className="gshape-1">
-                      <img src="assets/images/shapes/35.png" alt="" />
+                      <img src="/assets/images/shapes/35.png" alt="" />
                     </span>
                   </div>
                 </div>

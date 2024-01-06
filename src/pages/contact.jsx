@@ -7,22 +7,22 @@ const Contact = () => {
             <div className="banner-area breadcrumb-area padding-top-120 padding-bottom-90">
                 <div className="bread-shapes">
                     <span className="b-shape-1 item-bounce">
-                        <img src="assets/images/img/5.png" alt="" />
+                        <img src="/assets/images/img/5.png" alt="" />
                     </span>
                     <span className="b-shape-2">
-                        <img src="assets/images/img/6.png" alt="" />
+                        <img src="/assets/images/img/6.png" alt="" />
                     </span>
                     <span className="b-shape-3">
-                        <img src="assets/images/img/7.png" alt="" />
+                        <img src="/assets/images/img/7.png" alt="" />
                     </span>
                     <span className="b-shape-4">
-                        <img src="assets/images/img/9.png" alt="" />
+                        <img src="/assets/images/img/9.png" alt="" />
                     </span>
                     <span className="b-shape-5">
-                        <img src="assets/images/shapes/18.png" alt="" />
+                        <img src="/assets/images/shapes/18.png" alt="" />
                     </span>
                     <span className="b-shape-6 item-animateOne">
-                        <img src="assets/images/img/7.png" alt="" />
+                        <img src="/assets/images/img/7.png" alt="" />
                     </span>
                 </div>
                 <div className="container padding-top-120">
@@ -46,16 +46,16 @@ const Contact = () => {
             <section className="about-area about-area2 writeto-us padding-top-120 padding-bottom-60">
                 <div className="form-shapes">
                     <span className="fs1 item-animateOne">
-                        <img src="assets/images/shapes/1.png" alt="" />
+                        <img src="/assets/images/shapes/1.png" alt="" />
                     </span>
                     <span className="fs2 item-bounce">
-                        <img src="assets/images/shapes/12.png" alt="" />
+                        <img src="/assets/images/shapes/12.png" alt="" />
                     </span>
                     <span className="fs3">
-                        <img src="assets/images/shapes/13.png" alt="" />
+                        <img src="/assets/images/shapes/13.png" alt="" />
                     </span>
                     <span className="fs4 item-bounce">
-                        <img src="assets/images/shapes/26.png" alt="" />
+                        <img src="/assets/images/shapes/26.png" alt="" />
                     </span>
                 </div>
                 <div className="container">
@@ -64,28 +64,28 @@ const Contact = () => {
                             <div className="about-left">
                                 <div className="about-l-shapes">
                                     <span className="als-1">
-                                        <img src="assets/images/shapes/2.png" alt="" />
+                                        <img src="/assets/images/shapes/2.png" alt="" />
                                     </span>
                                 </div>
                                 <div className="row">
                                     <div className="col-lg-4 col-md-4 col-sm-4 col-4 d-flex align-items-end justify-content-end margin-bottom-20">
                                         <div className="about-gallery-1">
-                                            <img src="assets/images/gallery/1.jpg" alt="" />
+                                            <img src="/assets/images/gallery/1.jpg" alt="" />
                                         </div>
                                     </div>
                                     <div className="col-lg-8 col-md-8 col-sm-8 col-8 margin-bottom-20">
                                         <div className="about-gallery-2">
-                                            <img src="assets/images/gallery/2.jpg" alt="" />
+                                            <img src="/assets/images/gallery/2.jpg" alt="" />
                                         </div>
                                     </div>
                                     <div className="col-lg-6 col-md-6 col-sm-6 col-6">
                                         <div className="about-gallery-3">
-                                            <img src="assets/images/gallery/3.jpg" alt="" />
+                                            <img src="/assets/images/gallery/3.jpg" alt="" />
                                         </div>
                                     </div>
                                     <div className="col-lg-5 col-md-5 col-sm-5 col-5 d-flex align-items-stretch ">
                                         <div className="about-gallery-5 text-center">
-                                            <img src="assets/images/gallery/5.jpg" alt="" />
+                                            <img src="/assets/images/gallery/5.jpg" alt="" />
                                         </div>
                                     </div>
                                 </div>
@@ -114,10 +114,10 @@ const Contact = () => {
             <div className="info-area padding-bottom-120">
                 <div className="info-shapes">
                     <span className="info-s-1">
-                        <img src="assets/images/shapes/7.png" alt="" />
+                        <img src="/assets/images/shapes/7.png" alt="" />
                     </span>
                     <span className="info-s-2">
-                        <img src="assets/images/img/32.png" alt="" />
+                        <img src="/assets/images/img/32.png" alt="" />
                     </span>
                 </div>
                 <div className="container">
@@ -125,7 +125,7 @@ const Contact = () => {
                         <div className="col-lg-4 col-md-4 wow fadeInUp" data-wow-delay=".2s">
                             <div className="single-info d-flex flex-sm-row flex-md-column flex-lg-row justify-content-around align-items-center">
                                 <div className="info-img">
-                                    <img src="assets/images/icons/c1.png" alt="" />
+                                    <img src="/assets/images/icons/c1.png" alt="" />
                                 </div>
                                 <div className="info-content text-center text-lg-left">
                                     <h5>Phone Us 24/7</h5>
@@ -136,7 +136,7 @@ const Contact = () => {
                         <div className="col-lg-4 col-md-4 wow fadeInUp" data-wow-delay=".4s">
                             <div className="single-info d-flex flex-sm-row flex-md-column flex-lg-row  justify-content-around align-items-center">
                                 <div className="info-img">
-                                    <img src="assets/images/icons/c2.png" alt="" />
+                                    <img src="/assets/images/icons/c2.png" alt="" />
                                 </div>
                                 <div className="info-content text-center text-lg-left">
                                     <h5>Get Direction</h5>
@@ -147,7 +147,7 @@ const Contact = () => {
                         <div className="col-lg-4 col-md-4 wow fadeInUp" data-wow-delay=".6s">
                             <div className="single-info d-flex flex-sm-row flex-md-column flex-lg-row  justify-content-around align-items-center">
                                 <div className="info-img">
-                                    <img src="assets/images/icons/c3.png" alt="" />
+                                    <img src="/assets/images/icons/c3.png" alt="" />
                                 </div>
                                 <div className="info-content text-center text-lg-left">
                                     <h5>Opening Hours</h5>
@@ -162,7 +162,7 @@ const Contact = () => {
             <div className="map-area padding-bottom-120 wow fadeInUp">
                 <div className="map-shapes">
                     <div className="ms-1">
-                        <img src="assets/images/shapes/16.png" alt="" />
+                        <img src="/assets/images/shapes/16.png" alt="" />
                     </div>
                 </div>
                 <div className="container">

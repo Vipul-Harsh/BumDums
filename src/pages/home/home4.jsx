@@ -138,7 +138,7 @@ const Home4 = () => {
                             <div className="col-lg-2 col-md-2 col-sm-4 col-8 margin-bottom-20">
                                 <div className="logo">
                                     <a href="index.html">
-                                        <img src="assets/images/logo/logo4.png" alt="logo" />
+                                        <img src="/assets/images/logo/logo4.png" alt="logo" />
                                     </a>
                                 </div>
                             </div>
@@ -164,9 +164,9 @@ const Home4 = () => {
             {/* ice hero area*/}
             <div
                 className="hero-ice-area"
-                style={{ backgroundImage: 'url("assets/images/bg/ice-hero.png")' }}
+                style={{ backgroundImage: 'url("/assets/images/bg/ice-hero.png")' }}
             >
-                <img src="assets/images/shapes/ice-vec.png" alt="" className="ice-lg-vec" />
+                <img src="/assets/images/shapes/ice-vec.png" alt="" className="ice-lg-vec" />
                 <div className="container-fluid">
                     <div className="row align-items-center">
                         <div className="col-lg-6 col-xl-4 offset-xl-1">
@@ -195,21 +195,21 @@ const Home4 = () => {
                                             <Slider {...settings}>
                                                 <div>
                                                     <img
-                                                        src="assets/images/img/ice-slide1.png"
+                                                        src="/assets/images/img/ice-slide1.png"
                                                         alt=""
                                                         className="slide-lg-item"
                                                     />
                                                 </div>
                                                 <div>
                                                     <img
-                                                        src="assets/images/img/ice-slide1.png"
+                                                        src="/assets/images/img/ice-slide1.png"
                                                         alt=""
                                                         className="slide-lg-item"
                                                     />
                                                 </div>
                                                 <div>
                                                     <img
-                                                        src="assets/images/img/ice-slide1.png"
+                                                        src="/assets/images/img/ice-slide1.png"
                                                         alt=""
                                                         className="slide-lg-item"
                                                     />
@@ -223,21 +223,21 @@ const Home4 = () => {
                                             <Slider {...settings2}>
                                                 <div>
                                                     <img
-                                                        src="assets/images/img/ice-slide2.png"
+                                                        src="/assets/images/img/ice-slide2.png"
                                                         alt=""
                                                         className="slide-sm-item"
                                                     />
                                                 </div>
                                                 <div>
                                                     <img
-                                                        src="assets/images/img/ice-slide3.png"
+                                                        src="/assets/images/img/ice-slide3.png"
                                                         alt=""
                                                         className="slide-sm-item"
                                                     />
                                                 </div>
                                                 <div>
                                                     <img
-                                                        src="assets/images/img/ice-slide4.png"
+                                                        src="/assets/images/img/ice-slide4.png"
                                                         alt=""
                                                         className="slide-sm-item"
                                                     />
@@ -268,7 +268,7 @@ const Home4 = () => {
                         <Slider {...settings3}>
                             <div className="col-lg-4">
                                 <div className="single-ice-cream">
-                                    <img src="assets/images/img/ice-1.png" alt="" />
+                                    <img src="/assets/images/img/ice-1.png" alt="" />
                                     <h6 className="ice-title">Coffee and Donuts</h6>
                                     <span className="price-tag">Price - $10</span>
                                     <a href="#" className="basket">
@@ -278,7 +278,7 @@ const Home4 = () => {
                             </div>
                             <div className="col-lg-4">
                                 <div className="single-ice-cream">
-                                    <img src="assets/images/img/ice-2.png" alt="" />
+                                    <img src="/assets/images/img/ice-2.png" alt="" />
                                     <h6 className="ice-title">Coffee and Donuts</h6>
                                     <span className="price-tag">Price - $10</span>
                                     <a href="#" className="basket">
@@ -288,7 +288,7 @@ const Home4 = () => {
                             </div>
                             <div className="col-lg-4">
                                 <div className="single-ice-cream">
-                                    <img src="assets/images/img/ice-3.png" alt="" />
+                                    <img src="/assets/images/img/ice-3.png" alt="" />
                                     <h6 className="ice-title">Coffee and Donuts</h6>
                                     <span className="price-tag">Price - $10</span>
                                     <a href="#" className="basket">
@@ -298,7 +298,7 @@ const Home4 = () => {
                             </div>
                             <div className="col-lg-4">
                                 <div className="single-ice-cream">
-                                    <img src="assets/images/img/ice-4.png" alt="" />
+                                    <img src="/assets/images/img/ice-4.png" alt="" />
                                     <h6 className="ice-title">Coffee and Donuts</h6>
                                     <span className="price-tag">Price - $10</span>
                                     <a href="#" className="basket">
@@ -308,7 +308,7 @@ const Home4 = () => {
                             </div>
                             <div className="col-lg-4">
                                 <div className="single-ice-cream">
-                                    <img src="assets/images/img/ice-1.png" alt="" />
+                                    <img src="/assets/images/img/ice-1.png" alt="" />
                                     <h6 className="ice-title">Coffee and Donuts</h6>
                                     <span className="price-tag">Price - $10</span>
                                     <a href="#" className="basket">
@@ -318,7 +318,7 @@ const Home4 = () => {
                             </div>
                             <div className="col-lg-4">
                                 <div className="single-ice-cream">
-                                    <img src="assets/images/img/ice-2.png" alt="" />
+                                    <img src="/assets/images/img/ice-2.png" alt="" />
                                     <h6 className="ice-title">Coffee and Donuts</h6>
                                     <span className="price-tag">Price - $10</span>
                                     <a href="#" className="basket">
@@ -338,28 +338,28 @@ const Home4 = () => {
             {/* ice about */}
             <div
                 className="ice-about padding-bottom-120 padding-top-120"
-                style={{ backgroundImage: 'url("assets/images/img/ice-bg1.jpg")' }}
+                style={{ backgroundImage: 'url("/assets/images/img/ice-bg1.jpg")' }}
             >
-                <img src="assets/images/img/straw.png" alt="" className="ice-straw" />
-                <img src="assets/images/img/ice-truck.png" alt="" className="ice-truck" />
+                <img src="/assets/images/img/straw.png" alt="" className="ice-straw" />
+                <img src="/assets/images/img/ice-truck.png" alt="" className="ice-truck" />
                 <div className="container position-relative">
                     <div className="row">
                         <div className="col-lg-5 col-12">
                             <div className="ice-about-left">
-                                <img src="assets/images/img/about-ice-1.png" alt="" />
+                                <img src="/assets/images/img/about-ice-1.png" alt="" />
                                 <img
                                     className="float-img1 float-img"
-                                    src="assets/images/img/about-ice-2.png"
+                                    src="/assets/images/img/about-ice-2.png"
                                     alt=""
                                 />
                                 <img
                                     className="float-img2 float-img"
-                                    src="assets/images/img/about-ice-3.png"
+                                    src="/assets/images/img/about-ice-3.png"
                                     alt=""
                                 />
                                 <img
                                     className="float-img3 float-img"
-                                    src="assets/images/img/about-ice-4.png"
+                                    src="/assets/images/img/about-ice-4.png"
                                     alt=""
                                 />
                             </div>
@@ -379,7 +379,7 @@ const Home4 = () => {
                                 <div className="row padding-bottom-80">
                                     <div className="col-6 address-info">
                                         <div className="img-box">
-                                            <img src="assets/images/img/ice-icon1.png" alt="" />
+                                            <img src="/assets/images/img/ice-icon1.png" alt="" />
                                         </div>
                                         <div className="cont-box">
                                             <h4>2000</h4>
@@ -388,7 +388,7 @@ const Home4 = () => {
                                     </div>
                                     <div className="col-6 address-info">
                                         <div className="img-box">
-                                            <img src="assets/images/img/ice-icon2.png" alt="" />
+                                            <img src="/assets/images/img/ice-icon2.png" alt="" />
                                         </div>
                                         <div className="cont-box">
                                             <h4>500</h4>
@@ -402,7 +402,7 @@ const Home4 = () => {
                 </div>
                 <div className="ice-intro-vdo">
                     <div className="intro-inner position-relative">
-                        <img src="assets/images/img/ice-vdo.png" alt="" />
+                        <img src="/assets/images/img/ice-vdo.png" alt="" />
                         <a
                             href="https://www.youtube.com/watch?v=8AGgbIQyqR8"
                             className="ice-video-popup item-ripple2"
@@ -433,7 +433,7 @@ const Home4 = () => {
                                     <h4 className="margin-top-20">Ingredient</h4>
                                     <div className="d-flex align-items-center margin-left-20 margin-top-20">
                                         <img
-                                            src="assets/images/img/ice-icon3.png"
+                                            src="/assets/images/img/ice-icon3.png"
                                             alt=""
                                             className="fea-icon"
                                         />
@@ -441,7 +441,7 @@ const Home4 = () => {
                                     </div>
                                     <div className="d-flex align-items-center margin-left-20 margin-top-20">
                                         <img
-                                            src="assets/images/img/ice-icon4.png"
+                                            src="/assets/images/img/ice-icon4.png"
                                             alt=""
                                             className="fea-icon"
                                         />
@@ -449,7 +449,7 @@ const Home4 = () => {
                                     </div>
                                     <div className="d-flex align-items-center margin-left-20 margin-top-20">
                                         <img
-                                            src="assets/images/img/ice-icon5.png"
+                                            src="/assets/images/img/ice-icon5.png"
                                             alt=""
                                             className="fea-icon"
                                         />
@@ -485,7 +485,7 @@ const Home4 = () => {
                         </div>
                         <div className="col-lg-6 wow fadeInRight">
                             <div className="ice-fea-right">
-                                <img src="assets/images/img/ice-fea1.png" alt="" />
+                                <img src="/assets/images/img/ice-fea1.png" alt="" />
                             </div>
                         </div>
                     </div>
@@ -502,7 +502,7 @@ const Home4 = () => {
                                     <h4 className="margin-top-20">Ingredient</h4>
                                     <div className="d-flex align-items-center margin-left-20 margin-top-20">
                                         <img
-                                            src="assets/images/img/ice-icon6.png"
+                                            src="/assets/images/img/ice-icon6.png"
                                             alt=""
                                             className="fea-icon"
                                         />
@@ -510,7 +510,7 @@ const Home4 = () => {
                                     </div>
                                     <div className="d-flex align-items-center margin-left-20 margin-top-20">
                                         <img
-                                            src="assets/images/img/ice-icon7.png"
+                                            src="/assets/images/img/ice-icon7.png"
                                             alt=""
                                             className="fea-icon"
                                         />
@@ -518,7 +518,7 @@ const Home4 = () => {
                                     </div>
                                     <div className="d-flex align-items-center margin-left-20 margin-top-20">
                                         <img
-                                            src="assets/images/img/ice-icon5.png"
+                                            src="/assets/images/img/ice-icon5.png"
                                             alt=""
                                             className="fea-icon"
                                         />
@@ -554,7 +554,7 @@ const Home4 = () => {
                         </div>
                         <div className="col-lg-5 wow fadeInRight">
                             <div className="ice-fea-right">
-                                <img src="assets/images/img/ice-fea2.png" alt="" />
+                                <img src="/assets/images/img/ice-fea2.png" alt="" />
                             </div>
                         </div>
                     </div>
@@ -566,7 +566,7 @@ const Home4 = () => {
                     <Slider {...settings3}>
                         <div className="col-lg-3">
                             <div className="single-ice-gal">
-                                <img src="assets/images/img/ice-gal1.jpg" alt="" />
+                                <img src="/assets/images/img/ice-gal1.jpg" alt="" />
                                 <div className="inner-cont-box">
                                     <div className="text-center">
                                         <span className="title">Butter Brickle</span>
@@ -574,7 +574,7 @@ const Home4 = () => {
                                     </div>
                                 </div>
                                 <div className="ice-gal-popup">
-                                    <a href="assets/images/img/ice-gal1.jpg" className="gal-trigger">
+                                    <a href="/assets/images/img/ice-gal1.jpg" className="gal-trigger">
                                         <i className="fas fa-plus" />
                                     </a>
                                 </div>
@@ -582,7 +582,7 @@ const Home4 = () => {
                         </div>
                         <div className="col-lg-3">
                             <div className="single-ice-gal">
-                                <img src="assets/images/img/ice-gal2.jpg" alt="" />
+                                <img src="/assets/images/img/ice-gal2.jpg" alt="" />
                                 <div className="inner-cont-box">
                                     <div className="text-center">
                                         <span className="title">Butter Brickle</span>
@@ -590,7 +590,7 @@ const Home4 = () => {
                                     </div>
                                 </div>
                                 <div className="ice-gal-popup">
-                                    <a href="assets/images/img/ice-gal2.jpg" className="gal-trigger">
+                                    <a href="/assets/images/img/ice-gal2.jpg" className="gal-trigger">
                                         <i className="fas fa-plus" />
                                     </a>
                                 </div>
@@ -598,7 +598,7 @@ const Home4 = () => {
                         </div>
                         <div className="col-lg-6">
                             <div className="single-ice-gal">
-                                <img src="assets/images/img/ice-gal3.jpg" alt="" />
+                                <img src="/assets/images/img/ice-gal3.jpg" alt="" />
                                 <div className="inner-cont-box">
                                     <div className="text-center">
                                         <span className="title">Butter Brickle</span>
@@ -606,7 +606,7 @@ const Home4 = () => {
                                     </div>
                                 </div>
                                 <div className="ice-gal-popup">
-                                    <a href="assets/images/img/ice-gal3.jpg" className="gal-trigger">
+                                    <a href="/assets/images/img/ice-gal3.jpg" className="gal-trigger">
                                         <i className="fas fa-plus" />
                                     </a>
                                 </div>
@@ -614,7 +614,7 @@ const Home4 = () => {
                         </div>
                         <div className="col-lg-3">
                             <div className="single-ice-gal">
-                                <img src="assets/images/img/ice-gal4.jpg" alt="" />
+                                <img src="/assets/images/img/ice-gal4.jpg" alt="" />
                                 <div className="inner-cont-box">
                                     <div className="text-center">
                                         <span className="title">Butter Brickle</span>
@@ -622,7 +622,7 @@ const Home4 = () => {
                                     </div>
                                 </div>
                                 <div className="ice-gal-popup">
-                                    <a href="assets/images/img/ice-gal4.jpg" className="gal-trigger">
+                                    <a href="/assets/images/img/ice-gal4.jpg" className="gal-trigger">
                                         <i className="fas fa-plus" />
                                     </a>
                                 </div>
@@ -630,7 +630,7 @@ const Home4 = () => {
                         </div>
                         <div className="col-lg-3">
                             <div className="single-ice-gal">
-                                <img src="assets/images/img/ice-gal5.jpg" alt="" />
+                                <img src="/assets/images/img/ice-gal5.jpg" alt="" />
                                 <div className="inner-cont-box">
                                     <div className="text-center">
                                         <span className="title">Butter Brickle</span>
@@ -638,7 +638,7 @@ const Home4 = () => {
                                     </div>
                                 </div>
                                 <div className="ice-gal-popup">
-                                    <a href="assets/images/img/ice-gal5.jpg" className="gal-trigger">
+                                    <a href="/assets/images/img/ice-gal5.jpg" className="gal-trigger">
                                         <i className="fas fa-plus" />
                                     </a>
                                 </div>
@@ -646,7 +646,7 @@ const Home4 = () => {
                         </div>
                         <div className="col-lg-6">
                             <div className="single-ice-gal">
-                                <img src="assets/images/img/ice-gal6.jpg" alt="" />
+                                <img src="/assets/images/img/ice-gal6.jpg" alt="" />
                                 <div className="inner-cont-box">
                                     <div className="text-center">
                                         <span className="title">Butter Brickle</span>
@@ -654,7 +654,7 @@ const Home4 = () => {
                                     </div>
                                 </div>
                                 <div className="ice-gal-popup">
-                                    <a href="assets/images/img/ice-gal6.jpg" className="gal-trigger">
+                                    <a href="/assets/images/img/ice-gal6.jpg" className="gal-trigger">
                                         <i className="fas fa-plus" />
                                     </a>
                                 </div>
@@ -662,7 +662,7 @@ const Home4 = () => {
                         </div>
                         <div className="col-lg-3">
                             <div className="single-ice-gal">
-                                <img src="assets/images/img/ice-gal5.jpg" alt="" />
+                                <img src="/assets/images/img/ice-gal5.jpg" alt="" />
                                 <div className="inner-cont-box">
                                     <div className="text-center">
                                         <span className="title">Butter Brickle</span>
@@ -670,7 +670,7 @@ const Home4 = () => {
                                     </div>
                                 </div>
                                 <div className="ice-gal-popup">
-                                    <a href="assets/images/img/ice-gal5.jpg" className="gal-trigger">
+                                    <a href="/assets/images/img/ice-gal5.jpg" className="gal-trigger">
                                         <i className="fas fa-plus" />
                                     </a>
                                 </div>
@@ -698,7 +698,7 @@ const Home4 = () => {
                                     <div className="testi-left">
                                         <div className="testi-top d-flex align-items-center">
                                             <div className="testi-img">
-                                                <img src="assets/images/img/ice-user1.png" alt="" />
+                                                <img src="/assets/images/img/ice-user1.png" alt="" />
                                             </div>
                                             <div className="testi-meta">
                                                 <div className="d-flex align-items-center">
@@ -733,7 +733,7 @@ const Home4 = () => {
                                 </div>
                                 <div className="col-2 d-none d-md-block">
                                     <div className="testi-right">
-                                        <img src="assets/images/img/ice-testi1.png" alt="" />
+                                        <img src="/assets/images/img/ice-testi1.png" alt="" />
                                     </div>
                                 </div>
                             </div>
@@ -747,7 +747,7 @@ const Home4 = () => {
                                     <div className="testi-left">
                                         <div className="testi-top d-flex align-items-center">
                                             <div className="testi-img">
-                                                <img src="assets/images/img/ice-user2.png" alt="" />
+                                                <img src="/assets/images/img/ice-user2.png" alt="" />
                                             </div>
                                             <div className="testi-meta">
                                                 <div className="d-flex align-items-center">
@@ -782,7 +782,7 @@ const Home4 = () => {
                                 </div>
                                 <div className="col-2 d-none d-md-block">
                                     <div className="testi-right">
-                                        <img src="assets/images/img/ice-testi2.png" alt="" />
+                                        <img src="/assets/images/img/ice-testi2.png" alt="" />
                                     </div>
                                 </div>
                             </div>
@@ -796,7 +796,7 @@ const Home4 = () => {
                                     <div className="testi-left">
                                         <div className="testi-top d-flex align-items-center">
                                             <div className="testi-img">
-                                                <img src="assets/images/img/ice-user1.png" alt="" />
+                                                <img src="/assets/images/img/ice-user1.png" alt="" />
                                             </div>
                                             <div className="testi-meta">
                                                 <div className="d-flex align-items-center">
@@ -831,7 +831,7 @@ const Home4 = () => {
                                 </div>
                                 <div className="col-2 d-none d-md-block">
                                     <div className="testi-right">
-                                        <img src="assets/images/img/ice-testi1.png" alt="" />
+                                        <img src="/assets/images/img/ice-testi1.png" alt="" />
                                     </div>
                                 </div>
                             </div>
@@ -845,7 +845,7 @@ const Home4 = () => {
                                     <div className="testi-left">
                                         <div className="testi-top d-flex align-items-center">
                                             <div className="testi-img">
-                                                <img src="assets/images/img/ice-user2.png" alt="" />
+                                                <img src="/assets/images/img/ice-user2.png" alt="" />
                                             </div>
                                             <div className="testi-meta">
                                                 <div className="d-flex align-items-center">
@@ -880,7 +880,7 @@ const Home4 = () => {
                                 </div>
                                 <div className="col-2 d-none d-md-block">
                                     <div className="testi-right">
-                                        <img src="assets/images/img/ice-testi2.png" alt="" />
+                                        <img src="/assets/images/img/ice-testi2.png" alt="" />
                                     </div>
                                 </div>
                             </div>
@@ -905,7 +905,7 @@ const Home4 = () => {
                         <div className="col-lg-4 col-md-4 wow fadeInUp" data-wow-delay=".2s">
                             <div className="single-info d-flex flex-sm-row flex-md-column flex-lg-row justify-content-around align-items-center meddy-bg">
                                 <div className="info-img">
-                                    <img src="assets/images/img/ice-icon8.png" alt="" />
+                                    <img src="/assets/images/img/ice-icon8.png" alt="" />
                                 </div>
                                 <div className="info-content text-center text-lg-left">
                                     <h5>Phone Us 24/7</h5>
@@ -916,7 +916,7 @@ const Home4 = () => {
                         <div className="col-lg-4 col-md-4 wow fadeInUp" data-wow-delay=".4s">
                             <div className="single-info d-flex flex-sm-row flex-md-column flex-lg-row  justify-content-around align-items-center meddy-deep-bg">
                                 <div className="info-img">
-                                    <img src="assets/images/img/ice-icon8.png" alt="" />
+                                    <img src="/assets/images/img/ice-icon8.png" alt="" />
                                 </div>
                                 <div className="info-content text-center text-lg-left">
                                     <h5>Get Direction</h5>
@@ -927,7 +927,7 @@ const Home4 = () => {
                         <div className="col-lg-4 col-md-4 wow fadeInUp" data-wow-delay=".6s">
                             <div className="single-info d-flex flex-sm-row flex-md-column flex-lg-row  justify-content-around align-items-center purple-lite-bg">
                                 <div className="info-img">
-                                    <img src="assets/images/img/ice-icon8.png" alt="" />
+                                    <img src="/assets/images/img/ice-icon8.png" alt="" />
                                 </div>
                                 <div className="info-content text-center text-lg-left">
                                     <h5>Opening Hours</h5>
@@ -942,7 +942,7 @@ const Home4 = () => {
             <div className="home4-contact-section wow fadeInUp">
                 <div className="container inner-contact-section">
                     <img
-                        src="assets/images/img/ice-cont-shape.png"
+                        src="/assets/images/img/ice-cont-shape.png"
                         alt=""
                         className="cont-icon-shape"
                     />
@@ -1001,47 +1001,47 @@ const Home4 = () => {
                     <div className="ice-brand-logo-slider"><Slider {...settings3}>
                         <div className="col-3">
                             <div className="single-brand-logo">
-                                <img src="assets/images/img/ice-brand1.png" alt="" />
+                                <img src="/assets/images/img/ice-brand1.png" alt="" />
                             </div>
                         </div>
                         <div className="col-3">
                             <div className="single-brand-logo">
-                                <img src="assets/images/img/ice-brand2.png" alt="" />
+                                <img src="/assets/images/img/ice-brand2.png" alt="" />
                             </div>
                         </div>
                         <div className="col-3">
                             <div className="single-brand-logo">
-                                <img src="assets/images/img/ice-brand3.png" alt="" />
+                                <img src="/assets/images/img/ice-brand3.png" alt="" />
                             </div>
                         </div>
                         <div className="col-3">
                             <div className="single-brand-logo">
-                                <img src="assets/images/img/ice-brand4.png" alt="" />
+                                <img src="/assets/images/img/ice-brand4.png" alt="" />
                             </div>
                         </div>
                         <div className="col-3">
                             <div className="single-brand-logo">
-                                <img src="assets/images/img/ice-brand5.png" alt="" />
+                                <img src="/assets/images/img/ice-brand5.png" alt="" />
                             </div>
                         </div>
                         <div className="col-3">
                             <div className="single-brand-logo">
-                                <img src="assets/images/img/ice-brand6.png" alt="" />
+                                <img src="/assets/images/img/ice-brand6.png" alt="" />
                             </div>
                         </div>
                         <div className="col-3">
                             <div className="single-brand-logo">
-                                <img src="assets/images/img/ice-brand7.png" alt="" />
+                                <img src="/assets/images/img/ice-brand7.png" alt="" />
                             </div>
                         </div>
                         <div className="col-3">
                             <div className="single-brand-logo">
-                                <img src="assets/images/img/ice-brand1.png" alt="" />
+                                <img src="/assets/images/img/ice-brand1.png" alt="" />
                             </div>
                         </div>
                         <div className="col-3">
                             <div className="single-brand-logo">
-                                <img src="assets/images/img/ice-brand2.png" alt="" />
+                                <img src="/assets/images/img/ice-brand2.png" alt="" />
                             </div>
                         </div>
                         </Slider>
@@ -1053,22 +1053,22 @@ const Home4 = () => {
                 <div className="foo4-shapes">
                     <img
                         className="fooshape-1 d-none d-md-block"
-                        src="assets/images/img/foo4-vec.png"
+                        src="/assets/images/img/foo4-vec.png"
                         alt=""
                     />
                     <img
                         className="fooshape-2 d-none d-md-block"
-                        src="assets/images/img/foo4-vec2.png"
+                        src="/assets/images/img/foo4-vec2.png"
                         alt=""
                     />
                     <img
                         className="fooshape-3 d-none d-md-block"
-                        src="assets/images/img/foo4-vec3.png"
+                        src="/assets/images/img/foo4-vec3.png"
                         alt=""
                     />
                     <img
                         className="fooshape-4 d-none d-md-block"
-                        src="assets/images/img/foo4-vec4.png"
+                        src="/assets/images/img/foo4-vec4.png"
                         alt=""
                     />
                 </div>
@@ -1112,7 +1112,7 @@ const Home4 = () => {
                             <div className="col-lg-3 col-md-6 col-sm-6 margin-bottom-30">
                                 <div className="widget text-center overlay-white">
                                     <div className="logo">
-                                        <img src="assets/images/logo/logo4.png" alt="" />
+                                        <img src="/assets/images/logo/logo4.png" alt="" />
                                     </div>
                                     <h6>address </h6>
                                     <ul>
@@ -1137,12 +1137,12 @@ const Home4 = () => {
                                     <div className="row">
                                         <div className="col-6">
                                             <a href="#">
-                                                <img src="assets/images/img/appstore.png" alt="" />
+                                                <img src="/assets/images/img/appstore.png" alt="" />
                                             </a>
                                         </div>
                                         <div className="col-6">
                                             <a href="#">
-                                                <img src="assets/images/img/googlestore.png" alt="" />
+                                                <img src="/assets/images/img/googlestore.png" alt="" />
                                             </a>
                                         </div>
                                     </div>
@@ -1179,7 +1179,7 @@ const Home4 = () => {
                                 <div className="ht-payment">
                                     <a href="checkout.html">
                                         {" "}
-                                        <img src="assets/images/img/payment3.png" alt="" />
+                                        <img src="/assets/images/img/payment3.png" alt="" />
                                     </a>
                                 </div>
                             </div>

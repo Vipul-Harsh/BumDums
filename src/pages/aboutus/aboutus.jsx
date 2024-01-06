@@ -19,22 +19,22 @@ const Aboutus = () => {
             <div className="banner-area breadcrumb-area padding-top-120 padding-bottom-90">
                 <div className="bread-shapes">
                     <span className="b-shape-1 item-bounce">
-                        <img src="assets/images/img/5.png" alt="" />
+                        <img src="/assets/images/img/5.png" alt="" />
                     </span>
                     <span className="b-shape-2">
-                        <img src="assets/images/img/6.png" alt="" />
+                        <img src="/assets/images/img/6.png" alt="" />
                     </span>
                     <span className="b-shape-3">
-                        <img src="assets/images/img/7.png" alt="" />
+                        <img src="/assets/images/img/7.png" alt="" />
                     </span>
                     <span className="b-shape-4">
-                        <img src="assets/images/img/9.png" alt="" />
+                        <img src="/assets/images/img/9.png" alt="" />
                     </span>
                     <span className="b-shape-5">
-                        <img src="assets/images/shapes/18.png" alt="" />
+                        <img src="/assets/images/shapes/18.png" alt="" />
                     </span>
                     <span className="b-shape-6 item-animateOne">
-                        <img src="assets/images/img/7.png" alt="" />
+                        <img src="/assets/images/img/7.png" alt="" />
                     </span>
                 </div>
                 <div className="container padding-top-120">
@@ -59,53 +59,53 @@ const Aboutus = () => {
                     <div className="row foods-wrapper">
                         <div className="col-lg-3 col-md-6">
                             <div className="single-food text-center">
-                                <img src="assets/images/icons/3.png" alt="" />
+                                <img src="/assets/images/icons/3.png" alt="" />
                                 <span className="items counter">2000</span>
                                 <p>food item</p>
                                 <span className="g-s-4">
-                                    <img src="assets/images/shapes/10.png" alt="" />
+                                    <img src="/assets/images/shapes/10.png" alt="" />
                                 </span>
                                 <span className="g-s-5">
-                                    <img src="assets/images/shapes/14.png" alt="" />
+                                    <img src="/assets/images/shapes/14.png" alt="" />
                                 </span>
                             </div>
                         </div>
                         <div className="col-lg-3 col-md-6">
                             <div className="single-food orange text-center">
-                                <img src="assets/images/icons/f-2.png" alt="" />
+                                <img src="/assets/images/icons/f-2.png" alt="" />
                                 <span className="items counter">500</span>
                                 <p> burger food item</p>
                                 <span className="g-s-4">
-                                    <img src="assets/images/shapes/10.png" alt="" />
+                                    <img src="/assets/images/shapes/10.png" alt="" />
                                 </span>
                                 <span className="g-s-5">
-                                    <img src="assets/images/shapes/14.png" alt="" />
+                                    <img src="/assets/images/shapes/14.png" alt="" />
                                 </span>
                             </div>
                         </div>
                         <div className="col-lg-3 col-md-6">
                             <div className="single-food text-center">
-                                <img src="assets/images/icons/f-3.png" alt="" />
+                                <img src="/assets/images/icons/f-3.png" alt="" />
                                 <span className="items counter">1000</span>
                                 <p> soft drinks item</p>
                                 <span className="g-s-4">
-                                    <img src="assets/images/shapes/10.png" alt="" />
+                                    <img src="/assets/images/shapes/10.png" alt="" />
                                 </span>
                                 <span className="g-s-5">
-                                    <img src="assets/images/shapes/14.png" alt="" />
+                                    <img src="/assets/images/shapes/14.png" alt="" />
                                 </span>
                             </div>
                         </div>
                         <div className="col-lg-3 col-md-6">
                             <div className="single-food orange text-center">
-                                <img src="assets/images/icons/f-4.png" alt="" />
+                                <img src="/assets/images/icons/f-4.png" alt="" />
                                 <span className="items counter">600</span>
                                 <p>Delicious Fast Food</p>
                                 <span className="g-s-4">
-                                    <img src="assets/images/shapes/10.png" alt="" />
+                                    <img src="/assets/images/shapes/10.png" alt="" />
                                 </span>
                                 <span className="g-s-5">
-                                    <img src="assets/images/shapes/14.png" alt="" />
+                                    <img src="/assets/images/shapes/14.png" alt="" />
                                 </span>
                             </div>
                         </div>
@@ -120,28 +120,28 @@ const Aboutus = () => {
                             <div className="about-left">
                                 <div className="about-l-shapes">
                                     <span className="als-1">
-                                        <img src="assets/images/shapes/2.png" alt="" />
+                                        <img src="/assets/images/shapes/2.png" alt="" />
                                     </span>
                                 </div>
                                 <div className="row">
                                     <div className="col-lg-4 col-md-4 col-sm-4 col-4 d-flex align-items-end justify-content-end margin-bottom-20">
                                         <div className="about-gallery-1">
-                                            <img src="assets/images/gallery/1.jpg" alt="" />
+                                            <img src="/assets/images/gallery/1.jpg" alt="" />
                                         </div>
                                     </div>
                                     <div className="col-lg-8 col-md-8 col-sm-8 col-8 margin-bottom-20">
                                         <div className="about-gallery-2">
-                                            <img src="assets/images/gallery/2.jpg" alt="" />
+                                            <img src="/assets/images/gallery/2.jpg" alt="" />
                                         </div>
                                     </div>
                                     <div className="col-lg-6 col-md-6 col-sm-6 col-6">
                                         <div className="about-gallery-3">
-                                            <img src="assets/images/gallery/3.jpg" alt="" />
+                                            <img src="/assets/images/gallery/3.jpg" alt="" />
                                         </div>
                                     </div>
                                     <div className="col-lg-5 col-md-5 col-sm-5 col-5 d-flex align-items-stretch ">
                                         <div className="about-gallery-5 text-center">
-                                            <img src="assets/images/gallery/4.jpg" alt="" />
+                                            <img src="/assets/images/gallery/4.jpg" alt="" />
                                         </div>
                                     </div>
                                 </div>
@@ -151,7 +151,7 @@ const Aboutus = () => {
                             <div className="about-right">
                                 <div className="about-r-shapes">
                                     <span className="as-1">
-                                        <img src="assets/images/shapes/1.png" alt="" />
+                                        <img src="/assets/images/shapes/1.png" alt="" />
                                     </span>
                                 </div>
                                 <h2>
@@ -220,7 +220,7 @@ const Aboutus = () => {
                                                 </p>
                                                 <div className="sig-wrapper d-flex flex-wrap justify-content-around align-items-center">
                                                     <div className="sig-img d-flex align-items-center">
-                                                        <img src="assets/images/icons/sig.png" alt="" />
+                                                        <img src="/assets/images/icons/sig.png" alt="" />
                                                         <span>head of chef</span>
                                                     </div>
                                                     <a href="food-page.html" className="btn">
@@ -245,7 +245,7 @@ const Aboutus = () => {
                                                 </p>
                                                 <div className="sig-wrapper d-flex flex-wrap justify-content-around align-items-center">
                                                     <div className="sig-img d-flex align-items-center">
-                                                        <img src="assets/images/icons/sig.png" alt="" />
+                                                        <img src="/assets/images/icons/sig.png" alt="" />
                                                         <span>head of chef</span>
                                                     </div>
                                                     <a href="food-page.html" className="btn">
@@ -268,7 +268,7 @@ const Aboutus = () => {
                                                 </p>
                                                 <div className="sig-wrapper d-flex flex-wrap justify-content-around align-items-center">
                                                     <div className="sig-img d-flex align-items-center">
-                                                        <img src="assets/images/icons/sig.png" alt="" />
+                                                        <img src="/assets/images/icons/sig.png" alt="" />
                                                         <span>head of chef</span>
                                                     </div>
                                                     <a href="food-page.html" className="btn">
@@ -289,10 +289,10 @@ const Aboutus = () => {
                 <div className="container">
                     <div className="deli-shapes">
                         <span className="ds-1">
-                            <img src="assets/images/shapes/transparent1.png" alt="" />
+                            <img src="/assets/images/shapes/transparent1.png" alt="" />
                         </span>
                         <span className="ds-2 item-animateOne">
-                            <img src="assets/images/shapes/27.png" alt="" />
+                            <img src="/assets/images/shapes/27.png" alt="" />
                         </span>
                     </div>
                     <div className="row align-items-center">
@@ -319,7 +319,7 @@ const Aboutus = () => {
                         </div>
                         <div className="col-lg-6 d-none d-lg-block  wow fadeInRight">
                             <div className="delicious-right">
-                                <img src="assets/images/gallery/1.png" alt="" />
+                                <img src="/assets/images/gallery/1.png" alt="" />
                             </div>
                         </div>
                     </div>
@@ -329,10 +329,10 @@ const Aboutus = () => {
             {/* <section className="team-area padding-bottom-110 padding-top-110 wow fadeInUp">
                 <div className="team-area-shapes">
                     <span className="ts-1">
-                        <img src="assets/images/shapes/pizza-s1.png" alt="" />
+                        <img src="/assets/images/shapes/pizza-s1.png" alt="" />
                     </span>
                     <span className="ts-2">
-                        <img src="assets/images/shapes/brr.png" alt="" />
+                        <img src="/assets/images/shapes/brr.png" alt="" />
                     </span>
                 </div>
                 <div className="container">
@@ -345,7 +345,7 @@ const Aboutus = () => {
                     <div className="team-slider-active">
                         <div className="single-team text-center">
                             <div className="s-t-img">
-                                <img src="assets/images/team/t1.png" alt="" />
+                                <img src="/assets/images/team/t1.png" alt="" />
                             </div>
                             <div className="t-content">
                                 <h5>Mathij Sen Deo</h5>
@@ -377,7 +377,7 @@ const Aboutus = () => {
                         </div>
                         <div className="single-team text-center">
                             <div className="s-t-img">
-                                <img src="assets/images/team/t2.png" alt="" />
+                                <img src="/assets/images/team/t2.png" alt="" />
                             </div>
                             <div className="t-content">
                                 <h5>Malina Weissa</h5>
@@ -409,7 +409,7 @@ const Aboutus = () => {
                         </div>
                         <div className="single-team text-center">
                             <div className="s-t-img">
-                                <img src="assets/images/team/t3.png" alt="" />
+                                <img src="/assets/images/team/t3.png" alt="" />
                             </div>
                             <div className="t-content">
                                 <h5>Tonmoy Khan</h5>
@@ -441,7 +441,7 @@ const Aboutus = () => {
                         </div>
                         <div className="single-team text-center">
                             <div className="s-t-img">
-                                <img src="assets/images/team/t4.png" alt="" />
+                                <img src="/assets/images/team/t4.png" alt="" />
                             </div>
                             <div className="t-content">
                                 <h5>Mathja Semo</h5>
@@ -473,7 +473,7 @@ const Aboutus = () => {
                         </div>
                         <div className="single-team text-center">
                             <div className="s-t-img">
-                                <img src="assets/images/team/t1.png" alt="" />
+                                <img src="/assets/images/team/t1.png" alt="" />
                             </div>
                             <div className="t-content">
                                 <h5>Mathij Sen Deo</h5>

@@ -16,13 +16,13 @@ const Testimonial = () => {
             <div className="container">
                 <div className="testi-shapes">
                     <span className="ts-1">
-                        <img src="assets/images/shapes/triple.png" alt="" />
+                        <img src="/assets/images/shapes/triple.png" alt="" />
                     </span>
                     <span className="ts-2 item-bounce">
-                        <img src="assets/images/shapes/35.png" alt="" />
+                        <img src="/assets/images/shapes/35.png" alt="" />
                     </span>
                     <span className="ts-3 item-animateTwo">
-                        <img src="assets/images/shapes/26.png" alt="" />
+                        <img src="/assets/images/shapes/26.png" alt="" />
                     </span>
                 </div>
                 <div className="common-title-area text-center padding-bottom-50 wow fadeInUp">

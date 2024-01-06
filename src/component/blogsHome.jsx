@@ -15,7 +15,7 @@ const BlogsHome = () => {
     <section className="blog-area padding-top-110 padding-bottom-120">
     <div className="blog-shapes">
         <span className="bs-1">
-            <img src="assets/images/img/37.png" alt="" />
+            <img src="/assets/images/img/37.png" alt="" />
         </span>
     </div>
     <div className="container">
@@ -30,7 +30,7 @@ const BlogsHome = () => {
                 <div className="single-blog">
                     <div className="blog-img">
                         <a href="blog-single.html">
-                            <img src="assets/images/blog/b-1.jpg" alt="" />
+                            <img src="/assets/images/blog/b-1.jpg" alt="" />
                         </a>
                         <div className="b-badge">
                             <span className="date">
@@ -61,7 +61,7 @@ const BlogsHome = () => {
                 <div className="single-blog">
                     <div className="blog-img">
                         <a href="blog-single.html">
-                            <img src="assets/images/blog/b-2.jpg" alt="" />
+                            <img src="/assets/images/blog/b-2.jpg" alt="" />
                         </a>
                         <div className="b-badge">
                             <span className="date">
@@ -92,7 +92,7 @@ const BlogsHome = () => {
                 <div className="single-blog">
                     <div className="blog-img">
                         <a href="blog-single.html">
-                            <img src="assets/images/blog/b-3.jpg" alt="" />
+                            <img src="/assets/images/blog/b-3.jpg" alt="" />
                         </a>
                         <div className="b-badge">
                             <span className="date">
@@ -123,7 +123,7 @@ const BlogsHome = () => {
                 <div className="single-blog">
                     <div className="blog-img">
                         <a href="blog-single.html">
-                            <img src="assets/images/blog/b-1.jpg" alt="" />
+                            <img src="/assets/images/blog/b-1.jpg" alt="" />
                         </a>
                         <div className="b-badge">
                             <span className="date">
@@ -154,7 +154,7 @@ const BlogsHome = () => {
                 <div className="single-blog">
                     <div className="blog-img">
                         <a href="blog-single.html">
-                            <img src="assets/images/blog/b-2.jpg" alt="" />
+                            <img src="/assets/images/blog/b-2.jpg" alt="" />
                         </a>
                         <div className="b-badge">
                             <span className="date">
@@ -185,7 +185,7 @@ const BlogsHome = () => {
                 <div className="single-blog">
                     <div className="blog-img">
                         <a href="blog-single.html">
-                            <img src="assets/images/blog/b-3.jpg" alt="" />
+                            <img src="/assets/images/blog/b-3.jpg" alt="" />
                         </a>
                         <div className="b-badge">
                             <span className="date">

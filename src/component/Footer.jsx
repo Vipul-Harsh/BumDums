@@ -7,22 +7,22 @@ const Footer = () => {
     <footer className="padding-top-120 padding-bottom-40 footer2">
         <div className="fo-shapes">
             <span className="fs-1 item-animateTwo">
-                <img src="assets/images/shapes/capsicam.png" alt="" />
+                <img src="/assets/images/shapes/capsicam.png" alt="" />
             </span>
             <span className="fss-2">
-                <img src="assets/images/shapes/fshape1.png" alt="" />
+                <img src="/assets/images/shapes/fshape1.png" alt="" />
             </span>
             <span className="fss-3">
-                <img src="assets/images/shapes/41.png" alt="" />
+                <img src="/assets/images/shapes/41.png" alt="" />
             </span>
             <span className="fss-4 item-bounce">
-                <img src="assets/images/shapes/sauce.png" alt="" />
+                <img src="/assets/images/shapes/sauce.png" alt="" />
             </span>
             <span className="fss-5 item-bounce">
-                <img src="assets/images/shapes/scatter.png" alt="" />
+                <img src="/assets/images/shapes/scatter.png" alt="" />
             </span>
             <span className="fss-6 item-animateTwo">
-                <img src="assets/images/shapes/layer.png" alt="" />
+                <img src="/assets/images/shapes/layer.png" alt="" />
             </span>
         </div>
         {/* <div className="footer-top">
@@ -137,7 +137,7 @@ const Footer = () => {
                             <div className="f-logo">
                                 <a href="/">
                                     {" "}
-                                    <img src="assets/images/logo/logo2.png" alt="" />
+                                    <img src="/assets/images/logo/logo2.png" alt="" />
                                 </a>
                             </div>
                             <div className="footer-nav text-center">

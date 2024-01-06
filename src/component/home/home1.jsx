@@ -82,7 +82,7 @@ const Home1 = () => {
                                     <div className="col-lg-2 col-md-2 col-sm-2 col-3">
                                         <div className="logo">
                                             <a href="index.html">
-                                                <img src="assets/images/logo/logo.png" alt="logo" />
+                                                <img src="/assets/images/logo/logo.png" alt="logo" />
                                             </a>
                                         </div>
                                     </div>
@@ -219,19 +219,19 @@ const Home1 = () => {
                 <section className="banner-area padding-top-100 padding-bottom-150">
                     <div className="banner-shapes">
                         <span className="b-shape-1 item-animateOne">
-                            <img src="assets/images/img/5.png" alt="" />
+                            <img src="/assets/images/img/5.png" alt="" />
                         </span>
                         <span className="b-shape-2 item-animateTwo">
-                            <img src="assets/images/img/6.png" alt="" />
+                            <img src="/assets/images/img/6.png" alt="" />
                         </span>
                         <span className="b-shape-3 item-bounce">
-                            <img src="assets/images/img/7.png" alt="" />
+                            <img src="/assets/images/img/7.png" alt="" />
                         </span>
                         <span className="b-shape-4">
-                            <img src="assets/images/img/9.png" alt="" />
+                            <img src="/assets/images/img/9.png" alt="" />
                         </span>
                         <span className="b-shape-5">
-                            <img src="assets/images/shapes/18.png" alt="" />
+                            <img src="/assets/images/shapes/18.png" alt="" />
                         </span>
                     </div>
                     <div className="container padding-top-145">
@@ -255,7 +255,7 @@ const Home1 = () => {
                                     {/* order-box */}
                                     <div className="order-box">
                                         <span className="order-img">
-                                            <img src="assets/images/icons/1.png" alt="" />
+                                            <img src="/assets/images/icons/1.png" alt="" />
                                         </span>
                                         <div className="order-content">
                                             <p>delivery order num.</p>
@@ -271,19 +271,19 @@ const Home1 = () => {
                                 <div className="banner-img">
                                     <div className="pizza-shapes">
                                         <span className="p-shape-1">
-                                            <img src="assets/images/img/2.png" alt="" />
+                                            <img src="/assets/images/img/2.png" alt="" />
                                         </span>
                                         <span className="p-shape-2">
-                                            <img src="assets/images/img/3.png" alt="" />
+                                            <img src="/assets/images/img/3.png" alt="" />
                                         </span>
                                         <span className="p-shape-3">
-                                            <img src="assets/images/img/4.png" alt="" />
+                                            <img src="/assets/images/img/4.png" alt="" />
                                         </span>
                                         <span className="p-shape-4">
-                                            <img src="assets/images/img/8.png" alt="" />
+                                            <img src="/assets/images/img/8.png" alt="" />
                                         </span>
                                     </div>
-                                    <img src="assets/images/img/1.png" alt="" />
+                                    <img src="/assets/images/img/1.png" alt="" />
                                 </div>
                             </div>
                         </div>
@@ -295,25 +295,25 @@ const Home1 = () => {
                         <div className="form-box padding-top-110 padding-bottom-80">
                             <div className="form-shapes">
                                 <span className="fs-1">
-                                    <img src="assets/images/shapes/f-shape-1.png" alt="" />
+                                    <img src="/assets/images/shapes/f-shape-1.png" alt="" />
                                 </span>
                                 <span className="fs-2">
-                                    <img src="assets/images/shapes/f-shape-2.png" alt="" />
+                                    <img src="/assets/images/shapes/f-shape-2.png" alt="" />
                                 </span>
                                 <span className="fs-3 item-animateOne">
-                                    <img src="assets/images/shapes/f-shape-7.png" alt="" />
+                                    <img src="/assets/images/shapes/f-shape-7.png" alt="" />
                                 </span>
                                 <span className="fs-5">
-                                    <img src="assets/images/shapes/4.png" alt="" />
+                                    <img src="/assets/images/shapes/4.png" alt="" />
                                 </span>
                                 <span className="fs-6">
-                                    <img src="assets/images/shapes/5.png" alt="" />
+                                    <img src="/assets/images/shapes/5.png" alt="" />
                                 </span>
                                 <span className="fs-7 item-animateTwo">
-                                    <img src="assets/images/shapes/7.png" alt="" />
+                                    <img src="/assets/images/shapes/7.png" alt="" />
                                 </span>
                                 <span className="fs-8 item-animateOne">
-                                    <img src="assets/images/shapes/9.png" alt="" />
+                                    <img src="/assets/images/shapes/9.png" alt="" />
                                 </span>
                             </div>
                             <div className="common-title-area text-center padding-bottom-50 wow fadeInUp">
@@ -355,7 +355,7 @@ const Home1 = () => {
                                 <div className="about-left">
                                     <div className="about-l-shapes">
                                         <span className="als-1">
-                                            <img src="assets/images/shapes/2.png" alt="" />
+                                            <img src="/assets/images/shapes/2.png" alt="" />
                                         </span>
                                     </div>
                                     <div className="row">
@@ -369,29 +369,29 @@ const Home1 = () => {
             "
                                         >
                                             <div className="about-gallery-1">
-                                                <img src="assets/images/gallery/1.jpg" alt="" />
+                                                <img src="/assets/images/gallery/1.jpg" alt="" />
                                             </div>
                                         </div>
                                         <div className="col-lg-8 col-md-8 col-sm-8 col-8 margin-bottom-20">
                                             <div className="about-gallery-2">
-                                                <img src="assets/images/gallery/2.jpg" alt="" />
+                                                <img src="/assets/images/gallery/2.jpg" alt="" />
                                             </div>
                                         </div>
                                         <div className="col-lg-6 col-md-6 col-sm-6 col-6">
                                             <div className="about-gallery-3">
-                                                <img src="assets/images/gallery/3.jpg" alt="" />
+                                                <img src="/assets/images/gallery/3.jpg" alt="" />
                                             </div>
                                         </div>
                                         <div className="col-lg-5 col-md-5 col-sm-5 col-5 d-flex align-items-start">
                                             <div className="about-gallery-4 text-center">
-                                                <img className="mp" src="assets/images/icons/3.png" alt="" />
+                                                <img className="mp" src="/assets/images/icons/3.png" alt="" />
                                                 <div className="items counter">2000</div>
                                                 <p>food item</p>
                                                 <span className="g-s-4">
-                                                    <img src="assets/images/shapes/10.png" alt="" />
+                                                    <img src="/assets/images/shapes/10.png" alt="" />
                                                 </span>
                                                 <span className="g-s-5">
-                                                    <img src="assets/images/shapes/14.png" alt="" />
+                                                    <img src="/assets/images/shapes/14.png" alt="" />
                                                 </span>
                                             </div>
                                         </div>
@@ -402,7 +402,7 @@ const Home1 = () => {
                                 <div className="about-right">
                                     <div className="about-r-shapes">
                                         <span className="as-1 item-bounce">
-                                            <img src="assets/images/shapes/1.png" alt="" />
+                                            <img src="/assets/images/shapes/1.png" alt="" />
                                         </span>
                                     </div>
                                     <h2>
@@ -417,10 +417,10 @@ const Home1 = () => {
                                         <div className="garlic-burger-img">
                                             <img
                                                 className="price-badge"
-                                                src="assets/images/icons/4.png"
+                                                src="/assets/images/icons/4.png"
                                                 alt=""
                                             />
-                                            <img src="assets/images/icons/2.png" alt="" />
+                                            <img src="/assets/images/icons/2.png" alt="" />
                                         </div>
                                         <div className="garlic-burger-content">
                                             <h5>garlic burger parties</h5>
@@ -461,14 +461,14 @@ const Home1 = () => {
                                             >
                                                 <div className="single-menu-nav text-center">
                                                     <div className="menu-img margin-bottom-10">
-                                                        <img src="assets/images/menu-item/pizza.png" alt="" />
+                                                        <img src="/assets/images/menu-item/pizza.png" alt="" />
                                                     </div>
                                                     <h6>pizza</h6>
                                                     <span className="g-s-4">
-                                                        <img src="assets/images/shapes/10.png" alt="" />
+                                                        <img src="/assets/images/shapes/10.png" alt="" />
                                                     </span>
                                                     <span className="g-s-5">
-                                                        <img src="assets/images/shapes/14.png" alt="" />
+                                                        <img src="/assets/images/shapes/14.png" alt="" />
                                                     </span>
                                                 </div>
                                             </div>
@@ -486,14 +486,14 @@ const Home1 = () => {
                                             >
                                                 <div className="single-menu-nav text-center">
                                                     <div className="menu-img margin-bottom-10">
-                                                        <img src="assets/images/menu-item/burger.png" alt="" />
+                                                        <img src="/assets/images/menu-item/burger.png" alt="" />
                                                     </div>
                                                     <h6>burger</h6>
                                                     <span className="g-s-4">
-                                                        <img src="assets/images/shapes/10.png" alt="" />
+                                                        <img src="/assets/images/shapes/10.png" alt="" />
                                                     </span>
                                                     <span className="g-s-5">
-                                                        <img src="assets/images/shapes/14.png" alt="" />
+                                                        <img src="/assets/images/shapes/14.png" alt="" />
                                                     </span>
                                                 </div>
                                             </div>
@@ -511,14 +511,14 @@ const Home1 = () => {
                                             >
                                                 <div className="single-menu-nav text-center">
                                                     <div className="menu-img margin-bottom-10">
-                                                        <img src="assets/images/menu-item/chicken.png" alt="" />
+                                                        <img src="/assets/images/menu-item/chicken.png" alt="" />
                                                     </div>
                                                     <h6>chicken</h6>
                                                     <span className="g-s-4">
-                                                        <img src="assets/images/shapes/10.png" alt="" />
+                                                        <img src="/assets/images/shapes/10.png" alt="" />
                                                     </span>
                                                     <span className="g-s-5">
-                                                        <img src="assets/images/shapes/14.png" alt="" />
+                                                        <img src="/assets/images/shapes/14.png" alt="" />
                                                     </span>
                                                 </div>
                                             </div>
@@ -536,14 +536,14 @@ const Home1 = () => {
                                             >
                                                 <div className="single-menu-nav text-center">
                                                     <div className="menu-img margin-bottom-10">
-                                                        <img src="assets/images/menu-item/drinks.png" alt="" />
+                                                        <img src="/assets/images/menu-item/drinks.png" alt="" />
                                                     </div>
                                                     <h6>drinks</h6>
                                                     <span className="g-s-4">
-                                                        <img src="assets/images/shapes/10.png" alt="" />
+                                                        <img src="/assets/images/shapes/10.png" alt="" />
                                                     </span>
                                                     <span className="g-s-5">
-                                                        <img src="assets/images/shapes/14.png" alt="" />
+                                                        <img src="/assets/images/shapes/14.png" alt="" />
                                                     </span>
                                                 </div>
                                             </div>
@@ -561,14 +561,14 @@ const Home1 = () => {
                                             >
                                                 <div className="single-menu-nav text-center">
                                                     <div className="menu-img margin-bottom-10">
-                                                        <img src="assets/images/menu-item/drinks2.png" alt="" />
+                                                        <img src="/assets/images/menu-item/drinks2.png" alt="" />
                                                     </div>
                                                     <h6>drinks</h6>
                                                     <span className="g-s-4">
-                                                        <img src="assets/images/shapes/10.png" alt="" />
+                                                        <img src="/assets/images/shapes/10.png" alt="" />
                                                     </span>
                                                     <span className="g-s-5">
-                                                        <img src="assets/images/shapes/14.png" alt="" />
+                                                        <img src="/assets/images/shapes/14.png" alt="" />
                                                     </span>
                                                 </div>
                                             </div>
@@ -586,14 +586,14 @@ const Home1 = () => {
                                             >
                                                 <div className="single-menu-nav text-center">
                                                     <div className="menu-img margin-bottom-10">
-                                                        <img src="assets/images/menu-item/combo.png" alt="" />
+                                                        <img src="/assets/images/menu-item/combo.png" alt="" />
                                                     </div>
                                                     <h6>combo menu</h6>
                                                     <span className="g-s-4">
-                                                        <img src="assets/images/shapes/10.png" alt="" />
+                                                        <img src="/assets/images/shapes/10.png" alt="" />
                                                     </span>
                                                     <span className="g-s-5">
-                                                        <img src="assets/images/shapes/14.png" alt="" />
+                                                        <img src="/assets/images/shapes/14.png" alt="" />
                                                     </span>
                                                 </div>
                                             </div>
@@ -616,16 +616,16 @@ const Home1 = () => {
                                 <div className="menu-items-wrapper menu-custom-padding margin-top-50">
                                     <div className="menu-i-shapes">
                                         <span className="mis-1">
-                                            <img src="assets/images/shapes/28.png" alt="" />
+                                            <img src="/assets/images/shapes/28.png" alt="" />
                                         </span>
                                         <span className="mis-2">
-                                            <img src="assets/images/shapes/12.png" alt="" />
+                                            <img src="/assets/images/shapes/12.png" alt="" />
                                         </span>
                                         <span className="mis-3">
-                                            <img src="assets/images/shapes/7.png" alt="" />
+                                            <img src="/assets/images/shapes/7.png" alt="" />
                                         </span>
                                         <span className="mis-4">
-                                            <img src="assets/images/shapes/17.png" alt="" />
+                                            <img src="/assets/images/shapes/17.png" alt="" />
                                         </span>
                                     </div>
                                     {/* first-row */}
@@ -633,7 +633,7 @@ const Home1 = () => {
                                         <div className="col-lg-4 col-md-4">
                                             <div className="single-menu-item d-flex justify-content-between align-items-center h-100">
                                                 <div className="menu-img">
-                                                    <img src="assets/images/menu-item/piz1.png" alt="" />
+                                                    <img src="/assets/images/menu-item/piz1.png" alt="" />
                                                 </div>
                                                 <div className="menu-content">
                                                     <h5>
@@ -647,7 +647,7 @@ const Home1 = () => {
                                         <div className="col-lg-4 col-md-4">
                                             <div className="single-menu-item d-flex justify-content-between align-items-center h-100">
                                                 <div className="menu-img">
-                                                    <img src="assets/images/menu-item/piz2.png" alt="" />
+                                                    <img src="/assets/images/menu-item/piz2.png" alt="" />
                                                 </div>
                                                 <div className="menu-content">
                                                     <h5>
@@ -661,7 +661,7 @@ const Home1 = () => {
                                         <div className="col-lg-4 col-md-4">
                                             <div className="single-menu-item d-flex justify-content-between align-items-center h-100">
                                                 <div className="menu-img">
-                                                    <img src="assets/images/menu-item/piz3.png" alt="" />
+                                                    <img src="/assets/images/menu-item/piz3.png" alt="" />
                                                 </div>
                                                 <div className="menu-content">
                                                     <h5>
@@ -682,7 +682,7 @@ const Home1 = () => {
                                         <div className="col-lg-4 col-md-4">
                                             <div className="single-menu-item d-flex justify-content-between align-items-center h-100">
                                                 <div className="menu-img">
-                                                    <img src="assets/images/menu-item/piz4.png" alt="" />
+                                                    <img src="/assets/images/menu-item/piz4.png" alt="" />
                                                 </div>
                                                 <div className="menu-content">
                                                     <h5>
@@ -696,7 +696,7 @@ const Home1 = () => {
                                         <div className="col-lg-4 col-md-4">
                                             <div className="single-menu-item d-flex justify-content-between align-items-center h-100">
                                                 <div className="menu-img">
-                                                    <img src="assets/images/menu-item/piz5.png" alt="" />
+                                                    <img src="/assets/images/menu-item/piz5.png" alt="" />
                                                 </div>
                                                 <div className="menu-content">
                                                     <h5>
@@ -710,7 +710,7 @@ const Home1 = () => {
                                         <div className="col-lg-4 col-md-4">
                                             <div className="single-menu-item d-flex justify-content-between align-items-center h-100">
                                                 <div className="menu-img">
-                                                    <img src="assets/images/menu-item/piz6.png" alt="" />
+                                                    <img src="/assets/images/menu-item/piz6.png" alt="" />
                                                 </div>
                                                 <div className="menu-content">
                                                     <h5>
@@ -744,16 +744,16 @@ const Home1 = () => {
                                 <div className="menu-items-wrapper menu-custom-padding margin-top-50">
                                     <div className="menu-i-shapes">
                                         <span className="mis-1">
-                                            <img src="assets/images/shapes/28.png" alt="" />
+                                            <img src="/assets/images/shapes/28.png" alt="" />
                                         </span>
                                         <span className="mis-2">
-                                            <img src="assets/images/shapes/12.png" alt="" />
+                                            <img src="/assets/images/shapes/12.png" alt="" />
                                         </span>
                                         <span className="mis-3">
-                                            <img src="assets/images/shapes/7.png" alt="" />
+                                            <img src="/assets/images/shapes/7.png" alt="" />
                                         </span>
                                         <span className="mis-4">
-                                            <img src="assets/images/shapes/17.png" alt="" />
+                                            <img src="/assets/images/shapes/17.png" alt="" />
                                         </span>
                                     </div>
                                     {/* first-row */}
@@ -761,7 +761,7 @@ const Home1 = () => {
                                         <div className="col-lg-4 col-md-4">
                                             <div className="single-menu-item d-flex justify-content-between align-items-center h-100">
                                                 <div className="menu-img">
-                                                    <img src="assets/images/menu-item/mi-1.png" alt="" />
+                                                    <img src="/assets/images/menu-item/mi-1.png" alt="" />
                                                 </div>
                                                 <div className="menu-content">
                                                     <h5>
@@ -775,7 +775,7 @@ const Home1 = () => {
                                         <div className="col-lg-4 col-md-4">
                                             <div className="single-menu-item d-flex justify-content-between align-items-center h-100">
                                                 <div className="menu-img">
-                                                    <img src="assets/images/menu-item/br1.png" alt="" />
+                                                    <img src="/assets/images/menu-item/br1.png" alt="" />
                                                 </div>
                                                 <div className="menu-content">
                                                     <h5>
@@ -789,7 +789,7 @@ const Home1 = () => {
                                         <div className="col-lg-4 col-md-4">
                                             <div className="single-menu-item d-flex justify-content-between align-items-center h-100">
                                                 <div className="menu-img">
-                                                    <img src="assets/images/menu-item/br2.png" alt="" />
+                                                    <img src="/assets/images/menu-item/br2.png" alt="" />
                                                 </div>
                                                 <div className="menu-content">
                                                     <h5>
@@ -810,7 +810,7 @@ const Home1 = () => {
                                         <div className="col-lg-4 col-md-4">
                                             <div className="single-menu-item d-flex justify-content-between align-items-center h-100">
                                                 <div className="menu-img">
-                                                    <img src="assets/images/menu-item/br3.png" alt="" />
+                                                    <img src="/assets/images/menu-item/br3.png" alt="" />
                                                 </div>
                                                 <div className="menu-content">
                                                     <h5>
@@ -824,7 +824,7 @@ const Home1 = () => {
                                         <div className="col-lg-4 col-md-4">
                                             <div className="single-menu-item d-flex justify-content-between align-items-center h-100">
                                                 <div className="menu-img">
-                                                    <img src="assets/images/menu-item/br5.png" alt="" />
+                                                    <img src="/assets/images/menu-item/br5.png" alt="" />
                                                 </div>
                                                 <div className="menu-content">
                                                     <h5>
@@ -838,7 +838,7 @@ const Home1 = () => {
                                         <div className="col-lg-4 col-md-4">
                                             <div className="single-menu-item d-flex justify-content-between align-items-center h-100">
                                                 <div className="menu-img">
-                                                    <img src="assets/images/menu-item/br6.png" alt="" />
+                                                    <img src="/assets/images/menu-item/br6.png" alt="" />
                                                 </div>
                                                 <div className="menu-content">
                                                     <h5>
@@ -872,16 +872,16 @@ const Home1 = () => {
                                 <div className="menu-items-wrapper menu-custom-padding margin-top-50">
                                     <div className="menu-i-shapes">
                                         <span className="mis-1">
-                                            <img src="assets/images/shapes/28.png" alt="" />
+                                            <img src="/assets/images/shapes/28.png" alt="" />
                                         </span>
                                         <span className="mis-2">
-                                            <img src="assets/images/shapes/12.png" alt="" />
+                                            <img src="/assets/images/shapes/12.png" alt="" />
                                         </span>
                                         <span className="mis-3">
-                                            <img src="assets/images/shapes/7.png" alt="" />
+                                            <img src="/assets/images/shapes/7.png" alt="" />
                                         </span>
                                         <span className="mis-4">
-                                            <img src="assets/images/shapes/17.png" alt="" />
+                                            <img src="/assets/images/shapes/17.png" alt="" />
                                         </span>
                                     </div>
                                     {/* first-row */}
@@ -889,7 +889,7 @@ const Home1 = () => {
                                         <div className="col-lg-4 col-md-4">
                                             <div className="single-menu-item d-flex justify-content-between">
                                                 <div className="menu-img">
-                                                    <img src="assets/images/menu-item/tc6.png" alt="" />
+                                                    <img src="/assets/images/menu-item/tc6.png" alt="" />
                                                 </div>
                                                 <div className="menu-content">
                                                     <h5>
@@ -903,7 +903,7 @@ const Home1 = () => {
                                         <div className="col-lg-4 col-md-4">
                                             <div className="single-menu-item d-flex justify-content-between align-items-center h-100">
                                                 <div className="menu-img">
-                                                    <img src="assets/images/menu-item/mi-2.png" alt="" />
+                                                    <img src="/assets/images/menu-item/mi-2.png" alt="" />
                                                 </div>
                                                 <div className="menu-content">
                                                     <h5>
@@ -917,7 +917,7 @@ const Home1 = () => {
                                         <div className="col-lg-4 col-md-4">
                                             <div className="single-menu-item d-flex justify-content-between align-items-center h-100">
                                                 <div className="menu-img">
-                                                    <img src="assets/images/menu-item/mi-3.png" alt="" />
+                                                    <img src="/assets/images/menu-item/mi-3.png" alt="" />
                                                 </div>
                                                 <div className="menu-content">
                                                     <h5>
@@ -938,7 +938,7 @@ const Home1 = () => {
                                         <div className="col-lg-4 col-md-4">
                                             <div className="single-menu-item d-flex justify-content-between align-items-center h-100">
                                                 <div className="menu-img">
-                                                    <img src="assets/images/menu-item/mi-1.png" alt="" />
+                                                    <img src="/assets/images/menu-item/mi-1.png" alt="" />
                                                 </div>
                                                 <div className="menu-content">
                                                     <h5>
@@ -952,7 +952,7 @@ const Home1 = () => {
                                         <div className="col-lg-4 col-md-4">
                                             <div className="single-menu-item d-flex justify-content-between align-items-center h-100">
                                                 <div className="menu-img">
-                                                    <img src="assets/images/menu-item/mi-5.png" alt="" />
+                                                    <img src="/assets/images/menu-item/mi-5.png" alt="" />
                                                 </div>
                                                 <div className="menu-content">
                                                     <h5>
@@ -966,7 +966,7 @@ const Home1 = () => {
                                         <div className="col-lg-4 col-md-4">
                                             <div className="single-menu-item d-flex justify-content-between align-items-center h-100">
                                                 <div className="menu-img">
-                                                    <img src="assets/images/menu-item/mi-6.png" alt="" />
+                                                    <img src="/assets/images/menu-item/mi-6.png" alt="" />
                                                 </div>
                                                 <div className="menu-content">
                                                     <h5>
@@ -1000,16 +1000,16 @@ const Home1 = () => {
                                 <div className="menu-items-wrapper menu-custom-padding margin-top-50">
                                     <div className="menu-i-shapes">
                                         <span className="mis-1">
-                                            <img src="assets/images/shapes/28.png" alt="" />
+                                            <img src="/assets/images/shapes/28.png" alt="" />
                                         </span>
                                         <span className="mis-2">
-                                            <img src="assets/images/shapes/12.png" alt="" />
+                                            <img src="/assets/images/shapes/12.png" alt="" />
                                         </span>
                                         <span className="mis-3">
-                                            <img src="assets/images/shapes/7.png" alt="" />
+                                            <img src="/assets/images/shapes/7.png" alt="" />
                                         </span>
                                         <span className="mis-4">
-                                            <img src="assets/images/shapes/17.png" alt="" />
+                                            <img src="/assets/images/shapes/17.png" alt="" />
                                         </span>
                                     </div>
                                     {/* first-row */}
@@ -1025,7 +1025,7 @@ const Home1 = () => {
                         "
                                             >
                                                 <div className="menu-img">
-                                                    <img src="assets/images/img/dr1.jpg" alt="" />
+                                                    <img src="/assets/images/img/dr1.jpg" alt="" />
                                                 </div>
                                                 <div className="menu-content">
                                                     <h5>
@@ -1047,7 +1047,7 @@ const Home1 = () => {
                         "
                                             >
                                                 <div className="menu-img">
-                                                    <img src="assets/images/img/dr2.jpg" alt="" />
+                                                    <img src="/assets/images/img/dr2.jpg" alt="" />
                                                 </div>
                                                 <div className="menu-content">
                                                     <h5>
@@ -1069,7 +1069,7 @@ const Home1 = () => {
                         "
                                             >
                                                 <div className="menu-img">
-                                                    <img src="assets/images/img/dr3.jpg" alt="" />
+                                                    <img src="/assets/images/img/dr3.jpg" alt="" />
                                                 </div>
                                                 <div className="menu-content">
                                                     <h5>
@@ -1098,7 +1098,7 @@ const Home1 = () => {
                         "
                                             >
                                                 <div className="menu-img">
-                                                    <img src="assets/images/img/dr4.jpg" alt="" />
+                                                    <img src="/assets/images/img/dr4.jpg" alt="" />
                                                 </div>
                                                 <div className="menu-content">
                                                     <h5>
@@ -1120,7 +1120,7 @@ const Home1 = () => {
                         "
                                             >
                                                 <div className="menu-img">
-                                                    <img src="assets/images/img/dr5.jpg" alt="" />
+                                                    <img src="/assets/images/img/dr5.jpg" alt="" />
                                                 </div>
                                                 <div className="menu-content">
                                                     <h5>
@@ -1142,7 +1142,7 @@ const Home1 = () => {
                         "
                                             >
                                                 <div className="menu-img">
-                                                    <img src="assets/images/img/dr6.jpg" alt="" />
+                                                    <img src="/assets/images/img/dr6.jpg" alt="" />
                                                 </div>
                                                 <div className="menu-content">
                                                     <h5>
@@ -1176,16 +1176,16 @@ const Home1 = () => {
                                 <div className="menu-items-wrapper menu-custom-padding margin-top-50">
                                     <div className="menu-i-shapes">
                                         <span className="mis-1">
-                                            <img src="assets/images/shapes/28.png" alt="" />
+                                            <img src="/assets/images/shapes/28.png" alt="" />
                                         </span>
                                         <span className="mis-2">
-                                            <img src="assets/images/shapes/12.png" alt="" />
+                                            <img src="/assets/images/shapes/12.png" alt="" />
                                         </span>
                                         <span className="mis-3">
-                                            <img src="assets/images/shapes/7.png" alt="" />
+                                            <img src="/assets/images/shapes/7.png" alt="" />
                                         </span>
                                         <span className="mis-4">
-                                            <img src="assets/images/shapes/17.png" alt="" />
+                                            <img src="/assets/images/shapes/17.png" alt="" />
                                         </span>
                                     </div>
                                     {/* first-row */}
@@ -1201,7 +1201,7 @@ const Home1 = () => {
                         "
                                             >
                                                 <div className="menu-img">
-                                                    <img src="assets/images/img/dr2.jpg" alt="" />
+                                                    <img src="/assets/images/img/dr2.jpg" alt="" />
                                                 </div>
                                                 <div className="menu-content">
                                                     <h5>
@@ -1223,7 +1223,7 @@ const Home1 = () => {
                         "
                                             >
                                                 <div className="menu-img">
-                                                    <img src="assets/images/img/dr5.jpg" alt="" />
+                                                    <img src="/assets/images/img/dr5.jpg" alt="" />
                                                 </div>
                                                 <div className="menu-content">
                                                     <h5>
@@ -1237,7 +1237,7 @@ const Home1 = () => {
                                         <div className="col-lg-4 col-md-4">
                                             <div className="single-menu-item d-flex justify-content-between align-items-center h-100">
                                                 <div className="menu-img">
-                                                    <img src="assets/images/img/dr1.jpg" alt="" />
+                                                    <img src="/assets/images/img/dr1.jpg" alt="" />
                                                 </div>
                                                 <div className="menu-content">
                                                     <h5>
@@ -1266,7 +1266,7 @@ const Home1 = () => {
                         "
                                             >
                                                 <div className="menu-img">
-                                                    <img src="assets/images/img/dr6.jpg" alt="" />
+                                                    <img src="/assets/images/img/dr6.jpg" alt="" />
                                                 </div>
                                                 <div className="menu-content">
                                                     <h5>
@@ -1288,7 +1288,7 @@ const Home1 = () => {
                         "
                                             >
                                                 <div className="menu-img">
-                                                    <img src="assets/images/img/dr4.jpg" alt="" />
+                                                    <img src="/assets/images/img/dr4.jpg" alt="" />
                                                 </div>
                                                 <div className="menu-content">
                                                     <h5>
@@ -1310,7 +1310,7 @@ const Home1 = () => {
                         "
                                             >
                                                 <div className="menu-img">
-                                                    <img src="assets/images/img/dr5.jpg" alt="" />
+                                                    <img src="/assets/images/img/dr5.jpg" alt="" />
                                                 </div>
                                                 <div className="menu-content">
                                                     <h5>
@@ -1344,16 +1344,16 @@ const Home1 = () => {
                                 <div className="menu-items-wrapper menu-custom-padding margin-top-50">
                                     <div className="menu-i-shapes">
                                         <span className="mis-1">
-                                            <img src="assets/images/shapes/28.png" alt="" />
+                                            <img src="/assets/images/shapes/28.png" alt="" />
                                         </span>
                                         <span className="mis-2">
-                                            <img src="assets/images/shapes/12.png" alt="" />
+                                            <img src="/assets/images/shapes/12.png" alt="" />
                                         </span>
                                         <span className="mis-3">
-                                            <img src="assets/images/shapes/7.png" alt="" />
+                                            <img src="/assets/images/shapes/7.png" alt="" />
                                         </span>
                                         <span className="mis-4">
-                                            <img src="assets/images/shapes/17.png" alt="" />
+                                            <img src="/assets/images/shapes/17.png" alt="" />
                                         </span>
                                     </div>
                                     {/* first-row */}
@@ -1369,7 +1369,7 @@ const Home1 = () => {
                         "
                                             >
                                                 <div className="menu-img">
-                                                    <img src="assets/images/menu-item/mi-1.png" alt="" />
+                                                    <img src="/assets/images/menu-item/mi-1.png" alt="" />
                                                 </div>
                                                 <div className="menu-content">
                                                     <h5>
@@ -1391,7 +1391,7 @@ const Home1 = () => {
                         "
                                             >
                                                 <div className="menu-img">
-                                                    <img src="assets/images/menu-item/mi-2.png" alt="" />
+                                                    <img src="/assets/images/menu-item/mi-2.png" alt="" />
                                                 </div>
                                                 <div className="menu-content">
                                                     <h5>
@@ -1413,7 +1413,7 @@ const Home1 = () => {
                         "
                                             >
                                                 <div className="menu-img">
-                                                    <img src="assets/images/menu-item/mi-3.png" alt="" />
+                                                    <img src="/assets/images/menu-item/mi-3.png" alt="" />
                                                 </div>
                                                 <div className="menu-content">
                                                     <h5>
@@ -1442,7 +1442,7 @@ const Home1 = () => {
                         "
                                             >
                                                 <div className="menu-img">
-                                                    <img src="assets/images/menu-item/mi-4.png" alt="" />
+                                                    <img src="/assets/images/menu-item/mi-4.png" alt="" />
                                                 </div>
                                                 <div className="menu-content">
                                                     <h5>
@@ -1464,7 +1464,7 @@ const Home1 = () => {
                         "
                                             >
                                                 <div className="menu-img">
-                                                    <img src="assets/images/menu-item/mi-5.png" alt="" />
+                                                    <img src="/assets/images/menu-item/mi-5.png" alt="" />
                                                 </div>
                                                 <div className="menu-content">
                                                     <h5>
@@ -1486,7 +1486,7 @@ const Home1 = () => {
                         "
                                             >
                                                 <div className="menu-img">
-                                                    <img src="assets/images/menu-item/mi-6.png" alt="" />
+                                                    <img src="/assets/images/menu-item/mi-6.png" alt="" />
                                                 </div>
                                                 <div className="menu-content">
                                                     <h5>
@@ -1516,22 +1516,22 @@ const Home1 = () => {
                 <section className="popular-dishes-area padding-top-110">
                     <div className="pshapes">
                         <span className="ps-1 item-animateTwo">
-                            <img src="assets/images/shapes/11.png" alt="" />
+                            <img src="/assets/images/shapes/11.png" alt="" />
                         </span>
                         <span className="ps-2 item-animateTwo">
-                            <img src="assets/images/shapes/12.png" alt="" />
+                            <img src="/assets/images/shapes/12.png" alt="" />
                         </span>
                         <span className="ps-3 item-bounce">
-                            <img src="assets/images/shapes/13.png" alt="" />
+                            <img src="/assets/images/shapes/13.png" alt="" />
                         </span>
                         <span className="ps-4 item-bounce">
-                            <img src="assets/images/shapes/14.png" alt="" />
+                            <img src="/assets/images/shapes/14.png" alt="" />
                         </span>
                         <span className="ps-5">
-                            <img src="assets/images/shapes/15.png" alt="" />
+                            <img src="/assets/images/shapes/15.png" alt="" />
                         </span>
                         <span className="ps-6">
-                            <img src="assets/images/shapes/16.png" alt="" />
+                            <img src="/assets/images/shapes/16.png" alt="" />
                         </span>
                     </div>
                     <div className="container">
@@ -1637,7 +1637,7 @@ const Home1 = () => {
                                         <div className="single-dishes">
                                             <div className="dish-img">
                                                 <img
-                                                    src="assets/images/menu-item/pd1.png"
+                                                    src="/assets/images/menu-item/pd1.png"
                                                     style={{ width: "inherit" }}
                                                     alt=""
                                                 />
@@ -1671,7 +1671,7 @@ const Home1 = () => {
                                         <div className="single-dishes">
                                             <div className="dish-img">
                                                 <img
-                                                    src="assets/images/menu-item/pd2.png"
+                                                    src="/assets/images/menu-item/pd2.png"
                                                     style={{ width: "inherit" }}
                                                     alt=""
                                                 />
@@ -1705,7 +1705,7 @@ const Home1 = () => {
                                         <div className="single-dishes">
                                             <div className="dish-img">
                                                 <img
-                                                    src="assets/images/menu-item/pd3.png"
+                                                    src="/assets/images/menu-item/pd3.png"
                                                     style={{ width: "inherit" }}
                                                     alt=""
                                                 />
@@ -1742,7 +1742,7 @@ const Home1 = () => {
                                         <div className="single-dishes">
                                             <div className="dish-img">
                                                 <img
-                                                    src="assets/images/menu-item/pd4.png"
+                                                    src="/assets/images/menu-item/pd4.png"
                                                     style={{ width: "inherit" }}
                                                     alt=""
                                                 />
@@ -1776,7 +1776,7 @@ const Home1 = () => {
                                         <div className="single-dishes">
                                             <div className="dish-img">
                                                 <img
-                                                    src="assets/images/menu-item/pd5.png"
+                                                    src="/assets/images/menu-item/pd5.png"
                                                     style={{ width: "inherit" }}
                                                     alt=""
                                                 />
@@ -1810,7 +1810,7 @@ const Home1 = () => {
                                         <div className="single-dishes">
                                             <div className="dish-img">
                                                 <img
-                                                    src="assets/images/menu-item/pd6.png"
+                                                    src="/assets/images/menu-item/pd6.png"
                                                     style={{ width: "inherit" }}
                                                     alt=""
                                                 />
@@ -1844,7 +1844,7 @@ const Home1 = () => {
                                         <div className="single-dishes">
                                             <div className="dish-img">
                                                 <img
-                                                    src="assets/images/menu-item/pd7.png"
+                                                    src="/assets/images/menu-item/pd7.png"
                                                     style={{ width: "inherit" }}
                                                     alt=""
                                                 />
@@ -1881,7 +1881,7 @@ const Home1 = () => {
                                         <div className="single-dishes">
                                             <div className="dish-img">
                                                 <img
-                                                    src="assets/images/menu-item/pd8.png"
+                                                    src="/assets/images/menu-item/pd8.png"
                                                     style={{ width: "inherit" }}
                                                     alt=""
                                                 />
@@ -1926,7 +1926,7 @@ const Home1 = () => {
                                         <div className="single-dishes">
                                             <div className="dish-img">
                                                 <img
-                                                    src="assets/images/menu-item/pd5.png"
+                                                    src="/assets/images/menu-item/pd5.png"
                                                     style={{ width: "inherit" }}
                                                     alt=""
                                                 />
@@ -1960,7 +1960,7 @@ const Home1 = () => {
                                         <div className="single-dishes">
                                             <div className="dish-img">
                                                 <img
-                                                    src="assets/images/menu-item/pd5.png"
+                                                    src="/assets/images/menu-item/pd5.png"
                                                     style={{ width: "inherit" }}
                                                     alt=""
                                                 />
@@ -1994,7 +1994,7 @@ const Home1 = () => {
                                         <div className="single-dishes">
                                             <div className="dish-img">
                                                 <img
-                                                    src="assets/images/menu-item/pd5.png"
+                                                    src="/assets/images/menu-item/pd5.png"
                                                     style={{ width: "inherit" }}
                                                     alt=""
                                                 />
@@ -2031,7 +2031,7 @@ const Home1 = () => {
                                         <div className="single-dishes">
                                             <div className="dish-img">
                                                 <img
-                                                    src="assets/images/menu-item/pd5.png"
+                                                    src="/assets/images/menu-item/pd5.png"
                                                     style={{ width: "inherit" }}
                                                     alt=""
                                                 />
@@ -2065,7 +2065,7 @@ const Home1 = () => {
                                         <div className="single-dishes">
                                             <div className="dish-img">
                                                 <img
-                                                    src="assets/images/menu-item/pd5.png"
+                                                    src="/assets/images/menu-item/pd5.png"
                                                     style={{ width: "inherit" }}
                                                     alt=""
                                                 />
@@ -2099,7 +2099,7 @@ const Home1 = () => {
                                         <div className="single-dishes">
                                             <div className="dish-img">
                                                 <img
-                                                    src="assets/images/menu-item/pd5.png"
+                                                    src="/assets/images/menu-item/pd5.png"
                                                     style={{ width: "inherit" }}
                                                     alt=""
                                                 />
@@ -2133,7 +2133,7 @@ const Home1 = () => {
                                         <div className="single-dishes">
                                             <div className="dish-img">
                                                 <img
-                                                    src="assets/images/menu-item/pd5.png"
+                                                    src="/assets/images/menu-item/pd5.png"
                                                     style={{ width: "inherit" }}
                                                     alt=""
                                                 />
@@ -2170,7 +2170,7 @@ const Home1 = () => {
                                         <div className="single-dishes">
                                             <div className="dish-img">
                                                 <img
-                                                    src="assets/images/menu-item/pd5.png"
+                                                    src="/assets/images/menu-item/pd5.png"
                                                     style={{ width: "inherit" }}
                                                     alt=""
                                                 />
@@ -2215,7 +2215,7 @@ const Home1 = () => {
                                         <div className="single-dishes">
                                             <div className="dish-img">
                                                 <img
-                                                    src="assets/images/menu-item/pd1.png"
+                                                    src="/assets/images/menu-item/pd1.png"
                                                     style={{ width: "inherit" }}
                                                     alt=""
                                                 />
@@ -2249,7 +2249,7 @@ const Home1 = () => {
                                         <div className="single-dishes">
                                             <div className="dish-img">
                                                 <img
-                                                    src="assets/images/menu-item/pd1.png"
+                                                    src="/assets/images/menu-item/pd1.png"
                                                     style={{ width: "inherit" }}
                                                     alt=""
                                                 />
@@ -2283,7 +2283,7 @@ const Home1 = () => {
                                         <div className="single-dishes">
                                             <div className="dish-img">
                                                 <img
-                                                    src="assets/images/menu-item/pd1.png"
+                                                    src="/assets/images/menu-item/pd1.png"
                                                     style={{ width: "inherit" }}
                                                     alt=""
                                                 />
@@ -2320,7 +2320,7 @@ const Home1 = () => {
                                         <div className="single-dishes">
                                             <div className="dish-img">
                                                 <img
-                                                    src="assets/images/menu-item/pd1.png"
+                                                    src="/assets/images/menu-item/pd1.png"
                                                     style={{ width: "inherit" }}
                                                     alt=""
                                                 />
@@ -2354,7 +2354,7 @@ const Home1 = () => {
                                         <div className="single-dishes">
                                             <div className="dish-img">
                                                 <img
-                                                    src="assets/images/menu-item/pd1.png"
+                                                    src="/assets/images/menu-item/pd1.png"
                                                     style={{ width: "inherit" }}
                                                     alt=""
                                                 />
@@ -2388,7 +2388,7 @@ const Home1 = () => {
                                         <div className="single-dishes">
                                             <div className="dish-img">
                                                 <img
-                                                    src="assets/images/menu-item/pd1.png"
+                                                    src="/assets/images/menu-item/pd1.png"
                                                     style={{ width: "inherit" }}
                                                     alt=""
                                                 />
@@ -2422,7 +2422,7 @@ const Home1 = () => {
                                         <div className="single-dishes">
                                             <div className="dish-img">
                                                 <img
-                                                    src="assets/images/menu-item/pd1.png"
+                                                    src="/assets/images/menu-item/pd1.png"
                                                     style={{ width: "inherit" }}
                                                     alt=""
                                                 />
@@ -2459,7 +2459,7 @@ const Home1 = () => {
                                         <div className="single-dishes">
                                             <div className="dish-img">
                                                 <img
-                                                    src="assets/images/menu-item/pd1.png"
+                                                    src="/assets/images/menu-item/pd1.png"
                                                     style={{ width: "inherit" }}
                                                     alt=""
                                                 />
@@ -2504,7 +2504,7 @@ const Home1 = () => {
                                         <div className="single-dishes">
                                             <div className="dish-img">
                                                 <img
-                                                    src="assets/images/menu-item/pd8.png"
+                                                    src="/assets/images/menu-item/pd8.png"
                                                     style={{ width: "inherit" }}
                                                     alt=""
                                                 />
@@ -2538,7 +2538,7 @@ const Home1 = () => {
                                         <div className="single-dishes">
                                             <div className="dish-img">
                                                 <img
-                                                    src="assets/images/menu-item/pd8.png"
+                                                    src="/assets/images/menu-item/pd8.png"
                                                     style={{ width: "inherit" }}
                                                     alt=""
                                                 />
@@ -2572,7 +2572,7 @@ const Home1 = () => {
                                         <div className="single-dishes">
                                             <div className="dish-img">
                                                 <img
-                                                    src="assets/images/menu-item/pd8.png"
+                                                    src="/assets/images/menu-item/pd8.png"
                                                     style={{ width: "inherit" }}
                                                     alt=""
                                                 />
@@ -2609,7 +2609,7 @@ const Home1 = () => {
                                         <div className="single-dishes">
                                             <div className="dish-img">
                                                 <img
-                                                    src="assets/images/menu-item/pd8.png"
+                                                    src="/assets/images/menu-item/pd8.png"
                                                     style={{ width: "inherit" }}
                                                     alt=""
                                                 />
@@ -2643,7 +2643,7 @@ const Home1 = () => {
                                         <div className="single-dishes">
                                             <div className="dish-img">
                                                 <img
-                                                    src="assets/images/menu-item/pd8.png"
+                                                    src="/assets/images/menu-item/pd8.png"
                                                     style={{ width: "inherit" }}
                                                     alt=""
                                                 />
@@ -2677,7 +2677,7 @@ const Home1 = () => {
                                         <div className="single-dishes">
                                             <div className="dish-img">
                                                 <img
-                                                    src="assets/images/menu-item/pd8.png"
+                                                    src="/assets/images/menu-item/pd8.png"
                                                     style={{ width: "inherit" }}
                                                     alt=""
                                                 />
@@ -2711,7 +2711,7 @@ const Home1 = () => {
                                         <div className="single-dishes">
                                             <div className="dish-img">
                                                 <img
-                                                    src="assets/images/menu-item/pd8.png"
+                                                    src="/assets/images/menu-item/pd8.png"
                                                     style={{ width: "inherit" }}
                                                     alt=""
                                                 />
@@ -2748,7 +2748,7 @@ const Home1 = () => {
                                         <div className="single-dishes">
                                             <div className="dish-img">
                                                 <img
-                                                    src="assets/images/menu-item/pd8.png"
+                                                    src="/assets/images/menu-item/pd8.png"
                                                     style={{ width: "inherit" }}
                                                     alt=""
                                                 />
@@ -2793,7 +2793,7 @@ const Home1 = () => {
                                         <div className="single-dishes">
                                             <div className="dish-img">
                                                 <img
-                                                    src="assets/images/menu-item/pd2.png"
+                                                    src="/assets/images/menu-item/pd2.png"
                                                     style={{ width: "inherit" }}
                                                     alt=""
                                                 />
@@ -2827,7 +2827,7 @@ const Home1 = () => {
                                         <div className="single-dishes">
                                             <div className="dish-img">
                                                 <img
-                                                    src="assets/images/menu-item/pd2.png"
+                                                    src="/assets/images/menu-item/pd2.png"
                                                     style={{ width: "inherit" }}
                                                     alt=""
                                                 />
@@ -2861,7 +2861,7 @@ const Home1 = () => {
                                         <div className="single-dishes">
                                             <div className="dish-img">
                                                 <img
-                                                    src="assets/images/menu-item/pd2.png"
+                                                    src="/assets/images/menu-item/pd2.png"
                                                     style={{ width: "inherit" }}
                                                     alt=""
                                                 />
@@ -2898,7 +2898,7 @@ const Home1 = () => {
                                         <div className="single-dishes">
                                             <div className="dish-img">
                                                 <img
-                                                    src="assets/images/menu-item/pd2.png"
+                                                    src="/assets/images/menu-item/pd2.png"
                                                     style={{ width: "inherit" }}
                                                     alt=""
                                                 />
@@ -2932,7 +2932,7 @@ const Home1 = () => {
                                         <div className="single-dishes">
                                             <div className="dish-img">
                                                 <img
-                                                    src="assets/images/menu-item/pd2.png"
+                                                    src="/assets/images/menu-item/pd2.png"
                                                     style={{ width: "inherit" }}
                                                     alt=""
                                                 />
@@ -2966,7 +2966,7 @@ const Home1 = () => {
                                         <div className="single-dishes">
                                             <div className="dish-img">
                                                 <img
-                                                    src="assets/images/menu-item/pd2.png"
+                                                    src="/assets/images/menu-item/pd2.png"
                                                     style={{ width: "inherit" }}
                                                     alt=""
                                                 />
@@ -3000,7 +3000,7 @@ const Home1 = () => {
                                         <div className="single-dishes">
                                             <div className="dish-img">
                                                 <img
-                                                    src="assets/images/menu-item/pd2.png"
+                                                    src="/assets/images/menu-item/pd2.png"
                                                     style={{ width: "inherit" }}
                                                     alt=""
                                                 />
@@ -3037,7 +3037,7 @@ const Home1 = () => {
                                         <div className="single-dishes">
                                             <div className="dish-img">
                                                 <img
-                                                    src="assets/images/menu-item/pd2.png"
+                                                    src="/assets/images/menu-item/pd2.png"
                                                     style={{ width: "inherit" }}
                                                     alt=""
                                                 />
@@ -3085,7 +3085,7 @@ const Home1 = () => {
                                             <a href="shopping-cart.html" className="btn">
                                                 order now
                                             </a>
-                                            <img src="assets/images/gallery/24.png" alt="" />
+                                            <img src="/assets/images/gallery/24.png" alt="" />
                                         </div>
                                     </div>
                                     <div className="col-lg-4 col-md-4">
@@ -3098,7 +3098,7 @@ const Home1 = () => {
             "
                                         >
                                             <img src=" assets/images/gallery/26.png" alt="" />
-                                            <img src="assets/images/shapes/38.png" alt="" className="s11" />
+                                            <img src="/assets/images/shapes/38.png" alt="" className="s11" />
                                             <span className="gprice-1">$15</span>
                                             <div className="gimg-content">
                                                 <h5>Super Delicious Pizza</h5>
@@ -3112,14 +3112,14 @@ const Home1 = () => {
                                         <div className="gallery-img-3">
                                             <h5>Super Combo Burger</h5>
                                             <a href="shopping-cart.html">order now</a>
-                                            <img src="assets/images/gallery/23.png" alt="" />
+                                            <img src="/assets/images/gallery/23.png" alt="" />
                                             <img
-                                                src="assets/images/shapes/layer2.png"
+                                                src="/assets/images/shapes/layer2.png"
                                                 alt=""
                                                 className="s12"
                                             />
                                             <img
-                                                src="assets/images/shapes/113.png"
+                                                src="/assets/images/shapes/113.png"
                                                 alt=""
                                                 className="s13"
                                             />
@@ -3136,7 +3136,7 @@ const Home1 = () => {
             "
                                         >
                                             <img src=" assets/images/gallery/26.png" alt="" />
-                                            <img src="assets/images/shapes/38.png" alt="" className="s11" />
+                                            <img src="/assets/images/shapes/38.png" alt="" className="s11" />
                                             <span className="gprice-1">$15</span>
                                             <div className="gimg-content">
                                                 <h5>Super Delicious Pizza</h5>
@@ -3148,14 +3148,14 @@ const Home1 = () => {
                                         <div className="gallery-img-3">
                                             <h5>Super Combo Burger</h5>
                                             <a href="shopping-cart.html">order now</a>
-                                            <img src="assets/images/gallery/23.png" alt="" />
+                                            <img src="/assets/images/gallery/23.png" alt="" />
                                             <img
-                                                src="assets/images/shapes/layer2.png"
+                                                src="/assets/images/shapes/layer2.png"
                                                 alt=""
                                                 className="s12"
                                             />
                                             <img
-                                                src="assets/images/shapes/113.png"
+                                                src="/assets/images/shapes/113.png"
                                                 alt=""
                                                 className="s13"
                                             />
@@ -3170,15 +3170,15 @@ const Home1 = () => {
                                     <a href="shopping-cart.html" className="btn">
                                         order now
                                     </a>
-                                    <img src="assets/images/gallery/22.png" alt="" />
-                                    <img src="assets/images/shapes/leaves.png" alt="" className="s14" />
+                                    <img src="/assets/images/gallery/22.png" alt="" />
+                                    <img src="/assets/images/shapes/leaves.png" alt="" className="s14" />
                                     <img
-                                        src="assets/images/shapes/transparent2.png"
+                                        src="/assets/images/shapes/transparent2.png"
                                         alt=""
                                         className="s15"
                                     />
                                     <span className="gprice-4">
-                                        <img src="assets/images/gallery/25.png" alt="" />
+                                        <img src="/assets/images/gallery/25.png" alt="" />
                                     </span>
                                 </div>
                             </div>
@@ -3190,52 +3190,52 @@ const Home1 = () => {
                     <div className="container">
                         <div className="countdown-shapes">
                             <span className="cs-1 item-bounce">
-                                <img src="assets/images/shapes/24.png" alt="" />
+                                <img src="/assets/images/shapes/24.png" alt="" />
                             </span>
                             <span className="cs-3 item-bounce">
-                                <img src="assets/images/shapes/26.png" alt="" />
+                                <img src="/assets/images/shapes/26.png" alt="" />
                             </span>
                             <span className="cs-4 item-animateOne">
-                                <img src="assets/images/shapes/27.png" alt="" />
+                                <img src="/assets/images/shapes/27.png" alt="" />
                             </span>
                             <span className="cs-5">
-                                <img src="assets/images/shapes/18.png" alt="" />
+                                <img src="/assets/images/shapes/18.png" alt="" />
                             </span>
                             <span className="cs-6">
-                                <img src="assets/images/shapes/22.png" alt="" />
+                                <img src="/assets/images/shapes/22.png" alt="" />
                             </span>
                             <span className="cs-7">
-                                <img src="assets/images/shapes/30.png" alt="" />
+                                <img src="/assets/images/shapes/30.png" alt="" />
                             </span>
                         </div>
                         <div className="row align-items-center">
                             <div className="col-lg-6 col-md-12 col-sm-12 col-12 margin-bottom-20">
                                 <div className="countdown-left">
                                     <span className="cs-1">
-                                        <img src="assets/images/shapes/25.png" alt="" />
+                                        <img src="/assets/images/shapes/25.png" alt="" />
                                     </span>
                                     <span className="cs-2">
-                                        <img src="assets/images/shapes/Leaf.png" alt="" />
+                                        <img src="/assets/images/shapes/Leaf.png" alt="" />
                                     </span>
                                     <span className="cs-3">
-                                        <img src="assets/images/shapes/Leaf4.png" alt="" />
+                                        <img src="/assets/images/shapes/Leaf4.png" alt="" />
                                     </span>
                                     <span className="cs-4">
-                                        <img src="assets/images/img/3.png" alt="" />
+                                        <img src="/assets/images/img/3.png" alt="" />
                                     </span>
                                     <span className="cs-5">
-                                        <img src="assets/images/shapes/tomato.png" alt="" />
+                                        <img src="/assets/images/shapes/tomato.png" alt="" />
                                     </span>
                                     <span className="cs-6">
-                                        <img src="assets/images/shapes/onions.png" alt="" />
+                                        <img src="/assets/images/shapes/onions.png" alt="" />
                                     </span>
                                     <span className="cs-7">
-                                        <img src="assets/images/shapes/Leaf2.png" alt="" />
+                                        <img src="/assets/images/shapes/Leaf2.png" alt="" />
                                     </span>
                                     <span className="cs-8">
-                                        <img src="assets/images/shapes/Leaf3.png" alt="" />
+                                        <img src="/assets/images/shapes/Leaf3.png" alt="" />
                                     </span>
-                                    <img src="assets/images/img/21.png" alt="" />
+                                    <img src="/assets/images/img/21.png" alt="" />
                                 </div>
                             </div>
                             <div className="col-lg-5 offset-lg-1 col-md-12 col-sm-12 col-12">
@@ -3281,16 +3281,16 @@ const Home1 = () => {
                     <div className="container">
                         <div className="testi-shapes">
                             <span className="ts-1">
-                                <img src="assets/images/img/31.png" alt="" />
+                                <img src="/assets/images/img/31.png" alt="" />
                             </span>
                             <span className="ts-2">
-                                <img src="assets/images/img/32.png" alt="" />
+                                <img src="/assets/images/img/32.png" alt="" />
                             </span>
                             <span className="ts-3 item-animateTwo">
-                                <img src="assets/images/shapes/7.png" alt="" />
+                                <img src="/assets/images/shapes/7.png" alt="" />
                             </span>
                             <span className="ts-4">
-                                <img src="assets/images/shapes/26.png" alt="" />
+                                <img src="/assets/images/shapes/26.png" alt="" />
                             </span>
                         </div>
                         <div className="common-title-area text-center padding-bottom-50 wow fadeInUp">
@@ -3304,11 +3304,11 @@ const Home1 = () => {
                                 <div className="testi-top">
                                     <div className="tin-shapes">
                                         <span className="tsin-1">
-                                            <img src="assets/images/shapes/33.png" alt="" />
+                                            <img src="/assets/images/shapes/33.png" alt="" />
                                         </span>
                                     </div>
                                     <div className="testi-img">
-                                        <img src="assets/images/testimonial/testi-1.png" alt="" />
+                                        <img src="/assets/images/testimonial/testi-1.png" alt="" />
                                     </div>
                                     <div className="testi-meta">
                                         <h6>Christ Deo</h6>
@@ -3342,11 +3342,11 @@ const Home1 = () => {
                                 <div className="testi-top">
                                     <div className="tin-shapes">
                                         <span className="tsin-1">
-                                            <img src="assets/images/shapes/33.png" alt="" />
+                                            <img src="/assets/images/shapes/33.png" alt="" />
                                         </span>
                                     </div>
                                     <div className="testi-img">
-                                        <img src="assets/images/testimonial/testi-2.png" alt="" />
+                                        <img src="/assets/images/testimonial/testi-2.png" alt="" />
                                     </div>
                                     <div className="testi-meta">
                                         <h6>Lipayka Maya</h6>
@@ -3380,11 +3380,11 @@ const Home1 = () => {
                                 <div className="testi-top">
                                     <div className="tin-shapes">
                                         <span className="tsin-1">
-                                            <img src="assets/images/shapes/33.png" alt="" />
+                                            <img src="/assets/images/shapes/33.png" alt="" />
                                         </span>
                                     </div>
                                     <div className="testi-img">
-                                        <img src="assets/images/testimonial/testi-1.png" alt="" />
+                                        <img src="/assets/images/testimonial/testi-1.png" alt="" />
                                     </div>
                                     <div className="testi-meta">
                                         <h6>Christ Deo</h6>
@@ -3418,11 +3418,11 @@ const Home1 = () => {
                                 <div className="testi-top">
                                     <div className="tin-shapes">
                                         <span className="tsin-1">
-                                            <img src="assets/images/shapes/33.png" alt="" />
+                                            <img src="/assets/images/shapes/33.png" alt="" />
                                         </span>
                                     </div>
                                     <div className="testi-img">
-                                        <img src="assets/images/testimonial/testi-2.png" alt="" />
+                                        <img src="/assets/images/testimonial/testi-2.png" alt="" />
                                     </div>
                                     <div className="testi-meta">
                                         <h6>Lipayka Maya</h6>
@@ -3456,11 +3456,11 @@ const Home1 = () => {
                                 <div className="testi-top">
                                     <div className="tin-shapes">
                                         <span className="tsin-1">
-                                            <img src="assets/images/shapes/33.png" alt="" />
+                                            <img src="/assets/images/shapes/33.png" alt="" />
                                         </span>
                                     </div>
                                     <div className="testi-img">
-                                        <img src="assets/images/testimonial/testi-1.png" alt="" />
+                                        <img src="/assets/images/testimonial/testi-1.png" alt="" />
                                     </div>
                                     <div className="testi-meta">
                                         <h6>Christ Deo</h6>
@@ -3494,11 +3494,11 @@ const Home1 = () => {
                                 <div className="testi-top">
                                     <div className="tin-shapes">
                                         <span className="tsin-1">
-                                            <img src="assets/images/shapes/33.png" alt="" />
+                                            <img src="/assets/images/shapes/33.png" alt="" />
                                         </span>
                                     </div>
                                     <div className="testi-img">
-                                        <img src="assets/images/testimonial/testi-2.png" alt="" />
+                                        <img src="/assets/images/testimonial/testi-2.png" alt="" />
                                     </div>
                                     <div className="testi-meta">
                                         <h6>Lipayka Maya</h6>
@@ -3537,7 +3537,7 @@ const Home1 = () => {
                         <div className="slider-gallery-active">
                             <Slider {...settings}>
                                 <div className="single-gallery-img">
-                                    <img src="assets/images/gallery/gm1.jpg" alt="" />
+                                    <img src="/assets/images/gallery/gm1.jpg" alt="" />
                                     <a href="gallery.html">
                                         <span>
                                             <i className="fas fa-image" />
@@ -3545,7 +3545,7 @@ const Home1 = () => {
                                     </a>
                                 </div>
                                 <div className="single-gallery-img">
-                                    <img src="assets/images/gallery/gm2.jpg" alt="" />
+                                    <img src="/assets/images/gallery/gm2.jpg" alt="" />
                                     <a href="gallery.html">
                                         <span>
                                             <i className="fas fa-image" />
@@ -3553,7 +3553,7 @@ const Home1 = () => {
                                     </a>
                                 </div>
                                 <div className="single-gallery-img">
-                                    <img src="assets/images/gallery/gm3.jpg" alt="" />
+                                    <img src="/assets/images/gallery/gm3.jpg" alt="" />
                                     <a href="gallery.html">
                                         <span>
                                             <i className="fas fa-image" />
@@ -3561,7 +3561,7 @@ const Home1 = () => {
                                     </a>
                                 </div>
                                 <div className="single-gallery-img">
-                                    <img src="assets/images/gallery/gm4.jpg" alt="" />
+                                    <img src="/assets/images/gallery/gm4.jpg" alt="" />
                                     <a href="gallery.html">
                                         <span>
                                             <i className="fas fa-image" />
@@ -3569,7 +3569,7 @@ const Home1 = () => {
                                     </a>
                                 </div>
                                 <div className="single-gallery-img">
-                                    <img src="assets/images/gallery/gm5.jpg" alt="" />
+                                    <img src="/assets/images/gallery/gm5.jpg" alt="" />
                                     <a href="gallery.html">
                                         <span>
                                             <i className="fas fa-image" />
@@ -3577,7 +3577,7 @@ const Home1 = () => {
                                     </a>
                                 </div>
                                 <div className="single-gallery-img">
-                                    <img src="assets/images/gallery/gm6.jpg" alt="" />
+                                    <img src="/assets/images/gallery/gm6.jpg" alt="" />
                                     <a href="gallery.html">
                                         <span>
                                             <i className="fas fa-image" />
@@ -3592,16 +3592,16 @@ const Home1 = () => {
                 <section className="delivery-area padding-top-115 padding-bottom-90">
                     <div className="del-shapes">
                         <span className="ds-1 item-bounce">
-                            <img src="assets/images/shapes/35.png" alt="" />
+                            <img src="/assets/images/shapes/35.png" alt="" />
                         </span>
                         <span className="ds-2">
-                            <img src="assets/images/shapes/34.png" alt="" />
+                            <img src="/assets/images/shapes/34.png" alt="" />
                         </span>
                         <span className="ds-3 item-bounce">
-                            <img src="assets/images/shapes/17.png" alt="" />
+                            <img src="/assets/images/shapes/17.png" alt="" />
                         </span>
                         <span className="ds-4 item-animateOne">
-                            <img src="assets/images/shapes/6.png" alt="" />
+                            <img src="/assets/images/shapes/6.png" alt="" />
                         </span>
                     </div>
                     <div className="container">
@@ -3617,7 +3617,7 @@ const Home1 = () => {
       "
                             >
                                 <div className="delivery-left">
-                                    <img src="assets/images/bg/delivery-img.png" alt="" />
+                                    <img src="/assets/images/bg/delivery-img.png" alt="" />
                                 </div>
                             </div>
                             <div className="col-lg-6 col-md-12 wow fadeInRight">
@@ -3635,7 +3635,7 @@ const Home1 = () => {
                                         </p>
                                         <div className="order-box d-flex align-items-end">
                                             <span className="order-img">
-                                                <img src="assets/images/icons/1.png" alt="" />
+                                                <img src="/assets/images/icons/1.png" alt="" />
                                             </span>
                                             <div className="order-content">
                                                 <p>delivery order num.</p>
@@ -3655,7 +3655,7 @@ const Home1 = () => {
                 <section className="blog-area padding-top-110 padding-bottom-120">
                     <div className="blog-shapes">
                         <span className="bs-1">
-                            <img src="assets/images/img/37.png" alt="" />
+                            <img src="/assets/images/img/37.png" alt="" />
                         </span>
                     </div>
                     <div className="container">
@@ -3670,7 +3670,7 @@ const Home1 = () => {
                                 <div className="single-blog">
                                     <div className="blog-img">
                                         <a href="blog-single.html">
-                                            <img src="assets/images/blog/b-1.jpg" alt="" />
+                                            <img src="/assets/images/blog/b-1.jpg" alt="" />
                                         </a>
                                         <div className="b-badge">
                                             <span className="date">
@@ -3701,7 +3701,7 @@ const Home1 = () => {
                                 <div className="single-blog">
                                     <div className="blog-img">
                                         <a href="blog-single.html">
-                                            <img src="assets/images/blog/b-2.jpg" alt="" />
+                                            <img src="/assets/images/blog/b-2.jpg" alt="" />
                                         </a>
                                         <div className="b-badge">
                                             <span className="date">
@@ -3732,7 +3732,7 @@ const Home1 = () => {
                                 <div className="single-blog">
                                     <div className="blog-img">
                                         <a href="blog-single.html">
-                                            <img src="assets/images/blog/b-3.jpg" alt="" />
+                                            <img src="/assets/images/blog/b-3.jpg" alt="" />
                                         </a>
                                         <div className="b-badge">
                                             <span className="date">
@@ -3763,7 +3763,7 @@ const Home1 = () => {
                                 <div className="single-blog">
                                     <div className="blog-img">
                                         <a href="blog-single.html">
-                                            <img src="assets/images/blog/b-1.jpg" alt="" />
+                                            <img src="/assets/images/blog/b-1.jpg" alt="" />
                                         </a>
                                         <div className="b-badge">
                                             <span className="date">
@@ -3794,7 +3794,7 @@ const Home1 = () => {
                                 <div className="single-blog">
                                     <div className="blog-img">
                                         <a href="blog-single.html">
-                                            <img src="assets/images/blog/b-2.jpg" alt="" />
+                                            <img src="/assets/images/blog/b-2.jpg" alt="" />
                                         </a>
                                         <div className="b-badge">
                                             <span className="date">
@@ -3825,7 +3825,7 @@ const Home1 = () => {
                                 <div className="single-blog">
                                     <div className="blog-img">
                                         <a href="blog-single.html">
-                                            <img src="assets/images/blog/b-3.jpg" alt="" />
+                                            <img src="/assets/images/blog/b-3.jpg" alt="" />
                                         </a>
                                         <div className="b-badge">
                                             <span className="date">
@@ -3861,25 +3861,25 @@ const Home1 = () => {
                 <footer className="padding-top-40 padding-bottom-40">
                     <div className="fo-shapes">
                         <span className="fs-1">
-                            <img src="assets/images/gallery/26.png" alt="" />
+                            <img src="/assets/images/gallery/26.png" alt="" />
                         </span>
                         <span className="fs-2 item-bounce">
-                            <img src="assets/images/shapes/25.png" alt="" />
+                            <img src="/assets/images/shapes/25.png" alt="" />
                         </span>
                         <span className="fs-3 item-bounce">
-                            <img src="assets/images/shapes/26.png" alt="" />
+                            <img src="/assets/images/shapes/26.png" alt="" />
                         </span>
                         <span className="fs-4 item-bounce">
-                            <img src="assets/images/shapes/27.png" alt="" />
+                            <img src="/assets/images/shapes/27.png" alt="" />
                         </span>
                         <span className="fs-5 item-animateTwo">
-                            <img src="assets/images/shapes/3.png" alt="" />
+                            <img src="/assets/images/shapes/3.png" alt="" />
                         </span>
                         <span className="fs-6">
-                            <img src="assets/images/shapes/22.png" alt="" />
+                            <img src="/assets/images/shapes/22.png" alt="" />
                         </span>
                         <span className="fs-7">
-                            <img src="assets/images/shapes/30.png" alt="" />
+                            <img src="/assets/images/shapes/30.png" alt="" />
                         </span>
                     </div>
                     <div className="footer-top d-none d-md-block">
@@ -3895,7 +3895,7 @@ const Home1 = () => {
                                 <div className="col-lg-3 col-md-3">
                                     <div className="f-logo">
                                         <a href="index.html">
-                                            <img src="assets/images/logo/logo.png" alt="" />
+                                            <img src="/assets/images/logo/logo.png" alt="" />
                                         </a>
                                     </div>
                                 </div>

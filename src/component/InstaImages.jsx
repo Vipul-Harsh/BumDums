@@ -25,7 +25,7 @@ const InstaImages = () => {
                         <div className="single-inst-item">
                             <a href="#">
                                 {" "}
-                                <img src="assets/images/img/ins1.jpg" alt="" />{" "}
+                                <img src="/assets/images/img/ins1.jpg" alt="" />{" "}
                             </a>
                             <span className="ins-icon">
                                 <a href="#">
@@ -35,7 +35,7 @@ const InstaImages = () => {
                         </div>
                         <div className="single-inst-item">
                             <a href="#">
-                                <img src="assets/images/img/inst2.jpg" alt="" />{" "}
+                                <img src="/assets/images/img/inst2.jpg" alt="" />{" "}
                             </a>
                             <span className="ins-icon">
                                 <a href="#">
@@ -45,7 +45,7 @@ const InstaImages = () => {
                         </div>
                         <div className="single-inst-item">
                             <a href="#">
-                                <img src="assets/images/img/inst3.jpg" alt="" />{" "}
+                                <img src="/assets/images/img/inst3.jpg" alt="" />{" "}
                             </a>
                             <span className="ins-icon">
                                 <a href="#">
@@ -55,7 +55,7 @@ const InstaImages = () => {
                         </div>
                         <div className="single-inst-item">
                             <a href="#">
-                                <img src="assets/images/img/ins4.jpg" alt="" />{" "}
+                                <img src="/assets/images/img/ins4.jpg" alt="" />{" "}
                             </a>
                             <span className="ins-icon">
                                 <a href="#">
@@ -65,7 +65,7 @@ const InstaImages = () => {
                         </div>
                         <div className="single-inst-item">
                             <a href="#">
-                                <img src="assets/images/img/ins1.jpg" alt="" />{" "}
+                                <img src="/assets/images/img/ins1.jpg" alt="" />{" "}
                             </a>
                             <span className="ins-icon">
                                 <a href="#">
@@ -75,7 +75,7 @@ const InstaImages = () => {
                         </div>
                         <div className="single-inst-item">
                             <a href="#">
-                                <img src="assets/images/img/inst2.jpg" alt="" />{" "}
+                                <img src="/assets/images/img/inst2.jpg" alt="" />{" "}
                             </a>
                             <span className="ins-icon">
                                 <a href="#">
@@ -85,7 +85,7 @@ const InstaImages = () => {
                         </div>
                         <div className="single-inst-item">
                             <a href="#">
-                                <img src="assets/images/img/inst3.jpg" alt="" />{" "}
+                                <img src="/assets/images/img/inst3.jpg" alt="" />{" "}
                             </a>
                             <span className="ins-icon">
                                 <a href="#">
@@ -95,7 +95,7 @@ const InstaImages = () => {
                         </div>
                         <div className="single-inst-item">
                             <a href="#">
-                                <img src="assets/images/img/ins4.jpg" alt="" />{" "}
+                                <img src="/assets/images/img/ins4.jpg" alt="" />{" "}
                             </a>
                             <span className="ins-icon">
                                 <a href="#">
