@@ -52,7 +52,7 @@ const InstaImages = () => {
                         <div className="single-inst-item">
                             <a href="#">
                                 {" "}
-                                <img src="/assets/images/img/ins1.jpg" alt="" />{" "}
+                                <img src="/assets/images/img/inst1.jpg" alt="" />{" "}
                             </a>
                             <span className="ins-icon">
                                 <a href="#">
@@ -82,7 +82,7 @@ const InstaImages = () => {
                         </div>
                         <div className="single-inst-item">
                             <a href="#">
-                                <img src="/assets/images/img/ins4.jpg" alt="" />{" "}
+                                <img src="/assets/images/img/inst4.jpg" alt="" />{" "}
                             </a>
                             <span className="ins-icon">
                                 <a href="#">
@@ -92,37 +92,7 @@ const InstaImages = () => {
                         </div>
                         <div className="single-inst-item">
                             <a href="#">
-                                <img src="/assets/images/img/ins1.jpg" alt="" />{" "}
-                            </a>
-                            <span className="ins-icon">
-                                <a href="#">
-                                    <i className="fab fa-instagram" />
-                                </a>
-                            </span>
-                        </div>
-                        <div className="single-inst-item">
-                            <a href="#">
-                                <img src="/assets/images/img/inst2.jpg" alt="" />{" "}
-                            </a>
-                            <span className="ins-icon">
-                                <a href="#">
-                                    <i className="fab fa-instagram" />
-                                </a>
-                            </span>
-                        </div>
-                        <div className="single-inst-item">
-                            <a href="#">
-                                <img src="/assets/images/img/inst3.jpg" alt="" />{" "}
-                            </a>
-                            <span className="ins-icon">
-                                <a href="#">
-                                    <i className="fab fa-instagram" />
-                                </a>
-                            </span>
-                        </div>
-                        <div className="single-inst-item">
-                            <a href="#">
-                                <img src="/assets/images/img/ins4.jpg" alt="" />{" "}
+                                <img src="/assets/images/img/inst5.jpg" alt="" />{" "}
                             </a>
                             <span className="ins-icon">
                                 <a href="#">

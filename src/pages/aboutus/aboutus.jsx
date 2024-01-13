@@ -54,7 +54,7 @@ const Aboutus = () => {
                                 <span className="items counter">2000</span>
                                 <p>food item</p>
                                 <span className="g-s-4">
-                                    <img src="/assets/images/shapes/10.png" alt="" />
+                                    <img src="/assets/images/shapes/10.png" alt="" style={{opacity:'0.25',filter:'brightness(0)'}} />
                                 </span>
                                 <span className="g-s-5">
                                     <img src="/assets/images/shapes/14.png" alt="" />
@@ -67,7 +67,7 @@ const Aboutus = () => {
                                 <span className="items counter">500</span>
                                 <p> burger food item</p>
                                 <span className="g-s-4">
-                                    <img src="/assets/images/shapes/10.png" alt="" />
+                                    <img src="/assets/images/shapes/10.png" alt="" style={{opacity:'0.25',filter:'brightness(0)'}} />
                                 </span>
                                 <span className="g-s-5">
                                     <img src="/assets/images/shapes/14.png" alt="" />
@@ -80,7 +80,7 @@ const Aboutus = () => {
                                 <span className="items counter">1000</span>
                                 <p> soft drinks item</p>
                                 <span className="g-s-4">
-                                    <img src="/assets/images/shapes/10.png" alt="" />
+                                    <img src="/assets/images/shapes/10.png" alt="" style={{opacity:'0.25',filter:'brightness(0)'}} />
                                 </span>
                                 <span className="g-s-5">
                                     <img src="/assets/images/shapes/14.png" alt="" />
@@ -93,7 +93,7 @@ const Aboutus = () => {
                                 <span className="items counter">600</span>
                                 <p>Delicious Fast Food</p>
                                 <span className="g-s-4">
-                                    <img src="/assets/images/shapes/10.png" alt="" />
+                                    <img src="/assets/images/shapes/10.png" alt="" style={{opacity:'0.25',filter:'brightness(0)'}} />
                                 </span>
                                 <span className="g-s-5">
                                     <img src="/assets/images/shapes/14.png" alt="" />
