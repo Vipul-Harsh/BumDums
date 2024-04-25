@@ -2,6 +2,10 @@
 @import url("assets/webfonts/Rockinsoda.ttf");
 
 @font-face {
+    font-family: "Main";
+    src: url(../webfonts/SpaceGrotesk-VariableFont_wght.ttf) format("truetype");
+}
+@font-face {
     font-family: "Rockinsoda";
     font-style: normal;
     /* font-weight: 400; */
@@ -20,11 +24,15 @@
     --tertiaryColor: #0c4db0;
     --cursiveFont: "Rockinsoda", normal;
     /* --cursiveFont: "Caveat", cursive; */
-    --primaryFont: "Aeonik", normal;
+    --primaryFont: "Main", normal;
     /* --primaryFont: "Poppins", sans-serif; */
 
     --cursiveLetterSpacing:2px;
+ 
   }
+p{
+    font-family: var(--primaryFont);
+}
 body {
     margin: 0;
     color: var(--secondaryColor);
@@ -47,13 +55,18 @@ h1 {
 h2 {
     color: var(--secondaryColor);
     font-size: 48px;
-    font-weight: 700
+    font-weight: 700;
+    font-family: Main;
+    
 }
 
 @media (max-width: 575.98px) {
     h2 {
         font-size: 36px
     }
+}
+h5,h6,h3{
+    font-family: Main;
 }
 
 h3 {
@@ -3796,7 +3809,7 @@ header.header3 .shopping i {
 
 .single-menu-nav {
     width: 150px;
-    height: 150px;
+    height: 175px;
     padding: 25px 30px;
     border: 1px solid #e6e6e6;
     border-radius: 5px;
@@ -3849,21 +3862,21 @@ header.header3 .shopping i {
 @media (min-width: 992px) and (max-width: 1199.98px) {
     .single-menu-nav {
         width: 120px;
-        height: 130px
+        height: 155px
     }
 }
 
 @media (min-width: 768px) and (max-width: 991.98px) {
     .single-menu-nav {
         width: 120px;
-        height: 130px
+        height: 155px
     }
 }
 
 @media (max-width: 767.98px) {
     .single-menu-nav {
         width: 120px;
-        height: 130px
+        height: 155px
     }
 }
 
@@ -11892,4 +11905,28 @@ ul.slick-dots li.slick-active button {
 
 .wishlist-area .pagination {
     margin-top: 15px
+}
+.linker{
+    font-size: 20px !important;
+}
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    background-color: #ffffff; /* Adjust as needed */
+    transition: top 0.3s ease-in-out; /* Smooth transition effect */
+}
+
+.sticky + .header-bottom {
+    margin-top: 80px; /* Adjust according to your navbar height */
+}
+
+
+.foot-nac{
+    font-size: 20px !important;
+}
+.blue-dark{
+    color: blue !important;
 }

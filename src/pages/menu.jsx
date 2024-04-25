@@ -131,7 +131,7 @@ const Menu = () => {
           <div className="menu-nav-wrapper">
             <div className="container">
               <div className="row">
-                <ul className="nav" id="myTab" role="tablist">
+                <ul className="nav" id="myTab" role="tablist" style={{display:"flex",justifyContent:'center'}}>
                   {/* menu-nav-1 */}
                   {menuData?.section1?.categories?.map((category, index) => (
                     <>
@@ -273,7 +273,7 @@ const Menu = () => {
           <div className="menu-nav-wrapper">
             <div className="container">
               <div className="row">
-                <ul className="nav" id="myTab" role="tablist">
+                <ul className="nav" id="myTab" role="tablist" style={{display:"flex",justifyContent:'center'}}>
                   {/* menu-nav-1 */}
                   {menuData?.section2?.categories?.map((category, index) => (
                     <>
@@ -447,7 +447,7 @@ const Menu = () => {
           <div className="menu-nav-wrapper">
             <div className="container">
               <div className="row">
-                <ul className="nav" id="pizzaTab2" role="tablist">
+                <ul className="nav" id="pizzaTab2" role="tablist" style={{display:"flex",justifyContent:'center'}}>
                   {/* menu-nav-1 */}
                   {menuData?.section3?.categories?.map((category, index) => (
                     <>
@@ -549,6 +549,116 @@ const Menu = () => {
         </div>
         <div className="container">
           <div className="common-title-area text-center padding-40">
+            <h3>{menuData?.section5.subtitle}</h3>
+            <h2>
+              {TrimWord(menuData?.section5.title)?.[0]}{" "}
+              <span> {TrimWord(menuData?.section5.title)?.[1]}</span>{" "}
+            </h2>
+          </div>
+          {/* menu-nav-wrapper */}
+          <div className="menu-nav-wrapper">
+            <div className="container">
+              <div className="row">
+                <ul className="nav" id="pizzaTab2" role="tablist" style={{display:"flex",justifyContent:'center'}}>
+                  {/* menu-nav-1 */}
+                  {menuData?.section5?.categories?.map((category, index) => (
+                    <>
+                      <li className="nav-item" role="presentation">
+                        <div
+                          className={`nav-link ${!index && "active"}`}
+                          id={`nav-${category}-${index}`}
+                          data-bs-toggle="tab"
+                          data-bs-target={`#${category}-${index}`}
+                          role="tab"
+                          aria-controls={`${category}-${index}`}
+                          aria-selected="true"
+                        >
+                          <div className="single-menu-nav pizza-single-menu-nav  text-center">
+                            <div className="menu-img margin-bottom-10">
+                              <img
+                                src={
+                                  menuData?.section5?.image
+                                    ? menuData?.section4?.image
+                                    : "/assets/images/menu-item/pm1.png"
+                                }
+                                alt=""
+                              />
+                            </div>
+                            <h6>{category}</h6>
+                            <span className="g-s-4">
+                              <img src="/assets/images/shapes/10.png" alt="" />
+                            </span>
+                            <span className="g-s-5">
+                              <img src="/assets/images/shapes/14.png" alt="" />
+                            </span>
+                          </div>
+                        </div>
+                      </li>
+                    </>
+                  ))}
+                </ul>
+              </div>
+            </div>
+          </div>
+          {/* menu-items-wrapper */}
+          <div className="tab-content" id="nav-tabContent2">
+            {/* menu-items-1 */}
+            {menuData?.section5?.categories?.map((category, index) => (
+              <>
+                <div
+                  className={`tab-pane fade ${!index && "show active"}`}
+                  id={`${category}-${index}`}
+                  role="tabpanel"
+                  aria-labelledby={`nav-${category}-${index}`}
+                >
+                  <div className="menu-items-wrapper pizza-items-wrapper  margin-top-50">
+                    <div className="row">
+                      {menuData?.section5?.menu
+                        ?.filter((item) => item.category === category)
+                        ?.map((item) => (
+                          <>
+                            <div className="col-lg-4 col-md-4">
+                              <div className="single-menu-item d-flex justify-content-between">
+                                <div className="menu-img">
+                                  <img
+                                    src={
+                                      item?.image
+                                        ? item?.image
+                                        : "/assets/images/menu-item/piz1.png"
+                                    }
+                                    alt=""
+                                  />
+                                </div>
+                                <div className="menu-content">
+                                  <h6>
+                                    <a href="single-dish.html">{item?.name}</a>
+                                  </h6>
+                                  <p>{item?.description}</p>
+                                  <span>price :₹{item?.price}</span>
+                                </div>
+                              </div>
+                            </div>
+                          </>
+                        ))}
+                    </div>
+                  </div>
+                </div>
+              </>
+            ))}
+          </div>
+        </div>
+      </section>
+      <section className="menu-area  pizza-area">
+        <div className="menu-i-shapes">
+          <span className="mis-1">
+            <img src="/assets/images/shapes/36.png" alt="" />
+          </span>
+          <span className="mis-2">
+            <img src="/assets/images/shapes/6.png" alt="" />
+          </span>
+        </div>
+        <div className="container">
+          <div className="common-title-area text-center padding-40">
             <h3>{menuData?.section4.subtitle}</h3>
             <h2>
               {TrimWord(menuData?.section4.title)?.[0]}{" "}
@@ -559,7 +669,7 @@ const Menu = () => {
           <div className="menu-nav-wrapper">
             <div className="container">
               <div className="row">
-                <ul className="nav" id="pizzaTab2" role="tablist">
+                <ul className="nav" id="pizzaTab2" role="tablist" style={{display:"flex",justifyContent:'center'}}>
                   {/* menu-nav-1 */}
                   {menuData?.section4?.categories?.map((category, index) => (
                     <>

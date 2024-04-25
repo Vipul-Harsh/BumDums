@@ -40,8 +40,8 @@ const BlogsHome = () => {
         ]
         ,
     };
-    return (
-        <section className="blog-area padding-top-110 ">
+    return ( 
+        <section className="blog-area  " style={{marginTop:"50px"}}>
             <div className="blog-shapes">
                 <span className="bs-1">
                     <img src="/assets/images/img/37.png" alt="" />

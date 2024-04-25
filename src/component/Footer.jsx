@@ -142,27 +142,37 @@ const Footer = () => {
                             </div>
                             <div className="footer-nav text-center">
                                 <nav>
-                                    <ul className="main-menu main-menu2">
+                                    <ul className="main-menu main-menu2" style={{display:'flex',justifyContent:"center", alignContent:"center",flexWrap:"wrap"}}>
                                         <li>
-                                            <Link to="/">home</Link>
+                                            <Link to="/" className='foot-nac' style={{fontSize:"20px"}}>home</Link>
                                         </li>
                                         {/* <li>
                                             <Link to="menu.html">menu</Link>
                                         </li> */}
                                         <li>
-                                            <Link to="/about">about us</Link>
+                                            <Link to="/about" className='foot-nac'style={{fontSize:"20px"}}>about us</Link>
                                         </li>
+                                        <li>
+                                            <Link to="/menu" className='foot-nac' style={{fontSize:"20px"}}>Menu</Link>
+                                        </li>
+                                        <li>
+                                            <Link to="/blogs" className='foot-nac' style={{fontSize:"20px"}}>Blogs</Link>
+                                        </li>
+
                                         {/* <li>
                                             <Link to="index.html">page</Link>
                                         </li> */}
                                         <li>
-                                            <Link to="/contact">contact us</Link>
+                                            <Link to="/contact" className='foot-nac' style={{fontSize:"20px"}}>contact us</Link>
                                         </li>
                                     </ul>
                                 </nav>
                             </div>
                             <p>
-                                Copyright © 2024 <a href="/">Rightlabs</a>
+                                Copyright © 2024 <a href="/">Bumdums</a> All Rights Reserved.
+                            </p>
+                            <p>
+                                Designed By <a href="/">Rightlabs</a>
                             </p>
                         </div>
                     </div>

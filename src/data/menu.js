@@ -217,8 +217,8 @@ export const menu_categories = ["pizza", "appetizer", "burger", "sandwich"];
 
 export const FullMenuData = {
     section1: {
-        subtitle: "Delicious Veg Lunch Options",
-        title: "Lunch Menu",
+        subtitle: "Delicious Veg Starters Option",
+        title: "Tasty Starters",
         categories: ["entree", "rice", "snack", "dessert"],
         menu: [
             {
@@ -371,8 +371,8 @@ export const FullMenuData = {
         ]
     },
     section3: {
-        subtitle: "Irresistible Veg Snacks",
-        title: "Snacks and Appetizers",
+        subtitle: "Mouth Watering Shakes & Mocktails",
+        title: "Shakes & Mocktails",
         categories: ["snack", "appetizer"],
         menu: [
             {
@@ -509,5 +509,69 @@ export const FullMenuData = {
                 category: "pastry"
             }
         ]
-    }
+    },
+    section5: {
+        subtitle: "China in Bhiwadi",
+        title: "Chinese Options",
+        categories: ["snack", "appetizer"],
+        menu: [
+            {
+                name: "Vegetable Pakora",
+                image: "",
+                description: "Assorted veggies dipped in chickpea flour batter and fried.",
+                price: 70,
+                category: "snack"
+            },
+            {
+                name: "Samosa Chaat",
+                image: "",
+                description: "Crushed samosas topped with tangy chutneys and spices.",
+                price: 80,
+                category: "appetizer"
+            },
+            {
+                name: "Dahi Puri",
+                image: "",
+                description: "Mini crispy puris filled with yogurt, chutney, and spices.",
+                price: 75,
+                category: "snack"
+            },
+            {
+                name: "Aloo Tikki",
+                image: "",
+                description: "Pan-fried mashed potato patties served with chutney.",
+                price: 60,
+                category: "snack"
+            },
+            {
+                name: "Vada Pav",
+                image: "",
+                description: "Spicy potato fritter served in a bun with chutneys.",
+                price: 70,
+                category: "snack"
+            },
+            {
+                name: "Onion Bhaji",
+                image: "",
+                description: "Sliced onions mixed in gram flour batter and deep-fried.",
+                price: 55,
+                category: "appetizer"
+            },
+            {
+                name: "Pani Puri",
+                image: "",
+                description: "Hollow crispy puris filled with spiced water, chutney, and chickpeas.",
+                price: 90,
+                category: "snack"
+            },
+            {
+                name: "Paneer Pakora",
+                image: "",
+                description: "Cottage cheese dipped in gram flour batter and fried.",
+                price: 80,
+                category: "appetizer"
+            }
+        ]
+    },
+
 }

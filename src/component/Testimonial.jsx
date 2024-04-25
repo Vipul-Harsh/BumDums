@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 import Slider from 'react-slick';
 import { TestimonialsData } from '../data/testimonials';
 const Testimonial = () => {
@@ -68,9 +68,7 @@ const Testimonial = () => {
                                                 <img src="/assets/images/shapes/33.png" alt="" />
                                             </span>
                                         </div>
-                                        <div className="testi-img">
-                                            <img src={testimonial.image} alt="" />
-                                        </div>
+                                        
                                         <div className="testi-meta">
                                             <h6>{testimonial.name}</h6>
                                             <p>{testimonial.role}</p>
