@@ -204,7 +204,7 @@ const Menu = () => {
                                     </div>
                                     <div className="menu-content">
                                       <h6>
-                                        <a href="single-dish.html">
+                                        <a>
                                           {item?.name}
                                         </a>
                                       </h6>
@@ -342,7 +342,7 @@ const Menu = () => {
                                 </div>
                                 <div className="menu-content">
                                   <h6>
-                                    <a href="single-dish.html">{item?.name}</a>
+                                    <a>{item?.name}</a>
                                   </h6>
                                   <p>{item?.description}</p>
                                   <span>price : ₹{item?.price}</span>
@@ -514,7 +514,7 @@ const Menu = () => {
                                 </div>
                                 <div className="menu-content">
                                   <h6>
-                                    <a href="single-dish.html">{item?.name}</a>
+                                    <a>{item?.name}</a>
                                   </h6>
                                   <p>{item?.description}</p>
                                   <span>price :₹{item?.price}</span>
@@ -624,7 +624,7 @@ const Menu = () => {
                                 </div>
                                 <div className="menu-content">
                                   <h6>
-                                    <a href="single-dish.html">{item?.name}</a>
+                                    <a>{item?.name}</a>
                                   </h6>
                                   <p>{item?.description}</p>
                                   <span>price :₹{item?.price}</span>
@@ -732,7 +732,7 @@ const Menu = () => {
                                 </div>
                                 <div className="menu-content">
                                   <h6>
-                                    <a href="single-dish.html">{item?.name}</a>
+                                    <a>{item?.name}</a>
                                   </h6>
                                   <p>{item?.description}</p>
                                   <span>price :₹{item?.price}</span>

@@ -1,7 +1,7 @@
 export const BlogsData = [
     {
         title: "Unveiling the Flavors of Rajasthan",
-        image: "/assets/images/blog/blog1.jpg",
+        image: "../../public/assets/images/blog/rajasthani.jpg",
         description: "Embark on a culinary journey through the vibrant tastes of Rajasthan, exploring traditional Rajasthani dishes and their cultural significance.",
         category: "Taste of Rajasthan",
         date: "2024-02-10",

@@ -6,7 +6,7 @@ const Blogs = () => {
   return (
     <>
       {/* breadcrumb-area */}
-      <div className="banner-area breadcrumb-area padding-top-120 padding-bottom-90">
+      <div className="banner-area breadcrumb-area padding-top-120">
         <div className="bread-shapes">
           <span className="b-shape-1 item-bounce">
             <img src="/assets/images/img/5.png" alt="" />
@@ -44,7 +44,7 @@ const Blogs = () => {
         </div>
       </div>
       {/* Blog Content Section */}
-      <section className="blog-content-section padding-top-110 padding-bottom-120">
+      <section className="blog-content-section padding-top-110 ">
         <div className="blog-shapes">
           <span className="bbs-1">
             <img src="/assets/images/shapes/13.png" alt="" />
@@ -125,21 +125,7 @@ const Blogs = () => {
                 )
               }
               </div>
-              <div className="template-pagination">
-                <ul>
-                  <li>
-                    <a className="active" href="#">
-                      01
-                    </a>
-                  </li>
-                  <li>
-                    <a href="#">02</a>
-                  </li>
-                  <li>
-                    <a href="#">03</a>
-                  </li>
-                </ul>
-              </div>
+             
             </div>
             {/* <div className="col-lg-3">
               <div className="blog-sidebar margin-top-10">

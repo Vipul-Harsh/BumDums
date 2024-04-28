@@ -67,7 +67,7 @@ const BlogSingle = () => {
                             <div className="blog-posts">
                                 <div className="blog-single-post">
                                     <div className="blog-thumbnail wow fadeInUp">
-                                        <img src="/assets/images/blog/blog2.jpg" alt="thumbnail" />
+                                        <img src={blog.image} alt="thumbnail" />
                                     </div>
                                     <div className="blog-content-part">
 
