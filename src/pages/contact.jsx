@@ -130,7 +130,7 @@ const Contact = () => {
                                 </div>
                                 <div className="info-content text-center text-lg-left">
                                     <h5>Phone Us 24/7</h5>
-                                    <p>123-5879406</p>
+                                    <p>+91 8441000512</p>
                                 </div>
                             </div>
                         </div>
@@ -141,7 +141,7 @@ const Contact = () => {
                                 </div>
                                 <div className="info-content text-center text-lg-left">
                                     <h5>Get Direction</h5>
-                                    <p>Sector:7, Road:27, House:18, Uttara, Dhaka, 1230 Dhaka.</p>
+                                    <p>Shop No . A1,Raghuveer Singh Market, Near Canara Bank,Tapukara</p>
                                 </div>
                             </div>
                         </div>
@@ -168,7 +168,7 @@ const Contact = () => {
                 </div>
                 <div className="container">
                     <iframe
-                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3648.4148247742232!2d90.39747015024156!3d23.874904684452307!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755c43bc25ec0ad%3A0x92541def35db7c01!2sSoftTech-IT%20Institute!5e0!3m2!1sen!2sbd!4v1611143717399!5m2!1sen!2sbd"
+                        src="https://maps.app.goo.gl/f19HP2Ri2Ab4TmoCA"
                         width={1190}
                         height={400}
                         style={{ border: 0 }}
