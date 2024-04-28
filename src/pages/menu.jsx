@@ -138,25 +138,23 @@ const Menu = () => {
                       <li className="nav-item" role="presentation">
                         <div
                           className={`nav-link ${!index && "active"}`}
-                          id={`nav-${category}-${index}`}
+                          id={`nav-${category.name}-${index}`}
                           data-bs-toggle="tab"
-                          data-bs-target={`#${category}-${index}`}
+                          data-bs-target={`#${category.name}-${index}`}
                           role="tab"
-                          aria-controls={`${category}-${index}`}
+                          aria-controls={`${category.name}-${index}`}
                           aria-selected="true"
                         >
                           <div className="single-menu-nav pizza-single-menu-nav  text-center">
                             <div className="menu-img margin-bottom-10">
                               <img
                                 src={
-                                  menuData?.section2?.image
-                                    ? menuData?.section2?.image
-                                    : "/assets/images/menu-item/tc1.png"
+                                  category.image
                                 }
                                 alt=""
                               />
                             </div>
-                            <h6>{category}</h6>
+                            <h6>{category.name}</h6>
                             <span className="g-s-4">
                               <img src="/assets/images/shapes/10.png" alt="" />
                             </span>
@@ -178,17 +176,18 @@ const Menu = () => {
             {menuData?.section1?.categories?.map((category, index) => (
               <>
                 <div
-                  className={`tab-pane fade ${!index && "show active"}`}
-                  id={`${category}-${index}`}
-                  role="tabpanel"
-                  aria-labelledby={`nav-${category}-${index}`}
+                  key={`${category.name}-${index}`}
+      className={`tab-pane fade ${!index && "show active"}`}
+      id={`${category.name}-${index}`}
+      role="tabpanel"
+      aria-labelledby={`nav-${category.name}-${index}`}
                 >
                   <div className="menu-items-wrapper pizza-items-wrapper  margin-top-50">
                     <div className="row">
                       <div className="col-lg-8">
                         <div className="row">
                           {menuData?.section1?.menu
-                            ?.filter((item) => item.category === category)
+                            ?.filter((item) => item.category === category.name)
                             ?.map((item) => (
                               <>
                                 <div className="col-lg-6 col-md-6">
@@ -224,7 +223,7 @@ const Menu = () => {
                             Super <br />
                             Combo Burger
                           </h5>
-                          <p>Shrimp, Squid</p>
+                          <p></p>
                           <a
                             href="https://api.whatsapp.com/send?phone=917690800051&text=Hello%2C%20I%20want%20to%20order%20"
                             target="__blank"
@@ -237,7 +236,7 @@ const Menu = () => {
                               alt=""
                             />
                           </span>
-                          <span className="gprice-2">$15</span>
+                          <span className="gprice-2">₹119</span>
                           <span className="gshape1">
                             <img src="/assets/images/shapes/38.png" alt="" />
                           </span>
@@ -280,25 +279,23 @@ const Menu = () => {
                       <li className="nav-item" role="presentation">
                         <div
                           className={`nav-link ${!index && "active"}`}
-                          id={`nav-${category}-${index}`}
+                          id={`nav-${category.name}-${index}`}
                           data-bs-toggle="tab"
-                          data-bs-target={`#${category}-${index}`}
+                          data-bs-target={`#${category.name}-${index}`}
                           role="tab"
-                          aria-controls={`${category}-${index}`}
+                          aria-controls={`${category.name}-${index}`}
                           aria-selected="true"
                         >
                           <div className="single-menu-nav pizza-single-menu-nav  text-center">
                             <div className="menu-img margin-bottom-10">
                               <img
                                 src={
-                                  menuData?.section2?.image
-                                    ? menuData?.section2?.image
-                                    : "/assets/images/menu-item/bn1.png"
+                                 category.image
                                 }
                                 alt=""
                               />
                             </div>
-                            <h6>{category}</h6>
+                            <h6>{category.name}</h6>
                             <span className="g-s-4">
                               <img src="/assets/images/shapes/10.png" alt="" />
                             </span>
@@ -321,14 +318,14 @@ const Menu = () => {
               <>
                 <div
                   className={`tab-pane fade ${!index && "show active"}`}
-                  id={`${category}-${index}`}
+                  id={`${category.name}-${index}`}
                   role="tabpanel"
-                  aria-labelledby={`nav-${category}-${index}`}
+                  aria-labelledby={`nav-${category.name}-${index}`}
                 >
                   <div className="menu-items-wrapper pizza-items-wrapper  margin-top-50">
                     <div className="row">
                       {menuData?.section2?.menu
-                        ?.filter((item) => item.category === category)
+                        ?.filter((item) => item.category === category.name)
                         ?.map((item) => (
                           <>
                             <div className="col-lg-4 col-md-4">
@@ -396,7 +393,7 @@ const Menu = () => {
                 <div className="col-lg-6 col-md-12 wow fadeInRight">
                   <div className="gallery-img-1 gallery-img-01">
                     <h5 className="margin-bottom-10">
-                      Chicken Combo
+                     veggie Combo
                       <br />
                       Burger
                     </h5>
@@ -454,25 +451,23 @@ const Menu = () => {
                       <li className="nav-item" role="presentation">
                         <div
                           className={`nav-link ${!index && "active"}`}
-                          id={`nav-${category}-${index}`}
+                          id={`nav-${category.name}-${index}`}
                           data-bs-toggle="tab"
-                          data-bs-target={`#${category}-${index}`}
+                          data-bs-target={`#${category.name}-${index}`}
                           role="tab"
-                          aria-controls={`${category}-${index}`}
+                          aria-controls={`${category.name}-${index}`}
                           aria-selected="true"
                         >
                           <div className="single-menu-nav pizza-single-menu-nav  text-center">
                             <div className="menu-img margin-bottom-10">
                               <img
                                 src={
-                                  menuData?.section3?.image
-                                    ? menuData?.section3?.image
-                                    : "/assets/images/menu-item/pm1.png"
+                                  category.image
                                 }
                                 alt=""
                               />
                             </div>
-                            <h6>{category}</h6>
+                            <h6>{category.name}</h6>
                             <span className="g-s-4">
                               <img src="/assets/images/shapes/10.png" alt="" />
                             </span>
@@ -495,14 +490,14 @@ const Menu = () => {
               <>
                 <div
                   className={`tab-pane fade ${!index && "show active"}`}
-                  id={`${category}-${index}`}
+                  id={`${category.name}-${index}`}
                   role="tabpanel"
-                  aria-labelledby={`nav-${category}-${index}`}
+                  aria-labelledby={`nav-${category.name}-${index}`}
                 >
                   <div className="menu-items-wrapper pizza-items-wrapper  margin-top-50">
                     <div className="row">
                       {menuData?.section3?.menu
-                        ?.filter((item) => item.category === category)
+                        ?.filter((item) => item.category === category.name)
                         ?.map((item) => (
                           <>
                             <div className="col-lg-4 col-md-4">
@@ -566,25 +561,23 @@ const Menu = () => {
                       <li className="nav-item" role="presentation">
                         <div
                           className={`nav-link ${!index && "active"}`}
-                          id={`nav-${category}-${index}`}
+                          id={`nav-${category.name}-${index}`}
                           data-bs-toggle="tab"
-                          data-bs-target={`#${category}-${index}`}
+                          data-bs-target={`#${category.name}-${index}`}
                           role="tab"
-                          aria-controls={`${category}-${index}`}
+                          aria-controls={`${category.name}-${index}`}
                           aria-selected="true"
                         >
                           <div className="single-menu-nav pizza-single-menu-nav  text-center">
                             <div className="menu-img margin-bottom-10">
                               <img
                                 src={
-                                  menuData?.section5?.image
-                                    ? menuData?.section4?.image
-                                    : "/assets/images/menu-item/pm1.png"
+                                  category.image
                                 }
                                 alt=""
                               />
                             </div>
-                            <h6>{category}</h6>
+                            <h6>{category.name}</h6>
                             <span className="g-s-4">
                               <img src="/assets/images/shapes/10.png" alt="" />
                             </span>
@@ -607,14 +600,14 @@ const Menu = () => {
               <>
                 <div
                   className={`tab-pane fade ${!index && "show active"}`}
-                  id={`${category}-${index}`}
+                  id={`${category.name}-${index}`}
                   role="tabpanel"
-                  aria-labelledby={`nav-${category}-${index}`}
+                  aria-labelledby={`nav-${category.name}-${index}`}
                 >
                   <div className="menu-items-wrapper pizza-items-wrapper  margin-top-50">
                     <div className="row">
                       {menuData?.section5?.menu
-                        ?.filter((item) => item.category === category)
+                        ?.filter((item) => item.category === category.name)
                         ?.map((item) => (
                           <>
                             <div className="col-lg-4 col-md-4">
@@ -676,25 +669,23 @@ const Menu = () => {
                       <li className="nav-item" role="presentation">
                         <div
                           className={`nav-link ${!index && "active"}`}
-                          id={`nav-${category}-${index}`}
+                          id={`nav-${category.name}-${index}`}
                           data-bs-toggle="tab"
-                          data-bs-target={`#${category}-${index}`}
+                          data-bs-target={`#${category.name}-${index}`}
                           role="tab"
-                          aria-controls={`${category}-${index}`}
+                          aria-controls={`${category.name}-${index}`}
                           aria-selected="true"
                         >
                           <div className="single-menu-nav pizza-single-menu-nav  text-center">
                             <div className="menu-img margin-bottom-10">
                               <img
                                 src={
-                                  menuData?.section4?.image
-                                    ? menuData?.section4?.image
-                                    : "/assets/images/menu-item/pm1.png"
+                                category.image
                                 }
                                 alt=""
                               />
                             </div>
-                            <h6>{category}</h6>
+                            <h6>{category.name}</h6>
                             <span className="g-s-4">
                               <img src="/assets/images/shapes/10.png" alt="" />
                             </span>
@@ -717,14 +708,14 @@ const Menu = () => {
               <>
                 <div
                   className={`tab-pane fade ${!index && "show active"}`}
-                  id={`${category}-${index}`}
+                  id={`${category.name}-${index}`}
                   role="tabpanel"
-                  aria-labelledby={`nav-${category}-${index}`}
+                  aria-labelledby={`nav-${category.name}-${index}`}
                 >
                   <div className="menu-items-wrapper pizza-items-wrapper  margin-top-50">
                     <div className="row">
                       {menuData?.section4?.menu
-                        ?.filter((item) => item.category === category)
+                        ?.filter((item) => item.category === category.name)
                         ?.map((item) => (
                           <>
                             <div className="col-lg-4 col-md-4">

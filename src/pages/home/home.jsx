@@ -340,11 +340,11 @@ const Home = () => {
             </h2>
           </div>
           {/* menu-nav-wrapper */}
-          <div className="menu-nav-wrapper">
+          <div className="menu-nav-wrapper" style={{display:"flex",justifyContent:"center"}}>
             <div className="container">
               <div className="row">
                 {/* tab-nav-items */}
-                <ul className="nav" id="nav-tab" role="tablist">
+                <ul className="nav" id="nav-tab" role="tablist" style={{display:"flex",justifyContent:"center"}}>
                   {/* menu-nav-1 */}
                   <li className="nav-item" role="presentation">
                     <div
@@ -415,7 +415,7 @@ const Home = () => {
                       <div className="single-menu-nav text-center">
                         <div className="menu-img margin-bottom-10">
                           <img
-                            src="/assets/images/menu-item/chicken.png"
+                            src="../../../public/assets/images/icons/f-4.png"
                             alt=""
                           />
                         </div>
@@ -486,33 +486,7 @@ const Home = () => {
                     </div>
                   </li>
                   {/* menu-nav-6 */}
-                  <li className="nav-item" role="presentation">
-                    <div
-                      className="nav-link"
-                      id="combo-tab"
-                      data-bs-toggle="tab"
-                      data-bs-target="#combo-tab-pane"
-                      role="tab"
-                      aria-controls="combo-tab-pane"
-                      aria-selected="false"
-                    >
-                      <div className="single-menu-nav text-center">
-                        <div className="menu-img margin-bottom-10">
-                          <img
-                            src="/assets/images/menu-item/combo.png"
-                            alt=""
-                          />
-                        </div>
-                        <h6>Dessert</h6>
-                        <span className="g-s-4">
-                          <img src="/assets/images/shapes/10.png" alt="" />
-                        </span>
-                        <span className="g-s-5">
-                          <img src="/assets/images/shapes/14.png" alt="" />
-                        </span>
-                      </div>
-                    </div>
-                  </li>
+                  
                 </ul>
               </div>
             </div>
@@ -538,7 +512,7 @@ const Home = () => {
       <div className="col-lg-4 col-md-4">
         <div className="single-menu-item d-flex justify-content-between">
           <div className="menu-img">
-            <img src="/assets/images/menu-item/piz1.png" alt="" />
+            <img src="../../../public/assets/images/menu-item/Cheese-Sticks-SQ.jpg" alt="" />
           </div>
           <div className="menu-content">
             <h5>
@@ -551,7 +525,7 @@ const Home = () => {
       <div className="col-lg-4 col-md-4">
         <div className="single-menu-item d-flex justify-content-between ">
           <div className="menu-img">
-            <img src="/assets/images/menu-item/piz2.png" alt="" />
+            <img src="../../../public/assets/images/menu-item/Corn-Chaat-3.jpg" alt="" />
           </div>
           <div className="menu-content">
             <h5>
@@ -564,7 +538,7 @@ const Home = () => {
       <div className="col-lg-4 col-md-4">
         <div className="single-menu-item d-flex justify-content-between ">
           <div className="menu-img">
-            <img src="/assets/images/menu-item/piz3.png" alt="" />
+            <img src="../../../public/assets/images/menu-item/dahi-bhalle.jpeg" alt="" />
           </div>
           <div className="menu-content">
             <h5>
@@ -580,7 +554,7 @@ const Home = () => {
       <div className="col-lg-4 col-md-4">
         <div className="single-menu-item d-flex justify-content-between ">
           <div className="menu-img">
-            <img src="/assets/images/menu-item/piz4.png" alt="" />
+            <img src="../../../public/assets/images/menu-item/onion-pakoda.jpg" alt="" />
           </div>
           <div className="menu-content">
             <h5>
@@ -593,7 +567,7 @@ const Home = () => {
       <div className="col-lg-4 col-md-4">
         <div className="single-menu-item d-flex justify-content-between ">
           <div className="menu-img">
-            <img src="/assets/images/menu-item/piz5.png" alt="" />
+            <img src="../../../public/assets/images/menu-item/aloo-tikki1.jpg" alt="" />
           </div>
           <div className="menu-content">
             <h5>
@@ -606,7 +580,7 @@ const Home = () => {
       <div className="col-lg-4 col-md-4">
         <div className="single-menu-item d-flex justify-content-between ">
           <div className="menu-img">
-            <img src="/assets/images/menu-item/piz6.png" alt="" />
+            <img src="../../../public/assets/images/menu-item/Veg-Cutlet-2-3-500x500.jpg" alt="" />
           </div>
           <div className="menu-content">
             <h5>
@@ -640,7 +614,7 @@ const Home = () => {
       <div className="col-lg-4 col-md-4">
         <div className="single-menu-item d-flex justify-content-between">
           <div className="menu-img">
-            <img src="/assets/images/menu-item/br1.png" alt="" />
+            <img src="../../../public/assets/images/menu-item/burger.png" alt="" />
           </div>
           <div className="menu-content">
             <h5>
@@ -653,7 +627,7 @@ const Home = () => {
       <div className="col-lg-4 col-md-4">
         <div className="single-menu-item d-flex justify-content-between ">
           <div className="menu-img">
-            <img src="/assets/images/menu-item/br2.png" alt="" />
+            <img src="../../../public/assets/images/menu-item/burger-promo.png" alt="" />
           </div>
           <div className="menu-content">
             <h5>
@@ -742,7 +716,7 @@ const Home = () => {
       <div className="col-lg-4 col-md-4">
         <div className="single-menu-item d-flex justify-content-between">
           <div className="menu-img">
-            <img src="/assets/images/menu-item/mi-1.png" alt="" />
+            <img src="../../../public/assets/images/menu-item/manchurian.jpg" alt="" />
           </div>
           <div className="menu-content">
             <h5>
@@ -755,7 +729,7 @@ const Home = () => {
       <div className="col-lg-4 col-md-4">
         <div className="single-menu-item d-flex justify-content-between ">
           <div className="menu-img">
-            <img src="/assets/images/menu-item/mi-2.png" alt="" />
+            <img src="../../../public/assets/images/menu-item/honey-chilli.jpg" alt="" />
           </div>
           <div className="menu-content">
             <h5>
@@ -768,7 +742,7 @@ const Home = () => {
       <div className="col-lg-4 col-md-4">
         <div className="single-menu-item d-flex justify-content-between ">
           <div className="menu-img">
-            <img src="/assets/images/menu-item/mi-3.png" alt="" />
+            <img src="../../../public/assets/images/menu-item/Corn-Chaat-3.jpg" alt="" />
           </div>
           <div className="menu-content">
             <h5>
@@ -784,7 +758,7 @@ const Home = () => {
       <div className="col-lg-4 col-md-4">
         <div className="single-menu-item d-flex justify-content-between ">
           <div className="menu-img">
-            <img src="/assets/images/menu-item/mi-4.png" alt="" />
+            <img src="../../../public/assets/images/menu-item/momoz.png" alt="" />
           </div>
           <div className="menu-content">
             <h5>
@@ -797,7 +771,7 @@ const Home = () => {
       <div className="col-lg-4 col-md-4">
         <div className="single-menu-item d-flex justify-content-between ">
           <div className="menu-img">
-            <img src="/assets/images/menu-item/mi-5.png" alt="" />
+            <img src="../../../public/assets/images/menu-item/hacka.jpeg" alt="" />
           </div>
           <div className="menu-content">
             <h5>
@@ -810,7 +784,7 @@ const Home = () => {
       <div className="col-lg-4 col-md-4">
         <div className="single-menu-item d-flex justify-content-between ">
           <div className="menu-img">
-            <img src="/assets/images/menu-item/mi-6.png" alt="" />
+            <img src="../../../public/assets/images/menu-item/Fried-Rice-Hero-12.jpg" alt="" />
           </div>
           <div className="menu-content">
             <h5>
@@ -844,7 +818,7 @@ const Home = () => {
       <div className="col-lg-4 col-md-4">
         <div className="single-menu-item d-flex justify-content-between">
           <div className="menu-img">
-            <img src="/assets/images/img/dr1.jpg" alt="" />
+            <img src="../../../public/assets/images/menu-item/coldcoffee.jpg" alt="" />
           </div>
           <div className="menu-content">
             <h5>
@@ -857,7 +831,7 @@ const Home = () => {
       <div className="col-lg-4 col-md-4">
         <div className="single-menu-item d-flex justify-content-between ">
           <div className="menu-img">
-            <img src="/assets/images/img/dr2.jpg" alt="" />
+            <img src="../../../public/assets/images/menu-item/lassi.jpg" alt="" />
           </div>
           <div className="menu-content">
             <h5>
@@ -870,7 +844,7 @@ const Home = () => {
       <div className="col-lg-4 col-md-4">
         <div className="single-menu-item d-flex justify-content-between ">
           <div className="menu-img">
-            <img src="/assets/images/img/dr3.jpg" alt="" />
+            <img src="../../../public/assets/images/menu-item/strawberrymilkshake.jpg" alt="" />
           </div>
           <div className="menu-content">
             <h5>
@@ -886,7 +860,7 @@ const Home = () => {
       <div className="col-lg-4 col-md-4">
         <div className="single-menu-item d-flex justify-content-between ">
           <div className="menu-img">
-            <img src="/assets/images/img/dr4.jpg" alt="" />
+            <img src="../../../public/assets/images/menu-item/Mango_shake_1.jpg" alt="" />
           </div>
           <div className="menu-content">
             <h5>
@@ -899,7 +873,7 @@ const Home = () => {
       <div className="col-lg-4 col-md-4">
         <div className="single-menu-item d-flex justify-content-between ">
           <div className="menu-img">
-            <img src="/assets/images/img/dr5.jpg" alt="" />
+            <img src="../../../public/assets/images/menu-item/buterscotch.jpeg" alt="" />
           </div>
           <div className="menu-content">
             <h5>
@@ -912,7 +886,7 @@ const Home = () => {
       <div className="col-lg-4 col-md-4">
         <div className="single-menu-item d-flex justify-content-between ">
           <div className="menu-img">
-            <img src="/assets/images/img/dr6.jpg" alt="" />
+            <img src="../../../public/assets/images/menu-item/Oreo-Milkshake-2-3.jpg" alt="" />
           </div>
           <div className="menu-content">
             <h5>
@@ -946,7 +920,7 @@ const Home = () => {
       <div className="col-lg-4 col-md-4">
         <div className="single-menu-item d-flex justify-content-between">
           <div className="menu-img">
-            <img src="/assets/images/img/dr6.jpg" alt="" />
+            <img src="../../../public/assets/images/menu-item/dal-tadka.jpeg" alt="" />
           </div>
           <div className="menu-content">
             <h5>
@@ -959,7 +933,7 @@ const Home = () => {
       <div className="col-lg-4 col-md-4">
         <div className="single-menu-item d-flex justify-content-between ">
           <div className="menu-img">
-            <img src="/assets/images/img/dr5.jpg" alt="" />
+            <img src="../../../public/assets/images/menu-item/images.jpeg" alt="" />
           </div>
           <div className="menu-content">
             <h5>
@@ -972,7 +946,7 @@ const Home = () => {
       <div className="col-lg-4 col-md-4">
         <div className="single-menu-item d-flex justify-content-between ">
           <div className="menu-img">
-            <img src="/assets/images/img/dr4.jpg" alt="" />
+            <img src="../../../public/assets/images/menu-item/paneer-makhani.jpeg" alt="" />
           </div>
           <div className="menu-content">
             <h5>
@@ -988,7 +962,7 @@ const Home = () => {
       <div className="col-lg-4 col-md-4">
         <div className="single-menu-item d-flex justify-content-between ">
           <div className="menu-img">
-            <img src="/assets/images/img/dr3.jpg" alt="" />
+            <img src="../../../public/assets/images/menu-item/paneer-lawabdar.jpg" alt="" />
           </div>
           <div className="menu-content">
             <h5>
@@ -1001,24 +975,24 @@ const Home = () => {
       <div className="col-lg-4 col-md-4">
         <div className="single-menu-item d-flex justify-content-between ">
           <div className="menu-img">
-            <img src="/assets/images/img/dr2.jpg" alt="" />
+            <img src="../../../public/assets/images/menu-item/paneer-bhurji.jpeg" alt="" />
           </div>
           <div className="menu-content">
             <h5>
-              <a href="single-dish.html">Bhindi Masala</a>
+              <a href="single-dish.html">Paneer Bhurji</a>
             </h5>
-            <p>Okra cooked with spices and herbs</p>
+            <p>Paneer cooked with spices and herbs</p>
           </div>
         </div>
       </div>
       <div className="col-lg-4 col-md-4">
         <div className="single-menu-item d-flex justify-content-between ">
           <div className="menu-img">
-            <img src="/assets/images/img/dr1.jpg" alt="" />
+            <img src="../../../public/assets/images/menu-item/paneer-lawabdar.jpg" alt="" />
           </div>
           <div className="menu-content">
             <h5>
-              <a href="single-dish.html">Malai Kofta</a>
+              <a href="single-dish.html">Paneer Lawabdar</a>
             </h5>
             <p>Fried dumplings in creamy tomato gravy</p>
           </div>
@@ -1048,7 +1022,7 @@ const Home = () => {
       <div className="col-lg-4 col-md-4">
         <div className="single-menu-item d-flex justify-content-between">
           <div className="menu-img">
-            <img src="/assets/images/img/dr6.jpg" alt="" />
+            <img src="../../../public/assets/images/menu-item/gulab-jamun.jpg" alt="" />
           </div>
           <div className="menu-content">
             <h5>
@@ -1061,7 +1035,7 @@ const Home = () => {
       <div className="col-lg-4 col-md-4">
         <div className="single-menu-item d-flex justify-content-between ">
           <div className="menu-img">
-            <img src="/assets/images/img/dr5.jpg" alt="" />
+            <img src="../../../public/assets/images/menu-item/rasmalai-1.jpg" alt="" />
           </div>
           <div className="menu-content">
             <h5>
@@ -1074,7 +1048,7 @@ const Home = () => {
       <div className="col-lg-4 col-md-4">
         <div className="single-menu-item d-flex justify-content-between ">
           <div className="menu-img">
-            <img src="/assets/images/img/dr4.jpg" alt="" />
+            <img src="../../../public/assets/images/menu-item/jalebi.jpg" alt="" />
           </div>
           <div className="menu-content">
             <h5>
@@ -1090,7 +1064,7 @@ const Home = () => {
       <div className="col-lg-4 col-md-4">
         <div className="single-menu-item d-flex justify-content-between ">
           <div className="menu-img">
-            <img src="/assets/images/img/dr3.jpg" alt="" />
+            <img src="../../../public/assets/images/menu-item/rasgulla.jpeg" alt="" />
           </div>
           <div className="menu-content">
             <h5>
@@ -1103,7 +1077,7 @@ const Home = () => {
       <div className="col-lg-4 col-md-4">
         <div className="single-menu-item d-flex justify-content-between ">
           <div className="menu-img">
-            <img src="/assets/images/img/dr2.jpg" alt="" />
+            <img src="../../../public/assets/images/menu-item/cake.jpg" alt="" />
           </div>
           <div className="menu-content">
             <h5>
@@ -1116,7 +1090,7 @@ const Home = () => {
       <div className="col-lg-4 col-md-4">
         <div className="single-menu-item d-flex justify-content-between ">
           <div className="menu-img">
-            <img src="/assets/images/img/dr1.jpg" alt="" />
+            <img src="../../../public/assets/images/menu-item/pastry.jpeg" alt="" />
           </div>
           <div className="menu-content">
             <h5>
